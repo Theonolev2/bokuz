@@ -1,2 +1,1 @@
-# bokuz
-Repository to host code for Le Wagon #1648 final project Bokuz (name might change for demo day)
+Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
