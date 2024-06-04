@@ -9,4 +9,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  resources :meal_plans, only: [:new, :create, :show] do
+    resources :grocery_lists, only: [:create, :index]
+  end
+  resources :meals, only: [:update, :destroy, :show]
+  resources :grocery_items, only: [:update]
+  get "map", to: "grocery_lists#mapping", as: :map
 end
