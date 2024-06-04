@@ -1,0 +1,20 @@
+<div class="meal_plan_form">
+  <%= form_with model: @meal_plan do |f| %>
+    <div class="meal_plan_form_nb_meals">
+      <%= f.label :nb_meals %>
+      <%= f.number_field :nb_meals %>
+    </div>
+
+    <div class="meal_plan_form_nb_people">
+      <%= f.label :nb_people %>
+      <%= f.number_field :nb_people %>
+    </div>
+
+    <div class="meal_plan_form_diets d-flex flex-column">
+      <%# <%= f.label :diets %>
+      <%# <%= f.collection_check_boxes :diet_ids, Diet.order(:name), :id, :name %> %> %>
+    </div>
+
+    <%= f.submit %>
+  <% end %>
+</div>
