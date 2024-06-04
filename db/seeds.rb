@@ -22,7 +22,6 @@ puts "creating user..."
 User.create!(email: "test@test.com", password: "111111")
 puts "user creation done\n\n"
 
-
 puts "creating diets..."
 Diet::DIET_TYPE.each do |diet_type|
   Diet.create!(name: diet_type.to_s)
@@ -31,10 +30,13 @@ User.all.each { |user| user.diets << Diet.all.sample }
 puts "diets creation done\n\n"
 
 puts "creating ingredients..."
-10.times do
+50.times do
   ingredient = Ingredient.new(name: Faker::Food.ingredient)
-  ingredient.diets << Diet.find_by(name: Diet::DIET_TYPE.sample.to_s)
-  ingredient.save!
+  ingredient.diets = Diet.all.sample((0..3).to_a.sample)
+  begin
+    ingredient.save!
+  rescue => e
+  end
 end
 puts "ingredients creation done\n\n"
 
@@ -51,9 +53,11 @@ end
 puts "recipe creation done\n\n"
 
 puts "creating meal plans"
+meal_plan_names = %w[portion sour leaf oven appoint free trip tasty cash desert knot parade miscarriage building eyebrow]
 10.times do
   meal_plan = MealPlan.new
   meal_plan.user = User.first
+  meal_plan.name = meal_plan_names.sample
   2.times do
     meal_plan.recipes << Recipe.all.sample
   end
@@ -63,7 +67,7 @@ puts "creating meal plans"
       meal_plan.grocery_items << grocery_item
     end
   end
-  meal_plan.meals.each { |meal| meal.nb_people = 1 }
+  meal_plan.meals.each { |meal| meal.nb_people = 4 }
   meal_plan.save!
 end
 puts "meal plans creation done\n\n"
