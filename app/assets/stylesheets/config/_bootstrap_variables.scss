@@ -7,15 +7,24 @@
 // General style
 $font-family-sans-serif: $body-font;
 $headings-font-family:   $headers-font;
-$body-bg:                $light-gray;
+$body-bg:                $my-sand;
 $font-size-base:         1rem;
 
 // Colors
-$body-color: $gray;
-$primary:    $blue;
-$success:    $green;
-$info:       $yellow;
-$danger:     $red;
+  // Initial set up Bootstrap
+// $body-color: $gray;
+// $primary:    $blue;
+// $success:    $green;
+// $info:       $yellow;
+// $danger:     $red;
+// $warning:    $orange;
+
+  // Our specific colors for Bootstrap
+$body-color: $my-dark-gray;
+$primary:    $my-main-green;
+$success:    $my-light-green;
+$info:       $my-yellow;
+$danger:     $my-red;
 $warning:    $orange;
 
 // Buttons & inputs' radius
