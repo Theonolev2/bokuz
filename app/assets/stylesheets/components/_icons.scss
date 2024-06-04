@@ -4,3 +4,13 @@
 // .fa-solid.fa-circle-chevron-right {
 //   color: $my-main-green;
 // }
+
+.my-icon-people {
+  @extend .fa-solid;
+  @extend .fa-person;
+}
+
+.my-icon-time {
+  @extend .fa-solid;
+  @extend .fa-hourglass-half;
+}

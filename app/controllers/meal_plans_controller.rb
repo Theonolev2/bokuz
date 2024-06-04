@@ -1,5 +1,6 @@
 class MealPlansController < ApplicationController
   def show
+    @meals = MealPlan.find(params[:id]).meals
   end
 
   def new
