@@ -8,9 +8,35 @@
 .my-icon-people {
   @extend .fa-solid;
   @extend .fa-person;
+  color: $my-main-green;
 }
 
 .my-icon-time {
   @extend .fa-solid;
   @extend .fa-hourglass-half;
+  color: $my-main-green;
+}
+
+.my-icon-minus {
+  @extend .fa-solid;
+  @extend .fa-circle-minus;
+  color: $my-yellow;
+}
+
+.my-icon-plus {
+  @extend .fa-solid;
+  @extend .fa-circle-plus;
+  color: $my-yellow;
+}
+
+.my-icon-trash {
+  @extend .fa-solid;
+  @extend .fa-trash;
+  color: $my-yellow;
+}
+
+.my-icon-update {
+  @extend .fa-solid;
+  @extend .fa-rotate;
+  color: $my-yellow;
 }
