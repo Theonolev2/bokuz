@@ -1,5 +1,13 @@
 .button-go-search-form {
-  background-color: $my-main-green;
+  @extend .btn;
+  @extend .btn-primary;
   border-radius: $my-border-radius-pill;
-  // color: $
+  color: $my-sand;
+  font-weight: bold;
+  font-family: $headers-font;
+  font-size: 1.8rem;
+  width: 12rem;
+  height: 3rem;
+  line-height: center;
+
 }
