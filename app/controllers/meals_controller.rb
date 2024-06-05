@@ -9,7 +9,12 @@ class MealsController < ApplicationController
     if @meal_plan.preferences["diets_ids"].nil?
       @recipe = Recipe.where.not(id: @meal_plan.recipes.ids).sample
     else
-      @recipe = Recipe.joins(:diets).where(diets: { id: @meal_plan.preferences["diets_ids"] }).where.not(id: @meal_plan.recipes.ids).sample
+      forbidden_recipe_ids = Recipe.joins(:diets).where(diets: { id: @meal_plan.preferences["diets_ids"] }).distinct.ids
+      filtered_recipes = Recipe.where.not(id: forbidden_recipe_ids)
+      @recipe = filtered_recipes.where.not(id: @meal_plan.recipes.ids).sample
+      # @recipe = Recipe.where.not(id: forbidden_recipe_ids).where.not(id: @meal_plan.recipes.ids).sample
+      # raise
+      @recipe = filtered_recipes.where.not(id: @meal.recipe_id).sample if @recipe.nil?
     end
     @meal.update(recipe: @recipe)
     redirect_to meal_plan_path(@meal_plan), status: :see_other
