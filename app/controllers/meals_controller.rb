@@ -6,6 +6,7 @@ class MealsController < ApplicationController
   end
 
   def replace
+    raise
     if params[:filtered_recipes_ids].nil?
       @recipe = Recipe.where.not(id: @meal_plan.recipes.ids).sample
     else

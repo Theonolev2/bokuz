@@ -21,7 +21,7 @@ class MealPlansController < ApplicationController
     @meal_plan.meals = filtered_recipes.map { |recipe| Meal.new(meal_plan: @meal_plan, recipe: recipe, nb_people: nb_people) }
 
     if @meal_plan.save
-      redirect_to meal_plan_path(@meal_plan, filtered_recipes_ids: filtered_recipes.map(&:id)])
+      redirect_to meal_plan_path(@meal_plan, filtered_recipes_ids: filtered_recipes.map(&:id))
     else
       render :new, status: 422
     end
