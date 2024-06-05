@@ -1,10 +1,10 @@
 class MealPlansController < ApplicationController
   def show
+    @meals = MealPlan.find(params[:id]).meals
   end
 
   def new
     @meal_plan = MealPlan.new
-
   end
 
   def create
@@ -29,7 +29,7 @@ class MealPlansController < ApplicationController
     else
       render :new, status: 422
     end
-	end
+  end
 
   private
 
