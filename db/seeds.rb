@@ -36,6 +36,7 @@ puts "creating ingredients..."
   begin
     ingredient.save!
   rescue => e
+    puts e
   end
 end
 puts "ingredients creation done\n\n"
