@@ -6,8 +6,8 @@ class MealsController < ApplicationController
   end
 
   def replace
-    raise
     if params[:filtered_recipes_ids].nil?
+      # @recipe = Recipe.joins(:diets).where(diets: { id: [3] }).where.not(id: @meal_plan.recipes.ids).sample
       @recipe = Recipe.where.not(id: @meal_plan.recipes.ids).sample
     else
       @recipe = Recipe.where(id: params[:filtered_recipes_ids]).where.not(id: @meal_plan.recipes.ids).sample
