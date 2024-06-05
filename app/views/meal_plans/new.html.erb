@@ -11,8 +11,12 @@
     </div>
 
     <div class="meal_plan_form_diets d-flex flex-column">
-      <%# <%= f.label :diets %>
-      <%# <%= f.collection_check_boxes :diet_ids, Diet.order(:name), :id, :name %> %> %>
+      <% Diet.order(:name).each do |diet| %>
+        <div>
+          <label for="<%= diet.id %>"><%= diet.name.capitalize %></label>
+          <input type="checkbox" name="diets[]" id="<%= diet.id %>" value="<%= diet.id %>">
+        </div>
+      <% end %>
     </div>
 
     <%= f.submit %>
