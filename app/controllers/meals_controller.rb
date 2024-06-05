@@ -6,15 +6,12 @@ class MealsController < ApplicationController
   end
 
   def replace
-    if params[:filtered_recipes_ids].nil?
-      # @recipe = Recipe.joins(:diets).where(diets: { id: [3] }).where.not(id: @meal_plan.recipes.ids).sample
+    if @meal_plan.preferences["diets_ids"].nil?
       @recipe = Recipe.where.not(id: @meal_plan.recipes.ids).sample
     else
-      @recipe = Recipe.where(id: params[:filtered_recipes_ids]).where.not(id: @meal_plan.recipes.ids).sample
+      @recipe = Recipe.joins(:diets).where(diets: { id: @meal_plan.preferences["diets_ids"] }).where.not(id: @meal_plan.recipes.ids).sample
     end
-
     @meal.update(recipe: @recipe)
-    # raise
     redirect_to meal_plan_path(@meal_plan), status: :see_other
   end
 
