@@ -1,27 +1,32 @@
 <div class="container p-4">
   <div class="cards">
-    <% @meals.each do |meal| %>
+    <% @meals.sort.each do |meal| %>
     <div class="card-meal">
       <%= image_tag "meal_bidon.png", alt: meal.recipe.title %>
-      <div class="card-meal-infos">
-        <h2><%= meal.recipe.title %></h2>
-        <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> minutes </p>
-        <div class="card-meal-people">
-          <%= link_to 'Your Action', path: "meals/update" do %>
-            <i class="my-icon-minus"></i>
-          <% end %>
-          <p><strong><i class="my-icon-people"></i></strong> <%= meal.nb_people %> pers </p>
-          <%= link_to 'Your Action', path: "meals/update" do %>
-            <i class="my-icon-plus"></i>
-          <% end %>
+      <div class="card-meal-body">
+        <div class="card-meal-title">
+          <h2><%= truncate(meal.recipe.title, length: 40, separator: ' ') %></h2>
         </div>
-        <div class="card-meal-actions">
-          <%= link_to 'update', path: "meals/update" do %>
-            <i class="my-icon-update"></i>
-          <% end %>
-          <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
-            <i class="my-icon-trash"></i>
-          <% end %>
+        <div class="card-meal-infos">
+          <div class="card-meal-people">
+            <%= link_to 'Your Action', path: "meals/update" do %>
+              <i class="my-icon-minus"></i>
+            <% end %>
+            <p><strong><i class="my-icon-people"></i></strong> <%= meal.nb_people %> pers </p>
+            <%= link_to 'Your Action', path: "meals/update" do %>
+              <i class="my-icon-plus"></i>
+            <% end %>
+          </div>
+          <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> min </p>
+          <div class="card-meal-actions">
+            <%= link_to replace_meal_path(meal, filtered_recipes_ids: params[:filtered_recipes_ids]), data: {turbo_method: :patch} do %>
+              <i class="my-icon-replace"></i>
+            <% end %>
+            <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
+              <i class="my-icon-trash"></i>
+            <% end %>
+          </div>
+
         </div>
       </div>
     </div>

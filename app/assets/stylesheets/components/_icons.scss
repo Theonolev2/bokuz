@@ -9,6 +9,7 @@
   @extend .fa-solid;
   @extend .fa-person;
   color: $my-main-green;
+  size: 1.5x;
 }
 
 .my-icon-time {
@@ -35,7 +36,7 @@
   color: $my-yellow;
 }
 
-.my-icon-update {
+.my-icon-replace {
   @extend .fa-solid;
   @extend .fa-rotate;
   color: $my-yellow;
