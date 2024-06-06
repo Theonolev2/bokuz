@@ -52,6 +52,13 @@ gem "simple_form", github: "heartcombo/simple_form"
 gem "sassc-rails"
 
 gem 'faker'
+gem 'pry-byebug'
+gem 'awesome_print', '~> 1.8'
+
+gem "rspec-rails"
+gem "webdrivers"
+gem "capybara"
+gem "selenium-webdriver"
 
 group :development, :test do
   gem "dotenv-rails"
