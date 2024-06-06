@@ -32,4 +32,7 @@
     </div>
     <% end %>
   </div>
+  <div>
+    <%= button_to "Créer ma liste de courses", {controller: "grocery_lists", action: "create", meal_plan_id: @meal_plan.id}, method: :post %>
+  </div>
 </div>
