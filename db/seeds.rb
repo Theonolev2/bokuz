@@ -1,25 +1,27 @@
-# This file should ensure the existence of records required to run the application in every environment (production,
-# development, test). The code here should be idempotent so that it can be executed at any point in every environment.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Example:
-#
-#   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
-#     MovieGenre.find_or_create_by!(name: genre_name)
-#   end
 require 'faker'
 
-p "DB cleaning..."
+require "json"
+require 'pry-byebug'
+require 'awesome_print'
+
+filepath = "db/scrapping/hello_fresh_DB.json"
+
+serialized_json = File.read(filepath)
+
+json = JSON.parse(serialized_json)
+
+puts "DB cleaning..."
 MealPlan.destroy_all
 Meal.destroy_all
 Recipe.destroy_all
 Ingredient.destroy_all
 User.destroy_all
 Diet.destroy_all
-p "DB cleaning done"
+puts "DB cleaning done"
 
 puts "creating user..."
 User.create!(email: "test@test.com", password: "111111")
+User.create!(email: "example@example.com", password: "111111")
 puts "user creation done\n\n"
 
 puts "creating diets..."
@@ -29,35 +31,42 @@ end
 User.all.each { |user| user.diets << Diet.all.sample }
 puts "diets creation done\n\n"
 
-puts "creating ingredients..."
-50.times do
-  ingredient = Ingredient.new(name: Faker::Food.ingredient)
-  ingredient.diets = Diet.all.sample((0..3).to_a.sample)
-  begin
-    ingredient.save!
-  rescue => e
+puts "populating ingredients..."
+json.each do |elem|
+  elem["ingredients"].each do |ingredient|
+    # ap ingredient.first
+    if Ingredient.find_by(name: ingredient.first).nil?
+      Ingredient.create!(name: ingredient.first, photo_url: ingredient[1]["photo_url"])
+    end
   end
 end
-puts "ingredients creation done\n\n"
+puts "ingredients populating done\n\n"
 
-puts "creating recipes"
-10.times do
-  recipe = Recipe.new(title: Faker::Food.dish, description: Faker::Food.description, prep_time: 10)
-  recipe.ingredients << Ingredient.all.sample(2)
-  recipe.recipe_ingredients.each do |elem|
-    elem.qty_per_person = 1
-    elem.unit = "g"
+puts "populating recipes..."
+json.each do |elem|
+  json_recipe = elem["recipe"]
+  # ap json_recipe
+  recipe_obj = Recipe.create!(
+    title: json_recipe["title"],
+    description: json_recipe["description"],
+    photo_url: json_recipe["photo_url"],
+    prep_time: json_recipe["prep_time"],
+    meal_url: json_recipe["meal_url"]
+  )
+  json_ingredients = elem["ingredients"]
+  json_ingredients.each do |ingredient|
+    ingredient_obj = Ingredient.find_by(name: ingredient[0])
+    recipe_ingredient_join = RecipeIngredient.create!(ingredient: ingredient_obj, recipe: recipe_obj, qty_per_person: ingredient[1]["qty_per_person"], unit: ingredient[1]["unit"])
   end
-  recipe.save!
 end
-puts "recipe creation done\n\n"
+puts "recipes populating done\n\n"
 
 puts "creating meal plans"
-meal_plan_names = %w[portion sour leaf oven appoint free trip tasty cash desert knot parade miscarriage building eyebrow]
+# meal_plan_names = %w[portion sour leaf oven appoint free trip tasty cash desert knot parade miscarriage building eyebrow]
 10.times do
   meal_plan = MealPlan.new
   meal_plan.user = User.first
-  meal_plan.name = meal_plan_names.sample
+  # meal_plan.name = meal_plan_names.sample
   2.times do
     meal_plan.recipes << Recipe.all.sample
   end
