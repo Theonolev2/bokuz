@@ -25,6 +25,11 @@ class MealsController < ApplicationController
   end
 
   def update
+    @meal.update(meal_params)
+    respond_to do |format|
+      format.html { redirect_to meal_plan_path(@meal_plan), status: :see_other }
+      format.json { render json: @meal }
+    end
   end
 
   def destroy
