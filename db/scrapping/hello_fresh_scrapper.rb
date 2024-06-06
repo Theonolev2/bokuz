@@ -2,7 +2,6 @@ require 'nokogiri'
 require 'open-uri'
 require 'pry-byebug'
 require 'awesome_print'
-require "selenium-webdriver"
 require 'json'
 
 class GoogleImageScrapper
