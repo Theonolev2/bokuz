@@ -1,0 +1,21 @@
+<div class="container" data-controller="grocery-items">
+  <div class="cards">
+    <ul class="list-group list-group-flush">
+      <% @grocery_lists.each do |grocery_item| %>
+        <li class="list-group-item">
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item"><%=grocery_item.ingredient.name%></li>
+            <li class="list-group-item"><%= grocery_item.qty_to_buy%></li>
+            <li class="list-group-item" data-action="click->grocery-items#mark_as_bought">
+              <% if grocery_item.bought %>
+                <i class="my-icon-bought" data-grocery-items-target="bought"></i>
+              <% else %>
+                <i class="my-icon-not-bought"></i>
+              <%end%>
+            </li>
+          </ul>
+        </li>
+      <%end%>
+    </ul>
+  </div>
+</div>

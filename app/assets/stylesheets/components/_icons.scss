@@ -41,3 +41,15 @@
   @extend .fa-rotate;
   color: $my-yellow;
 }
+
+.my-icon-not-bought {
+  @extend .fa-regular;
+  @extend .fa-circle-check;
+  color: $my-yellow;
+}
+
+.my-icon-bought {
+  @extend .fa-solid;
+  @extend .fa-circle-check;
+  color: $my-yellow;
+}
