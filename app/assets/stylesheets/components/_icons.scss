@@ -22,13 +22,30 @@
   @extend .fa-solid;
   @extend .fa-circle-minus;
   color: $my-yellow;
+  cursor: pointer;
 }
 
 .my-icon-plus {
   @extend .fa-solid;
   @extend .fa-circle-plus;
   color: $my-yellow;
+  cursor: pointer;
 }
+
+.my-icon-minus-wo-circle {
+  @extend .fa-solid;
+  @extend .fa-minus;
+  color: $my-main-green;
+  cursor: pointer;
+}
+
+.my-icon-plus-wo-circle {
+  @extend .fa-solid;
+  @extend .fa-plus;
+  color: $my-main-green;
+  cursor: pointer;
+}
+
 
 .my-icon-trash {
   @extend .fa-solid;
