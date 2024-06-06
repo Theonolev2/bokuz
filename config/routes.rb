@@ -17,6 +17,10 @@ Rails.application.routes.draw do
       patch "replace"
     end
   end
-  resources :grocery_items, only: [:update]
+  resources :grocery_items, only: [:update] do
+    member do
+      patch "mark_as_bought"
+    end
+  end
   get "map", to: "grocery_lists#mapping", as: :map
 end

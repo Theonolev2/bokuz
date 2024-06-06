@@ -1,25 +1,72 @@
-<div class="meal_plan_form">
-  <%= form_with model: @meal_plan do |f| %>
-    <div class="meal_plan_form_nb_meals">
-      <%= f.label :nb_meals %>
-      <%= f.number_field :nb_meals %>
-    </div>
+<div class="mealplan_new">
 
-    <div class="meal_plan_form_nb_people">
-      <%= f.label :nb_people %>
-      <%= f.number_field :nb_people %>
-    </div>
-
-    <div class="meal_plan_form_diets d-flex flex-column">
-      <% Diet.order(:name).each do |diet| %>
-        <div>
-          <label for="<%= diet.id %>"><%= diet.name.capitalize %></label>
-          <input type="checkbox" name="diets[]" id="<%= diet.id %>" value="<%= diet.id %>">
-        </div>
+  <div class="mealplan_new_title">
+    <h1>Bonjour
+      <% if user_signed_in?  %>
+        <%= current_user.email.split("@").first.capitalize %>
       <% end %>
-    </div>
+      !
+    </h1>
+  </div>
 
-    <%= f.submit "GO !", class: "button-go-search-form" %>
-    
-  <% end %>
+  <div class="mealplan_form">
+    <%= form_with model: @meal_plan do |f| %>
+
+      <div class="mealplan_form_input" data-controller="search-form" data-search-form-max-value="<%= MealPlan::MAX_NB_MEAL %>" >
+        <%=  %>
+        <%= f.label :nb_meals, "Combien de repas voulez-vous planifier ?", class: "mealplan_form_label" %>
+        <%= f.hidden_field :nb_meals, data: { "search-form-target": "nbInput" }, value: 5 %>
+        <div class="mealplan_form_nb">
+          <i
+            class="fa-solid fa-minus mealplan_form_nb_icons"
+            data-action="click->search-form#decrease">
+          </i>
+          <p
+            class="mealplan_form_nb_qty"
+            data-search-form-target="nbQty">
+            5
+          </p>
+          <i
+            class="fa-solid fa-plus mealplan_form_nb_icons"
+            data-action="click->search-form#increase">
+          </i>
+        </div>
+      </div>
+
+      <div class="mealplan_form_input" data-controller="search-form" data-search-form-max-value="<%= Meal::MAX_NB_PEOPLE %>" >
+        <%= f.label :nb_people, "Combien serez-vous à table ?", class: "mealplan_form_label" %>
+        <%= f.hidden_field :nb_people, data: { "search-form-target": "nbInput" }, value: 2  %>
+        <div class="mealplan_form_nb">
+          <i
+            class="fa-solid fa-minus mealplan_form_nb_icons"
+            data-action="click->search-form#decrease">
+          </i>
+          <p
+            class="mealplan_form_nb_qty"
+            data-search-form-target="nbQty">
+            2
+          </p>
+          <i
+            class="fa-solid fa-plus mealplan_form_nb_icons"
+            data-action="click->search-form#increase">
+          </i>
+        </div>
+      </div>
+
+      <div class="mealplan_form_input mealplan_form_diets d-flex flex-column">
+        <p class="mealplan_form_label">Avez-vous un régime particulier ?</p>
+        <% Diet.order(:name).each do |diet| %>
+          <div>
+            <label for="<%= diet.id %>"><%= diet.name.capitalize %></label>
+            <input type="checkbox" name="diets[]" id="<%= diet.id %>" value="<%= diet.id %>">
+          </div>
+        <% end %>
+      </div>
+
+      <div class="mealplan_form_button">
+        <%= f.submit "GO !", class: "button-go-search-form" %>
+      </div>
+
+    <% end %>
+  </div>
 </div>
