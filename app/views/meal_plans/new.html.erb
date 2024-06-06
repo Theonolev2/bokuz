@@ -11,23 +11,45 @@
 
   <div class="mealplan_form">
     <%= form_with model: @meal_plan do |f| %>
-      <div class="mealplan_form_input">
+
+      <div class="mealplan_form_input" data-controller="search-form" data-search-form-max-value="<%= MealPlan::MAX_NB_MEAL %>" >
+        <%=  %>
         <%= f.label :nb_meals, "Combien de repas voulez-vous planifier ?", class: "mealplan_form_label" %>
-        <%= f.number_field :nb_meals, class: "hidden-number-field" %>
+        <%= f.hidden_field :nb_meals, data: { "search-form-target": "nbInput" }, value: 5 %>
         <div class="mealplan_form_nb">
-          <i class="fa-solid fa-minus mealplan_form_nb_icons"></i>
-          <p class="mealplan_form_nb_qty">4</p>
-          <i class="fa-solid fa-plus mealplan_form_nb_icons"></i>
+          <i
+            class="fa-solid fa-minus mealplan_form_nb_icons"
+            data-action="click->search-form#decrease">
+          </i>
+          <p
+            class="mealplan_form_nb_qty"
+            data-search-form-target="nbQty">
+            5
+          </p>
+          <i
+            class="fa-solid fa-plus mealplan_form_nb_icons"
+            data-action="click->search-form#increase">
+          </i>
         </div>
       </div>
 
-      <div class="mealplan_form_input">
+      <div class="mealplan_form_input" data-controller="search-form" data-search-form-max-value="<%= Meal::MAX_NB_PEOPLE %>" >
         <%= f.label :nb_people, "Combien serez-vous à table ?", class: "mealplan_form_label" %>
-        <%= f.number_field :nb_people, class: "hidden-number-field" %>
+        <%= f.hidden_field :nb_people, data: { "search-form-target": "nbInput" }, value: 2  %>
         <div class="mealplan_form_nb">
-          <i class="fa-solid fa-minus mealplan_form_nb_icons"></i>
-          <p class="mealplan_form_nb_qty">4</p>
-          <i class="fa-solid fa-plus mealplan_form_nb_icons"></i>
+          <i
+            class="fa-solid fa-minus mealplan_form_nb_icons"
+            data-action="click->search-form#decrease">
+          </i>
+          <p
+            class="mealplan_form_nb_qty"
+            data-search-form-target="nbQty">
+            2
+          </p>
+          <i
+            class="fa-solid fa-plus mealplan_form_nb_icons"
+            data-action="click->search-form#increase">
+          </i>
         </div>
       </div>
 
