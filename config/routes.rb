@@ -12,7 +12,11 @@ Rails.application.routes.draw do
   resources :meal_plans, only: [:new, :create, :show] do
     resources :grocery_lists, only: [:create, :index]
   end
-  resources :meals, only: [:update, :destroy, :show]
+  resources :meals, only: [:update, :destroy, :show] do
+    member do
+      patch "replace"
+    end
+  end
   resources :grocery_items, only: [:update]
   get "map", to: "grocery_lists#mapping", as: :map
 end

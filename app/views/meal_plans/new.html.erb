@@ -1,0 +1,25 @@
+<div class="meal_plan_form">
+  <%= form_with model: @meal_plan do |f| %>
+    <div class="meal_plan_form_nb_meals">
+      <%= f.label :nb_meals %>
+      <%= f.number_field :nb_meals %>
+    </div>
+
+    <div class="meal_plan_form_nb_people">
+      <%= f.label :nb_people %>
+      <%= f.number_field :nb_people %>
+    </div>
+
+    <div class="meal_plan_form_diets d-flex flex-column">
+      <% Diet.order(:name).each do |diet| %>
+        <div>
+          <label for="<%= diet.id %>"><%= diet.name.capitalize %></label>
+          <input type="checkbox" name="diets[]" id="<%= diet.id %>" value="<%= diet.id %>">
+        </div>
+      <% end %>
+    </div>
+
+    <%= f.submit "GO !", class: "button-go-search-form" %>
+    
+  <% end %>
+</div>
