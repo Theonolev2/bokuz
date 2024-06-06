@@ -19,7 +19,7 @@
           </div>
           <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> min </p>
           <div class="card-meal-actions">
-            <%= link_to replace_meal_path(meal, filtered_recipes_ids: params[:filtered_recipes_ids]), data: {turbo_method: :patch} do %>
+            <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
               <i class="my-icon-replace"></i>
             <% end %>
             <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
