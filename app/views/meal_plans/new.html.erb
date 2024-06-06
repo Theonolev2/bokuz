@@ -1,6 +1,6 @@
-<div class="meal_plan_new">
+<div class="mealplan_new">
 
-  <div class="meal_plan_new_title">
+  <div class="mealplan_new_title">
     <h1>Bonjour
       <% if user_signed_in?  %>
         <%= current_user.email.split("@").first.capitalize %>
@@ -9,19 +9,30 @@
     </h1>
   </div>
 
-  <div class="meal_plan_form">
+  <div class="mealplan_form">
     <%= form_with model: @meal_plan do |f| %>
-      <div class="meal_plan_form_nb_meals">
-        <%= f.label :nb_meals %>
-        <%= f.number_field :nb_meals %>
+      <div class="mealplan_form_input">
+        <%= f.label :nb_meals, "Combien de repas voulez-vous planifier ?", class: "mealplan_form_label" %>
+        <%= f.number_field :nb_meals, class: "hidden-number-field" %>
+        <div class="mealplan_form_nb">
+          <i class="fa-solid fa-minus mealplan_form_nb_icons"></i>
+          <p class="mealplan_form_nb_qty">4</p>
+          <i class="fa-solid fa-plus mealplan_form_nb_icons"></i>
+        </div>
       </div>
 
-      <div class="meal_plan_form_nb_people">
-        <%= f.label :nb_people %>
-        <%= f.number_field :nb_people %>
+      <div class="mealplan_form_input">
+        <%= f.label :nb_people, "Combien serez-vous à table ?", class: "mealplan_form_label" %>
+        <%= f.number_field :nb_people, class: "hidden-number-field" %>
+        <div class="mealplan_form_nb">
+          <i class="fa-solid fa-minus mealplan_form_nb_icons"></i>
+          <p class="mealplan_form_nb_qty">4</p>
+          <i class="fa-solid fa-plus mealplan_form_nb_icons"></i>
+        </div>
       </div>
 
-      <div class="meal_plan_form_diets d-flex flex-column">
+      <div class="mealplan_form_input mealplan_form_diets d-flex flex-column">
+        <p class="mealplan_form_label">Avez-vous un régime particulier ?</p>
         <% Diet.order(:name).each do |diet| %>
           <div>
             <label for="<%= diet.id %>"><%= diet.name.capitalize %></label>
@@ -30,7 +41,9 @@
         <% end %>
       </div>
 
-      <%= f.submit "GO !", class: "button-go-search-form" %>
+      <div class="mealplan_form_button">
+        <%= f.submit "GO !", class: "button-go-search-form" %>
+      </div>
 
     <% end %>
   </div>

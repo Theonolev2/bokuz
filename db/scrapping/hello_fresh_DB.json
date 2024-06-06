@@ -1,0 +1,1518 @@
+[
+  {
+      "recipe": {
+          "title": "Cabillaud sauce curry-citron façon bistrot",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Épluchez, par personne : 100 g de pommes de terre et 150 g de patate douce. Coupez-les en dés de 1-2 cm.Placez-les dans une casserole, puis émiettez le cube de bouillon (¼ par personne) et versez de l'eau à hauteur.Portez à ébullition et faites cuire 15-17 min, ou jusqu'à ce que la pointe d'un couteau y rentre facilement. Réservez ¼ de louche d’eau de cuisson, puis égouttez-les et réservez-les.Pendant que les légumes cuisent, lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers.Effeuillez et ciselez le persil. Ciselez l'ail.Dans une petite casserole, faites chauffer une noix de beurre à feu moyen-vif.Ajoutez l'ail et ⅓ sachet de curry par personne (ça pique ! Dosez-le selon votre goût). Faites revenir quelques secondes (voir CONSEIL). Versez la crème et portez à ébullition, puis baissez le feu sur moyen-doux. Ajoutez une pincée de zestes de citron et laissez infuser 3-5 min hors du feu et à couvert.En attendant, faites chauffer un filet d'huile d'olive dans une poêle à feu moyen-vif. Épongez le cabillaud avec de l'essuie-tout.Disposez la farine dans une assiette avec du sel et du poivre. Recouvrez le cabillaud de farine des 2 côtés, puis tapotez-le pour en ôter l'excédent. Quand l'huile est bien chaude, faites cuire le cabillaud 2-3 min de chaque côté, ou jusqu'à ce qu'il soit bien coloré et que sa chair ne soit plus translucide. Rectifiez l'assaisonnement en sel et poivre.Ajoutez un petit filet d'eau à la sauce curry-citron si elle est trop épaisse et maintenez-la au chaud à feu doux.Écrasez les pommes de terre et la patate douce avec un presse-purée. Ajoutez ½ cs de beurre par personne ainsi que l'eau de cuisson réservée ou un filet de lait pour l’onctuosité. Salez et poivrez selon votre goût, puis mélangez.Pressez quelques gouttes de jus de citron dans la casserole de la sauce, et ajoutez la moitié du persil. Salez, poivrez et mélangez.Servez le cabillaud dans les assiettes avec la sauce à côté. Ajoutez la purée et parsemez le plat du reste de persil.Servez avec le reste des quartiers de citron et savourez ce plat comme au bistrot !",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R203_W12_FR_RFR17305-5_MAIN_high-408a6134.jpg",
+          "prep_time": "35 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/merlu-and-sauce-curry-citron-facon-bistrot-65d86d9313ff8a4fe7076bf1"
+      },
+      "ingredients": {
+          "Pommes de terre": {
+              "qty_per_person": 100,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzPmh2spUNPqZ-sx9SaGqkSFMBl-wyOYQNRw0ZHLsttMfWhQoGFCtsKSVS18\u0026s",
+              "diet": []
+          },
+          "Patate douce": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp7c6nQbGgPS4TDWvjGzo6USdcVZiSaXixDvjE0cI5I7uWeNM6pzbL1UxqpA\u0026s",
+              "diet": []
+          },
+          "Citron": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r1HceiGuBPPn4h3aF86r45MX87u_cj5mEdr_G-wfI60XS-p3Z9WVLjrs1Mo\u0026s",
+              "diet": []
+          },
+          "Persil": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPm5LQLsHMjz6XiVvPc0b--Tk15WgEH9Ve1qW4Oiwfm6mn3dOjL8_fCCCcdw\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Curry en poudre": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnUIU0YmOFt1VQs7TdXLConvBpV6uRe8_uMI-01AL8esvKEEbCFkxrkniJA\u0026s",
+              "diet": [
+                  "Moutarde",
+                  "Céleri"
+              ]
+          },
+          "Crème liquide": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL28izVDGO1JJdYmBOisAgfrSh3RjylFsZ6-ZGWSHMki3gKUuYeTBkVq6wW1g\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Filet de cabillaud sans peau": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSakpLROUzbtuJPsiDAG8KSGXVv_vMYj9gDZwDXjUSDy9ZyZMZqJ2zQ6mbDcII\u0026s",
+              "diet": [
+                  "Poisson"
+              ]
+          },
+          "Cube de bouillon de légumes": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJo6dB5OQphT6n5KivhNd4DzJG73CQTBOvs8gzUk_Ql6ueypH32_BLU0ml9SI\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 0.75,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Farine": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0t2sjX0C-Dqmc68tN6neUZWB2tRt9k0g17f1tYqNwiE8Kkr4FsW3r8pZvA\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Bowl merlu rôti pommes de terre au pesto",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 200°C (180°C chaleur tournante). Rincez les épinards et laissez-les s'égoutter dans la passoire.Lavez ou épluchez les pommes de terre, puis coupez-les en 4, voire en 6 pour les plus grosses.Ciselez l'ail.Placez les pommes de terre sur une plaque recouverte de papier sulfurisé et mélangez-les avec un filet d'huile d'olive. Salez et poivrez, puis enfournez-les 40-45 min, ou jusqu'à ce qu'elles soient tendres et dorées.Placez le merlu sur une autre plaque recouverte de papier sulfurisé et assaisonnez-les avec du sel, du poivre, l'ail ciselé et ¼ sachet d'épices italiennes par personne.Ajoutez un filet d'huile d'olive, puis massez le merlu pour bien répartir l'assaisonnement.Enfournez-le lorsqu'il reste 10-12 min de cuisson aux pommes de terre. Le merlu est cuit lorsque sa chair est opaque et qu'elle se détache facilement. Pendant ce temps, portez une casserole d'eau salée à ébullition.Coupez chaque broccolini en trois. Ajoutez-les dans la casserole et faites-les cuire 3-5 min, ou jusqu'à ce qu'ils soient tout juste tendres. Contrôlez la cuisson avec la pointe d'un couteau. Égouttez-les.Faites chauffer un filet d'huile d'olive dans une poêle à feu moyen-vif. Ajoutez-y les épinards et faites-les cuire 1-2 min en remuant, ou jusqu'à ce qu'ils réduisent. Salez et poivrez. Réservez hors du feu.Lorsque tout est cuit, transférez les pommes de terre chaudes dans un saladier ainsi que les épinards et le broccolini.Ajoutez le pesto et mélangez le tout. Salez et poivrez.Servez le mélange de pommes de terre, broccolini et épinards au pesto dans des assiettes creuses.Ôtez la peau du merlu, puis émiettez-le par-dessus. Ajoutez un filet d'huile d'olive si vous le souhaitez. Goûtez et ajustez l'assaisonnement en sel et en poivre si besoin.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF211208_R210_W51_FR_RFR29803917-1_MB_Main_low-8df90a04.jpg",
+          "prep_time": "45 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/bowl-merlu-roti-and-pommes-de-terre-au-pesto-65e0f7088eaa0461729f07aa"
+      },
+      "ingredients": {
+          "Épinards": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZsrGq2GqCqac3iekG1I-mHsZqPQ8dIQXA_17w6qPMFzIxnC0ClSXJ-U0BA\u0026s",
+              "diet": []
+          },
+          "Pommes de terre": {
+              "qty_per_person": 200,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzPmh2spUNPqZ-sx9SaGqkSFMBl-wyOYQNRw0ZHLsttMfWhQoGFCtsKSVS18\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Filet de merlu avec peau": {
+              "qty_per_person": 125,
+              "unit": "gContient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvVbWHaq-L2ysiLNEewOjhVLg5Tkev-JRyHT-BVOosFC2kX0JmJo8xOVpBU8\u0026s",
+              "diet": [
+                  "Poisson"
+              ]
+          },
+          "Épices italiennes": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFzIXI_YLtyahm-bT5DEnqbX_efl840WpS0evDde-6y8TKP3yNnnK_rWvmA\u0026s",
+              "diet": []
+          },
+          "Broccolini": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm3ca6kNB3eEM0FAj1s0umfmklSn8Q6yQ_fdqW7i_PURZXmRBNuUSThnUlw\u0026s",
+              "diet": [
+                  "Anhydride sulfureux et sulfites",
+                  "Céleri"
+              ]
+          },
+          "Pesto vert alla genovese": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgzdUnkpLcgmzC67jiP1HOUsofgi4TnMidw4AcZGfYE6uodBSzJnAplDhLQ\u0026s",
+              "diet": [
+                  "Noix de cajou",
+                  "Lait (contient du lactose)",
+                  "Fruits à coque"
+              ]
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Poulet doré au curry à la mangue",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Ciselez l’ail et l’oignon. Râpez le gingembre (ça pique ! Dosez-le selon votre goût).Ciselez la coriandre. Coupez le poulet en dés.Coupez la mangue en deux et taillez-la en dés (comptez-en ⅓ de pièce pour 2).Préparez le bouillon avec de l'eau chaude.Portez une grande casserole d'eau salée à ébullition pour le riz.Faites chauffer un wok ou une sauteuse à feu moyen-vif. Faites-y fondre le beurre, puis ajoutez ⅓ sachet de curry par personne (ça pique ! Dosez-le selon votre goût).Faites-le torréfier 1 min, puis ajoutez le gingembre, l’ail et l’oignon. Faites sauter le tout 3-4 min.Faites cuire le riz 12-14 min dans la casserole d'eau bouillante, ou jusqu'à ce qu'il soit tendre. Égouttez-le et réservez-le.Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent, puis ajoutez-le ainsi que le bouillon au wok. Mélangez bien.Baissez le feu, poivrez, couvrez et laissez mijoter 3-4 min.Ajoutez le poulet au wok et faites cuire 2-4 min de plus, toujours à couvert.Ajoutez la mangue, puis prolongez la cuisson de 3-4 min, ou jusqu’à ce que les dés de poulet ne soient plus rosés à l’intérieur.Goûtez, puis salez et poivrez.Servez le riz dans des assiettes creuses et le curry par-dessus.Saupoudrez de coriandre.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF211223_R213_W06_FR_RFR29803938-1_MB_Main_yellow_curry_remove_the_pumpkin_seeds_high-fe5cca2f.jpg",
+          "prep_time": "30 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/poulet-dore-au-curry-and-a-la-mangue-65d86d89af98375703346c8b"
+      },
+      "ingredients": {
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Oignon": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Gingembre frais": {
+              "qty_per_person": 1,
+              "unit": "cm",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2N4BuSxlAWxr8EPNm-l34SX2kZOfjERo5ZIPw8YyKG7T9UA7kx4ZAK3FE1zI\u0026s",
+              "diet": []
+          },
+          "Coriandre": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSgiq5NI8fZEkwxhFWJbD05Vyon_UjTH-d3Gk1760ru-e5krHzDBAvTZfxg\u0026s",
+              "diet": []
+          },
+          "Filet de poulet": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxuMfr9BoobpxmlGiQ5fgMS3evDw8CqccoVoPq2f0I7Xd3jpBtI8MQC_F6wA\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)",
+                  "Gluten"
+              ]
+          },
+          "Mangue": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9yyF1qXmUkM2pdHvFI5JX15QcMLemaHU4hXnlVtPkzFiUhJCmCBk5U6qMNJo\u0026s",
+              "diet": []
+          },
+          "Riz": {
+              "qty_per_person": 75,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnG0lmn0mFFR-_EgqzHG-uDu2KxRN-N5ILfkKQBU54HpFgd1UTmeIY53hFA\u0026s",
+              "diet": []
+          },
+          "Curry en poudre": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnUIU0YmOFt1VQs7TdXLConvBpV6uRe8_uMI-01AL8esvKEEbCFkxrkniJA\u0026s",
+              "diet": [
+                  "Moutarde",
+                  "Céleri"
+              ]
+          },
+          "Lait de coco": {
+              "qty_per_person": 0.33,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGDA-l16fiMT6sHRWEKndLOxnAk5Zi2mKNup2dnDQrPdJXw1RyHQqPQ0BsTnk\u0026s",
+              "diet": []
+          },
+          "Bouillon de volaille": {
+              "qty_per_person": 50,
+              "unit": "ml",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTI4tZfyn8Ql7wl_JRRXXW6ONe9we2JZ-QNJcV3tnHhCS4gDjGJEzmwFrTPs\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "One pot crevettes orzo à la toscane",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préparez le bouillon avec de l'eau chaude.Ciselez finement l’oignon et l’ail.Coupez les tomates séchées en fines lanières. Épongez les crevettes avec de l’essuie-tout.Faites fondre une noix de beurre dans une casserole à feu moyen-vif et faites-y cuire les crevettes et les tomates séchées 3-4 min. Ajoutez ½ cc d'épices italiennes par personnes. Salez et poivrez.Réservez-les dans une assiette recouverte d'aluminium et conservez la casserole pour l'étape suivante. Remettez la casserole à feu moyen-vif avec un filet d'huile d'olive.Ajoutez-y l'oignon et faites revenir 2-3 min.Ajoutez l'orzo et l'ail, puis faites cuire 1-2 min en mélangeant.Déglacez en versant ½ cs de vinaigre balsamique blanc (ou de riz) par personne dans la casserole. Ajoutez le bouillon et poivrez. Baissez le feu sur moyen-doux, couvrez et laissez cuire 13-15 min.Après avoir lavé les épianrs, déchirez-les grossièrement avec vos mains au-dessus de la casserole et laissez réduire en remuant.Ajoutez le reste des épices italiennes, les crevettes, les tomates séchées et la moitié des copeaux de grana padano à l’orzo. Mélangez jusqu'à ce que le fromage fonde et lie le tout. Salez et poivrez. Disposez l’orzo dans des assiettes creuses.Garnissez avec le reste des copeaux de grana padano.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R213_W47_FR_RFR17967-1_Main_2high-a0ae7f03.jpg",
+          "prep_time": "40 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/one-pot-crevettes-and-orzo-a-la-toscane-65d86d86af98375703346c7d"
+      },
+      "ingredients": {
+          "Oignon": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Tomates semi-séchées": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQagiHRL0heoXfnaqP1VM6d8rk8Ivii4Sc4SJCUWd11ixRI6MUXefvlb5nYBw\u0026s",
+              "diet": []
+          },
+          "Crevettes": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5cjPP5vITd06Sd62qB2_BZ70wo0aMgrAcfFV59olPpsY4gPj1_RyPK9ftzI\u0026s",
+              "diet": [
+                  "Crustacés"
+              ]
+          },
+          "Épices italiennes": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSFzIXI_YLtyahm-bT5DEnqbX_efl840WpS0evDde-6y8TKP3yNnnK_rWvmA\u0026s",
+              "diet": []
+          },
+          "Orzo": {
+              "qty_per_person": 75,
+              "unit": "gContient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBiKUWQ2MyuSpf2TTqi5qH2WRLs4bSCEP9_XlAfLNSUGYvRlaGf9qNFGIAQ\u0026s",
+              "diet": [
+                  "Blé",
+                  "Gluten"
+              ]
+          },
+          "Épinards": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZsrGq2GqCqac3iekG1I-mHsZqPQ8dIQXA_17w6qPMFzIxnC0ClSXJ-U0BA\u0026s",
+              "diet": []
+          },
+          "Copeaux de grana padano": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTr8X3cSwVfQdomVpJ2S4KDaskfPIuIr_bBADUm5FFCXlpzzkpg13o2UzYyg\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)",
+                  "Œuf"
+              ]
+          },
+          "Bouillon de légumes": {
+              "qty_per_person": 200,
+              "unit": "ml",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeulqrhOy_Xw8lCP4sNma23jpbPEUogDtWDtEKfT8iCunO9MglmWRf-fwcUg\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 1,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique blanc ou de riz": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdIBz-i9rhACPhXWmDCcOgv7E4ITtgMOaipe9KtZ2aXylxU2uJwvJz466zA\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Navarin de veau printanier de Mamie Jeanine",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préparez le bouillon avec de l’eau chaude.Lavez ou épluchez les pommes de terre et coupez-les en dés de 1½ cm. Épluchez la carotte et coupez-la en rondelles de 1 cm d'épaisseur.Coupez l'oignon en fines demi-lunes. Ciselez l’ail.Coupez la poitrine fumée et le veau en gros dés (enlevez un peu de gras du veau si nécessaire).Faites chauffer un généreux filet d’huile de tournesol dans une marmite à feu vif. Faites-y revenir le veau et la poitrine fumée 3-4 min de tous les côtés, ou jusqu’à ce qu’ils colorent un peu. Retirez la viande et réservez-la dans un petit bol.Déglacez avec un filet d'eau (environ 1-2 cs). Grattez bien avec une spatule pour récupérer les sucs. Versez ce bouillon sur les dés de viande réservés.À feu moyen, ajoutez le beurre, la carotte, les pommes de terre, l’ail, l'oignon. Faites cuire 2-3 min.Ajoutez la quantité indiquée de farine et continuez à remuer 1-2 min.Déglacez avec le bouillon, et ajoutez 1 cc de vinaigre balsamique blanc (ou de riz) par personne, le laurier et le thym.Remettez la viande avec son jus dans la marmite, couvrez et faites mijoter à feu moyen-doux 55-60 min, ou jusqu'à ce que le tout soit fondant. Remuez souvent pour éviter que cela n'accroche.Ajoutez un peu d'eau au fur et à mesure si la sauce réduit trop : elle doit être nappante.Pendant ce temps, coupez le broccolini en tronçons de 2 cm.Effeuillez et ciselez le persil.À 15 min de la fin de cuisson, préchauffez le four à 180°C (160°C chaleur tournante) sauf si vous avez un grille-pain. Lorsqu'il reste 5-10 min de cuisson à la viande et aux légumes, ajoutez le broccolini à la marmite.Enfournez les petits pains 3-5 min, ou toastez-les si vous avez un grille-pain. Juste avant de servir, retirez le laurier et le thym de la marmite. Ajustez l’assaisonnement selon votre goût en sel, poivre et vinaigre balsamique.Servez le navarin de veau dans des assiettes creuses avec le pain.Saupoudrez le plat avec le persil. ",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R293_W23_FR_BFR29804104-4_Main_high-941ec98e.jpg",
+          "prep_time": "55 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/navarin-de-veau-printanier-de-mamie-jeanine-65d86d93af98375703346ce0"
+      },
+      "ingredients": {
+          "Pommes de terre": {
+              "qty_per_person": 125,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzPmh2spUNPqZ-sx9SaGqkSFMBl-wyOYQNRw0ZHLsttMfWhQoGFCtsKSVS18\u0026s",
+              "diet": []
+          },
+          "Carotte": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswWEBav367T84tZb1ftbkOTiMRmI5bu0DRL3FOGn_LcZOkvQ1ibntcrEbiA\u0026s",
+              "diet": []
+          },
+          "Oignon": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Tranches de poitrine fumée": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHTx7fwqBVvSPVvW1c0nPQf0LxCH3X0VcuaPYxd_JHmh2eQ-DSFQid8XNTLpk\u0026s",
+              "diet": []
+          },
+          "Sauté de veau": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_h168nSLov95M13C7xvUgj4kTOZgtw-Zlrklo8Vzygqx8OXHCZbMz04I36s\u0026s",
+              "diet": [
+                  "Anhydride sulfureux et sulfites",
+                  "Blé",
+                  "Gluten",
+                  "Lait (contient du lactose)",
+                  "Soja"
+              ]
+          },
+          "Feuille de laurier": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHcE2vvzaPdrUIBV10HaelO5kKx3oIjA7Q-OO_3IXrBAg2m0oxMP2uXoy1QZI\u0026s",
+              "diet": []
+          },
+          "Thym": {
+              "qty_per_person": 2,
+              "unit": "brin(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3qhMVxcH1nBKegZROX7NRKN9bRGRM-Gcc68oTbzunOqqK-k-D42xNF_YaiQ\u0026s",
+              "diet": []
+          },
+          "Broccolini": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm3ca6kNB3eEM0FAj1s0umfmklSn8Q6yQ_fdqW7i_PURZXmRBNuUSThnUlw\u0026s",
+              "diet": [
+                  "Anhydride sulfureux et sulfites",
+                  "Céleri"
+              ]
+          },
+          "Persil": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPm5LQLsHMjz6XiVvPc0b--Tk15WgEH9Ve1qW4Oiwfm6mn3dOjL8_fCCCcdw\u0026s",
+              "diet": []
+          },
+          "Petit pain": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViuxBVutCfwpTLTyu3Px11pxBXykZke1PUPK9IJxm-wuZkFNLLNx1j7iVjQ\u0026s",
+              "diet": [
+                  "Gluten",
+                  "Blé"
+              ]
+          },
+          "Bouillon de volaille": {
+              "qty_per_person": 250,
+              "unit": "ml",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTI4tZfyn8Ql7wl_JRRXXW6ONe9we2JZ-QNJcV3tnHhCS4gDjGJEzmwFrTPs\u0026s",
+              "diet": []
+          },
+          "Huile de tournesol": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbaL4l2orKVDmVFABp72stVjUhGspGprlmlVQeJ7tDcfZ4Jzcn30x-5RB4_g\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique blanc ou de riz": {
+              "qty_per_person": 1,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdIBz-i9rhACPhXWmDCcOgv7E4ITtgMOaipe9KtZ2aXylxU2uJwvJz466zA\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 25,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Farine": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0t2sjX0C-Dqmc68tN6neUZWB2tRt9k0g17f1tYqNwiE8Kkr4FsW3r8pZvA\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Riz sauté crevettes soja à la chinoise",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d’eau salée à ébullition.Ajoutez-y une pincée de citronnelle moulue par personne et faites-y cuire la quantité indiquée de riz 10-12 min, ou jusqu'à ce qu'il soit tendre.Égouttez-le bien et réservez-le à plat dans une assiette pour qu'il refroidisse plus vite.Pendant ce temps, nettoyez les champignons avec un essuie-tout humide, puis coupez-les en fines tranches.Ciselez l’ail et la coriandre. Râpez le gingembre (ça pique ! Dosez-le selon votre goût).Ciselez le blanc et le vert de la cébette séparément.Battez les œufs dans un bol avec une fourchette.Tamponnez les crevettes avec de l'essuie-tout.Dans un wok ou une sauteuse, faites revenir un filet d'huile de tournesol, le blanc de la cébette, les crevettes, ½ cc de citronnelle moulue par personne et les champignons 2-3 min à feu moyen-vif. Ajoutez l'ail, le gingembre et la moitié de l'huile de sésame. Faites sauter le tout 2-3 min, puis déglacez avec le vinaigre balsamique blanc (ou de riz). Déplacez les ingrédients sur un côté du wok et versez les œufs battus de l'autre. Remuez environ 1 min, ou jusqu'à ce qu'ils soient cuits.À feu vif, ajoutez le riz, la moitié du vert de la cébette, la quantité indiquée de sauce soja et le reste d'huile de sésame au wok (voir CONSEIL). Faites sauter le tout 1-2 min en mélangeant activement.Servez le riz sauté dans des assiettes creuses et saupoudrez de coriandre ainsi que du reste du vert de la cébette.Ajustez l’assaisonnement en poivre.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R205_W23_FR_QFR20161910-22_balanced_edit_Main_high-3eaedb8b.jpg",
+          "prep_time": "25 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/riz-saute-crevettes-and-soja-a-la-chinoise-65d86da013ff8a4fe7076c1d"
+      },
+      "ingredients": {
+          "Citronnelle moulue": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTotVj2i0INyNCGcAHzskmITwKB0JCNe_ZGayBetmwnJlQ_XGpNiOkNiFZq8XE\u0026s",
+              "diet": []
+          },
+          "Champignons de Paris": {
+              "qty_per_person": 65,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6smKqDpUL0bKrZ8knpjP28O58dmbaz1B6qJYEaR6q8FfWCddzSTdbbqYJ5vs\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Coriandre": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoSgiq5NI8fZEkwxhFWJbD05Vyon_UjTH-d3Gk1760ru-e5krHzDBAvTZfxg\u0026s",
+              "diet": []
+          },
+          "Gingembre frais": {
+              "qty_per_person": 1,
+              "unit": "cm",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2N4BuSxlAWxr8EPNm-l34SX2kZOfjERo5ZIPw8YyKG7T9UA7kx4ZAK3FE1zI\u0026s",
+              "diet": []
+          },
+          "Cébette": {
+              "qty_per_person": 0.5,
+              "unit": "botte(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzVb3N8liw8k5blMGqvTGAZc-ZDfkNkWNnB4Ig20FUMiS4u2oyMzZiaAk21Q\u0026s",
+              "diet": []
+          },
+          "Crevettes": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5cjPP5vITd06Sd62qB2_BZ70wo0aMgrAcfFV59olPpsY4gPj1_RyPK9ftzI\u0026s",
+              "diet": [
+                  "Crustacés"
+              ]
+          },
+          "Riz": {
+              "qty_per_person": 70,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnG0lmn0mFFR-_EgqzHG-uDu2KxRN-N5ILfkKQBU54HpFgd1UTmeIY53hFA\u0026s",
+              "diet": []
+          },
+          "Huile de sésame": {
+              "qty_per_person": 1,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAY_PuEYf_61S8AhdlU6YTYydOuERW3_WbAlki0Ec2thP-GZoAQSXoRLltcd8\u0026s",
+              "diet": [
+                  "Graines de sésame"
+              ]
+          },
+          "Sauce soja": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtLfN6LKnxax_4WuMrJQkn4A6I0bJRB-CvC0KsuH_pOywwutWcZUFbLfrG90\u0026s",
+              "diet": [
+                  "Soja",
+                  "Blé"
+              ]
+          },
+          "Œuf": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64MTaEV843URbeSAP36qjHKT3_ZScL_6iz0OS8lUBOQlnx5i4LTpHPuRv2w\u0026s",
+              "diet": []
+          },
+          "Huile de tournesol": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbaL4l2orKVDmVFABp72stVjUhGspGprlmlVQeJ7tDcfZ4Jzcn30x-5RB4_g\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique blanc ou de riz": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdIBz-i9rhACPhXWmDCcOgv7E4ITtgMOaipe9KtZ2aXylxU2uJwvJz466zA\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Risotto facile poireau, lardons parmesan",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette ! Faites revenir les lardons dans la cuve du robot 7 min | 120°C | sens inverse | vitesse minimum (voir CONSEIL). Réservez-les sur une assiette recouverte d’essuie-tout.Coupez le poireau en deux dans l'épaisseur, lavez-le bien, puis coupez-le en gros tronçons. Hachez-le dans la cuve du robot 5 secondes | vitesse moyenne. Avec une spatule, poussez-le poireau haché dans le fond de la cuve. Ajoutez une noisette de beurre sur le poireau et faites-le revenir 3 min | 120°C | sens inverse | vitesse minimum.Salez et poivrez, ajoutez ½ cs d'eau par personne, puis couvrez et laissez le poireau suer 5 min | 120°C | sens inverse | vitesse minimum.Ajoutez le riz dans la cuve du robot et faites-le cuire 3 min | 100 °C | sens inverse | vitesse minimum.Râpez un peu de noix de muscade sur le riz.Versez 200 ml d'eau par personne dans la cuve du robot et émiettez le cube de bouillon par-dessus.Laissez mijoter le risotto 16 min | 100°C | sens inverse | vitesse minimum.Si le riz n'est pas assez cuit à votre goût, rajoutez un peu d'eau et continuez la cuisson 2 min.Pendant que le risotto cuit, ciselez la ciboulette et râpez le parmesan.Lavez le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers.Lorsque le riz est cuit, incorporez le parmesan, puis remuez 1 min | 50°C | sens inverse | vitesse minimum. Ajoutez une pincée de zestes et pressez quelques gouttes de jus de citron (selon votre goût) sur le risotto.Servez le risotto au poireau dans des assiettes creuses et répartissez les lardons par-dessus.Saupoudrez de ciboulette ciselée. ",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF220818_R272_W40_FR_TFR29804407-1_balanced_Main_FP_high-87d2df6f.jpg",
+          "prep_time": "40 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/risotto-facile-poireau-lardons-and-parmesan-65d86d7aaf98375703346c63"
+      },
+      "ingredients": {
+          "Lardons fumés": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR689IqDrSb_8CAfyqEjDEgeYOJIEVg5PYsd6J1BnZ6BERxEUUrZFmXpyf35Nc\u0026s",
+              "diet": [
+                  "Moutarde"
+              ]
+          },
+          "Poireau": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU_BuZRs3SV1y_FYcBhUXo1vVUZCUIVzb6qnR0IK0e9te4dZNBfoN-j3Fw\u0026s",
+              "diet": []
+          },
+          "Riz pour risotto": {
+              "qty_per_person": 75,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2KG2cZjFY04hQcErLgwLVFRzdfv-O1mPRg-B5BUmit6_7VS1n_q5g5xpS0A\u0026s",
+              "diet": []
+          },
+          "Noix de muscade": {
+              "qty_per_person": 1,
+              "unit": "pincée(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDRjCfTDB5q_GocDZRjPekIyITBoqaAsV47Sr_X8Z38H3U_RddMiuhpYnVK8M\u0026s",
+              "diet": []
+          },
+          "Ciboulette": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6AEgRWxDJpVakCaz4Fh324FmuaMxd-uTq4BkMqiDin3EgGMk3i325UNZU3g\u0026s",
+              "diet": []
+          },
+          "Parmigiano Reggiano AOP": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBZrQzmAfjaSaxscHoEFbBY3z7Ngyfr8yuQdquDaNm0OHS4akoKi-BoP4X2c\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Citron": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r1HceiGuBPPn4h3aF86r45MX87u_cj5mEdr_G-wfI60XS-p3Z9WVLjrs1Mo\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Cube de bouillon de légumes": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJo6dB5OQphT6n5KivhNd4DzJG73CQTBOvs8gzUk_Ql6ueypH32_BLU0ml9SI\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Salade couscous perlé, avocat chèvre frais",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C (200°C chaleur tournante).Portez une grande casserole d'eau salée à ébullition et faites-y cuire le couscous perlé 12-15 min.Égouttez-le, puis égrainez-le à la fourchette et laissez-le refroidir.Coupez l’oignon en fines demi-lunes.Placez-les dans un plat à four et disposez le chèvre frais par-dessus. Saupoudrez avec ⅓ sachet d’origan séché par personne et arrosez le tout d’un généreux filet d’huile d’olive. Enfournez le tout 12-14 min, ou jusqu'à ce que le chèvre commence à fondre.Coupez l’avocat en deux, retirez-en le noyau et taillez la chair en dés.Effeuillez et ciselez finement les herbes.Coupez la grenade en 4 et retirez-en les graines (faites-le au-dessus de l'évier pour ne pas vous tacher). Prélevez une vingtaine de graines par personne (vous pourrez en ajouter par la suite).Faites chauffer une petite poêle à feu vif et faites-y griller les graines de tournesol à sec jusqu'à ce qu'elles soient dorées. Réservez-les hors de la poêle.Juste avant de servir, mélangez, par personne : 1½ cs d’huile d’olive et 1 cc de vinaigre balsamique blanc (ou de riz) avec la moitié des herbes ciselées et ⅓ de la salade dans un récipient à bords hauts.Mixez avec un mixeur plongeant. Salez et poivrez.Dans un saladier, mélangez le couscous perlé avec l'avocat, le reste des herbes et de la salade, le chèvre et les oignons rôtis, les graines de tournesol et de grenade ainsi que la vinaigrette.Servez la salade dans les assiettes et ajustez l'assaisonnement selon votre goût.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R207_W23_FR_QFR16631812-27_Mainhigh-abd4835c.jpg",
+          "prep_time": "25 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/salade-couscous-perle-avocat-and-chevre-frais-65d86d81700746d2fe51fea0"
+      },
+      "ingredients": {
+          "Couscous perlé": {
+              "qty_per_person": 75,
+              "unit": "gContient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_nFUBf3s_TyIikWCiqo9coadiNmxVZR6DdF_Qf1CEQPX1-8WfiA16hbx4bg\u0026s",
+              "diet": [
+                  "Gluten",
+                  "Blé"
+              ]
+          },
+          "Oignon": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Fromage de chèvre frais": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXUh9fnKQeunSP7WMis7bXHnxaAAsaZ8W5Eg_ceJx485e-GsMFAsmfJOiXifA\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Origan séché": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkWpL-oVRANx5pluYPJA7o27SSUddvaapwZGF3nrRthvyvbLUv4jbux_qgBUc\u0026s",
+              "diet": []
+          },
+          "Avocat": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZvNYI8dT9gkaBg5mBI42DRNIkc18-_O-HGo4LFOUwhZ--GeAyIGn-xJf_kHs\u0026s",
+              "diet": []
+          },
+          "Persil plat et menthe": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5nSAwctxa3kfm_0QW_-vlW9F8f6ONSNcDYBRm3riRcy1uCBjNu8cD6SESeg\u0026s",
+              "diet": []
+          },
+          "Grenade": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRetiwczJtHHyqADXov7CaEM28v40F-8VBZerri7K9ZKzplCmLujTkIPRutjQ\u0026s",
+              "diet": []
+          },
+          "Graines de tournesol": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0B6VxErMPqZLnyLW8EDqfmxUBHaSvZsNj9qY2B_HNThfxANWZHp9BktYZwQ\u0026s",
+              "diet": [
+                  "Arachides",
+                  "Fruits à coque",
+                  "Graines de sésame"
+              ]
+          },
+          "Salade": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtriNHRfXWF1G4gqLQpVllHkEl7rZJP9LufCh6TDmh5yyXc1WM25tw0oK0A\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 2,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique blanc ou de riz": {
+              "qty_per_person": 1,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdIBz-i9rhACPhXWmDCcOgv7E4ITtgMOaipe9KtZ2aXylxU2uJwvJz466zA\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Gyudon : bowl de bœuf à la japonaise",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d'eau à ébullition pour le riz.Coupez l'oignon en fines demi-lunes de 5 mm environ. Râpez l'ail et le gingembre (ça pique ! Dosez-le selon votre goût).Ôtez la base dure du pak choï et coupez le reste en fines lanières (conservez un peu de vert pour le dressage).Faites cuire le riz 12-14 min dans la casserole d’eau bouillante, ou jusqu’à ce qu’il soit tendre. Égouttez-le, puis ajoutez-y un petit filet d'huile de tournesol ainsi qu'une pincée de gingembre et d'ail, selon votre goût (conservez le reste pour l'étape 4). Mélangez et réservez à couvert jusqu'au service.Recoupez les émincés de bœuf en plus petites lanières si nécessaire.Faites chauffer un filet d'huile de tournesol dans un wok ou une sauteuse à feu vif. Faites-y colorer le bœuf 1-2 min de tous les côtés, ou jusqu'à ce qu'il soit doré.Retirez-les du wok ou de la sauteuse et réservez-les à couvert.Remettez le wok ou la sauteuse à feu moyen-vif avec un filet d'huile de tournesol.Faites-y revenir l'oignon et le pak choï 3-5 min, ou jusqu'à ce qu'ils commencent à colorer légèrement.Baissez le feu, ajoutez le reste de gingembre et de l'ail (selon votre goût), puis versez 1-2 cs d'eau par personne. Prolongez la cuisson de 4-6 min à feu moyen et à couvert, ou jusqu'à ce que les légumes soient fondants.Pendant ce temps, dans un bol, mélangez la sauce soja avec la moitié des graines de sésame et, par personne : 1 cc de sucre et 1 cs de vinaigre balsamique blanc (ou de riz). Ajoutez le bœuf, puis la sauce soja-sésame aux légumes et mélangez 1 min, ou jusqu'à ce que le tout soit bien enrobé de sauce. Servez le riz dans des assiettes creuses. Disposez le bœuf et les légumes en sauce par-dessus. Saupoudrez du reste de graines de sésame et du vert de pak choï.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R212_W37_FR_RFR15382-1_Main__high-fd7c2cb5.jpg",
+          "prep_time": "30 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/gyudon-bowl-de-boeuf-a-la-japonaise-65d86d8213ff8a4fe7076bb3"
+      },
+      "ingredients": {
+          "Riz": {
+              "qty_per_person": 75,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnG0lmn0mFFR-_EgqzHG-uDu2KxRN-N5ILfkKQBU54HpFgd1UTmeIY53hFA\u0026s",
+              "diet": []
+          },
+          "Oignon": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Gingembre frais": {
+              "qty_per_person": 1,
+              "unit": "cm",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2N4BuSxlAWxr8EPNm-l34SX2kZOfjERo5ZIPw8YyKG7T9UA7kx4ZAK3FE1zI\u0026s",
+              "diet": []
+          },
+          "Pak choï": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1r8lxtRUwAf090biZ1QtfSWLZEa1wLp8McLKklnlyQeRBYbOL2s2-v5e4r5c\u0026s",
+              "diet": [
+                  "Céleri",
+                  "Anhydride sulfureux et sulfites"
+              ]
+          },
+          "Émincés de bœuf": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPUwbgG-Emnvzt8_nmJ_nTIYUDbt9L-YY_6pkbTXvwCzXPA8OsFYZeRgETEw\u0026s",
+              "diet": [
+                  "Œuf",
+                  "Moutarde",
+                  "Céleri",
+                  "Gluten",
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Sauce soja": {
+              "qty_per_person": 1,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtLfN6LKnxax_4WuMrJQkn4A6I0bJRB-CvC0KsuH_pOywwutWcZUFbLfrG90\u0026s",
+              "diet": [
+                  "Soja",
+                  "Blé"
+              ]
+          },
+          "Graines de sésame": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH7TwjeH1B7y-krxwumbMnbuhtIlJwn3M7h3z627kKsTZTV-rLSjJ2jj9ljA\u0026s",
+              "diet": [
+                  "Graines de sésame"
+              ]
+          },
+          "Sucre": {
+              "qty_per_person": 1,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzC2mXMUmYNYWp3N_pK_JFVjzvYIjyqoOy5ccYwcScAgLeM3vroUQGShjPwA\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique blanc ou de riz": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdIBz-i9rhACPhXWmDCcOgv7E4ITtgMOaipe9KtZ2aXylxU2uJwvJz466zA\u0026s",
+              "diet": []
+          },
+          "Huile de tournesol": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbaL4l2orKVDmVFABp72stVjUhGspGprlmlVQeJ7tDcfZ4Jzcn30x-5RB4_g\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Manti turcs revisités : pâtes au bœuf",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d'eau salée à ébullition.Ciselez l'oignon et l'ail. Épluchez et coupez la carotte en petits dés de 5 mm.Effeuillez et ciselez finement la menthe.Faites cuire les conchiglie 14-16 min.Réservez ⅓ de louche d'eau de cuisson par personne, puis égouttez-les et réservez-les.Pendant ce temps, faites chauffer un filet d'huile d'olive dans une grande sauteuse à feu moyen-vif.Ajoutez-y la carotte, l'ail (gardez-en une pincée pour la sauce au yaourt si vous aimez l'ail cru) et l'oignon.Faites-les revenir 5-6 min.Ajoutez la viande hachée et les épices du Moyen-Orient (ça pique ! Dosez-les selon votre goût) dans la sauteuse des légumes.Faites revenir le tout 4-5 min en émiettant le haché au bœuf avec le dos d'une cuillère en bois.Prolongez la cuisson de 3-4 min à couvert. Salez et poivrez.En attendant, mélangez le yaourt avec la menthe (gardez-en une pincée pour le dressage) et la pincée d'ail cru dans un bol, salez et poivrez.Ajoutez les conchiglie et leur eau de cuisson (réservez-en 2-3 cs) dans la sauteuse. Mélangez vigoureusement 1-2 min, salez et poivrez.Servez les pâtes au bœuf dans les assiettes.Remettez la sauteuse à feu moyen et faites-y fondre le beurre avec le paprika, le concentré de tomates et les 2-3 cs d'eau de cuisson restantes. Salez et poivrez et mélangez.Versez la sauce au yaourt, puis la sauce au paprika sur les pâtes. Parsemez du reste de menthe.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R217_W50_FR_QFR29804423-3_MAIN__3high-7978641e.jpg",
+          "prep_time": "25 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/manti-turcs-revisites-pates-au-boeuf-65d86d6baf98375703346c09"
+      },
+      "ingredients": {
+          "Oignon": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Carotte": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSswWEBav367T84tZb1ftbkOTiMRmI5bu0DRL3FOGn_LcZOkvQ1ibntcrEbiA\u0026s",
+              "diet": []
+          },
+          "Menthe": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOHZoo3X-zxK707zOaPDucvgOyNhz9CpFTuWrmfewPxy7JRqUu8GqALcBKz4\u0026s",
+              "diet": []
+          },
+          "Conchiglie": {
+              "qty_per_person": 90,
+              "unit": "gContient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD__jA8gwhbLNzyvL0L7gj8KUmdYmjEKCuyUYyqHfUODvy90vSQ8QXIvijaQ\u0026s",
+              "diet": [
+                  "Blé",
+                  "Gluten"
+              ]
+          },
+          "Viande hachée au bœuf": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeEUm5gTptlUtp3dXcx7sP4iP2qkJvgaK7a2CcmPAlYqXQGAJDvVSFBAPsQ\u0026s",
+              "diet": []
+          },
+          "Mélange d'épices du Moyen-Orient": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1RtQiMQMIDEsGeuWlR-vzrRxQmJfwcZc0OJ-fkv1PDZLK1Mc5O4j0HhIzr8c\u0026s",
+              "diet": []
+          },
+          "Yaourt à la grecque": {
+              "qty_per_person": 0.5,
+              "unit": "pot(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjb40a_oygkIDZiaPDAcf-RXVUr93MxRZzbAtLLm_v46WUBW46UoNAE_KA0-k\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Paprika fumé en poudre": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNy_CICnXY3mCBR_yusTsJMqNhc0t998JCHuVBPZiO4egJwIG9Q5QaY8nyhs0\u0026s",
+              "diet": []
+          },
+          "Concentré de tomates": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1mU9LaxJOfS40LCdfIB1m7JAff1SMFUxlL7EJb4t75ZddYS_6HrYN0uSxZKk\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 15,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Orzo à l'espagnole au poulet chorizo",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Épluchez l'ail et l'oignon, puis coupez l'oignon en 4 morceaux. Effeuillez le persil.Placez l'ail, l'oignon et le persil dans la cuve du robot, puis hachez-les 10 secondes | vitesse moyenne-haute. Réservez l’ail, l’oignon et le persil hachés dans un bol. Recoupez le poulet en plus petits dés.Ajoutez 1,2 L d’eau dans la cuve du robot et émiettez le cube de bouillon par-dessus. Ajoutez l’orzo dans la cuve, puis laissez mijoter 10 min | 120°C | sens inverse | vitesse minimum. Vérifiez que l’orzo soit cuit et dans le cas contraire, prolongez la cuisson de 2-4 min.En attendant, lavez bien le citron et prélevez-en le zeste avec une râpe fine. Coupez-le en quartiers.Égouttez les poivrons grillés, puis coupez-les en petits dés de 5 mm.Faites chauffer une grande poêle avec un filet d'huile d'olive à feu moyen-vif. Ajoutez-y l'ail, l'oignon, le persil et les dés de chorizo. Faites colorer le tout 2-3 min.Ajoutez le poulet et faites-le dorer 4-5 min, ou jusqu’à ce qu'il ne soit plus du tout rosé à cœur.Lorsque l'orzo est cuit, égouttez-le, puis ajoutez-le à la poêle avec, par personne : ¼ sachet d'épices mexicaines (ça pique ! Dosez-les selon votre goût) et ¼ sachet de concentré de tomates.Laissez mijoter 2-3 min en mélangeant constamment. Ajoutez les dés de poivrons grillés et une pincée de zestes de citron (selon votre goût) dans la poêle.Mélangez et ajustez l'assaisonnement en sel et poivre.  Servez l'orzo à l'espagnole dans les assiettes avec ¼ citron par personne. ",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R220_W05_FR_TFR15417-2_Main_high-266df21e.jpg",
+          "prep_time": "40 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/orzo-a-lespagnole-au-poulet-and-chorizo-65d86d9faf98375703346d2f"
+      },
+      "ingredients": {
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Oignon": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Persil": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPm5LQLsHMjz6XiVvPc0b--Tk15WgEH9Ve1qW4Oiwfm6mn3dOjL8_fCCCcdw\u0026s",
+              "diet": []
+          },
+          "Blanc de poulet": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4NioXbKiIjfawK4E11x4LsbNQ3d3w7DQnpSRyOfI3F5TkFnUE5nv2WfP0A\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)",
+                  "Gluten"
+              ]
+          },
+          "Orzo": {
+              "qty_per_person": 75,
+              "unit": "gContient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBiKUWQ2MyuSpf2TTqi5qH2WRLs4bSCEP9_XlAfLNSUGYvRlaGf9qNFGIAQ\u0026s",
+              "diet": [
+                  "Blé",
+                  "Gluten"
+              ]
+          },
+          "Citron": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r1HceiGuBPPn4h3aF86r45MX87u_cj5mEdr_G-wfI60XS-p3Z9WVLjrs1Mo\u0026s",
+              "diet": []
+          },
+          "Poivrons grillés": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStR_A-zXE72GdszG5p75Yc4AxjLp-lqta8HADzmfFPI5sqdrtKLFynhJSe4_k\u0026s",
+              "diet": []
+          },
+          "Dés de chorizo": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7eoVkU2nRXq7zLbuKzpgfC2fXpuwm6EyAIOtSEMAWNWiyrFznvrUApEO9KK0\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Épices mexicaines": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ED9NaIdogWCmDTb9WxR4yFm9nhJhco8VGYEAZ0avHAoqZbSAKViBswYZiRY\u0026s",
+              "diet": []
+          },
+          "Concentré de tomates": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1mU9LaxJOfS40LCdfIB1m7JAff1SMFUxlL7EJb4t75ZddYS_6HrYN0uSxZKk\u0026s",
+              "diet": []
+          },
+          "Cube de bouillon de volaille": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec_-2Ndarbp3dhM-faop8qERZ033IqPkGnlazDWvXWY0obmJW9ExiFsMoHnI\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Poulet à la crème asperges citronnées",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Ciselez l'ail et l'échalote.Effeuillez et ciselez l'estragon. Coupez le pied dur des asperges, puis ôtez les feuilles des tiges avec un couteau ou un éplucheur. Coupez-les en deux dans l'épaisseur, puis en tronçons de 3 cm.Placez-les dans le grand panier vapeur avec un filet d'huile d'olive, du sel et du poivre.Disposez le riz dans le panier de cuisson et rincez-le à l'eau froide. Placez le panier dans la cuve du robot, salez, puis ajoutez un filet d'huile d'olive, 1/4 sachet d'origan séché et 1,2 L d'eau (voir CONSEIL). Émiettez le cube de bouillon par-dessus.Placez le panier vapeur contenant les asperges par-dessus. Faites cuire 20 min | 120°C | sens inverse | vitesse minimum.Coupez le citron en quartiers.Coupez le poulet en petits dés si nécessaire. Épongez-les avec de l'essuie-tout. Lorsqu'il reste 10 min de cuisson au riz, faites chauffer un filet d'huile d'olive avec une noix de beurre dans une poêle à feu moyen-vif et faites cuire le poulet 4-5 min de tous les côtés.Ajoutez l'ail, l'échalote. Faites revenir de nouveau 1-2 min, puis déglacez avec ½ cc de vinaigre de vin rouge ou de cidre par personne.Ajoutez la crème, l'estragon, 1 cc de moutarde par personne et faites mijoter à feu doux 2-3 min, ou jusqu'à ce que la sauce soit nappante et le poulet cuit.Lorsque le riz est cuit, placez-le dans un bol et mélangez-le avec une noisette de beurre, du sel et du poivre. Ajoutez les asperges dans la sauce ainsi que quelques gouttes de jus de citron (selon votre goût) et mélangez bien.Répartissez le riz dans des assiettes creuses et ajoutez le poulet, les asperges et la sauce au citron par-dessus.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y24_R219_W12_FR_TFR19835-1_Main_asparagus_edit_high-db1d2505.jpg",
+          "prep_time": "45 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/poulet-a-la-creme-and-broccolini-citronne-65d86d8caf98375703346ca7"
+      },
+      "ingredients": {
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Échalote": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb6VF1tqA8Dp9OaLMoDJ-PKtcgYBEfSEVVyi6BX5piCOXJTNOBxOa1gYpqCaI\u0026s",
+              "diet": []
+          },
+          "Estragon": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGivopdcb-JQkvIfWo9c8T9PsWNuNohxX1s23_BayJ9ehXfwld5TIunWN5cJQ\u0026s",
+              "diet": []
+          },
+          "Asperges vertes": {
+              "qty_per_person": 0.5,
+              "unit": "botte(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTINli8iGdSdMZHXpFGamj4fCQLhxOJo9vsC143t4zPzyG5YwqOhKCe5H20eQ\u0026s",
+              "diet": []
+          },
+          "Riz": {
+              "qty_per_person": 75,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnG0lmn0mFFR-_EgqzHG-uDu2KxRN-N5ILfkKQBU54HpFgd1UTmeIY53hFA\u0026s",
+              "diet": []
+          },
+          "Origan séché": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkWpL-oVRANx5pluYPJA7o27SSUddvaapwZGF3nrRthvyvbLUv4jbux_qgBUc\u0026s",
+              "diet": []
+          },
+          "Citron": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r1HceiGuBPPn4h3aF86r45MX87u_cj5mEdr_G-wfI60XS-p3Z9WVLjrs1Mo\u0026s",
+              "diet": []
+          },
+          "Blanc de poulet": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4NioXbKiIjfawK4E11x4LsbNQ3d3w7DQnpSRyOfI3F5TkFnUE5nv2WfP0A\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)",
+                  "Gluten"
+              ]
+          },
+          "Crème liquide": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL28izVDGO1JJdYmBOisAgfrSh3RjylFsZ6-ZGWSHMki3gKUuYeTBkVq6wW1g\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Cube de bouillon de volaille": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec_-2Ndarbp3dhM-faop8qERZ033IqPkGnlazDWvXWY0obmJW9ExiFsMoHnI\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Moutarde": {
+              "qty_per_person": 1,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMcxGqf0S7knuI5tqfDMZLSeGUq6rBrgWSN8LI2kk8uYxMkKI9PePX-mM-rA\u0026s",
+              "diet": []
+          },
+          "Vinaigre de vin rouge ou de cidre": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfpfEDBQB_ATWK06whjuv-AW7mw9kYQhagneBZMrpGWTOkFKVzpdelqt1b3w\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Saumon poêlé risotto crémeux au poireau",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Émincez le poireau très finement.Ciselez l'ail et l'échalote.Portez 350 ml d'eau à ébullition par personne dans une casserole, puis émiettez ½ cube de bouillon par personne au-dessus.Faites chauffer un filet d’huile d’olive dans une sauteuse à feu moyen-vif.Faites-y revenir l'échalote, la moitié de l'ail, et le poireau.Ajoutez le riz à la sauteuse et faites-le cuire 1 min à feu moyen-doux, ou jusqu'à ce qu'il devienne légèrement translucide.Déglacez avec le vinaigre balsamique blanc ou du vin blanc si vous en avez.Puis, ajoutez ⅓ du bouillon et laissez les grains de riz s’en imbiber lentement. Remuez souvent.Dès que les grains de riz ont absorbé le bouillon, ajoutez-en à nouveau ⅓, puis répétez l’opération avec le reste.Faites cuire le risotto 20-25 min à feu moyen doux en remuant souvent, ou jusqu'à ce que les grains de riz soient moelleux à l'extérieur et légèrement croquants à l'intérieur.Ajoutez de l’eau ou du bouillon pour faire cuire les grains de riz davantage.Au bout de 25 min, ajoutez le mascarpone, la moitié du fromage râpé et remuez bien.Lorsqu'il reste 8-10 min de cuisson au risotto, faites chauffer un filet d’huile d'olive à feu moyen-vif dans une poêle.Salez et poivrez les filets de saumon, puis faites les cuire 4-5 min dans la poêle, côté peau vers le bas.Prolongez la cuisson de 2-3 min, ou jusqu’à ce que leur chair soit opaque à cœur. Disposez un nid de salade dans des assiettes creuses. Servez le risotto au centre, puis placez le filet de saumon grillé par-dessus.Saupoudrez du reste de fromage râpé.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF_Y23_R292_W43_FR_PFR16450-1_Main_edit_style_remove_chives_edit_high-4324f395.jpg",
+          "prep_time": "55 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/saumon-poele-and-risotto-cremeux-au-poireau-65eefb6f767061375270d382"
+      },
+      "ingredients": {
+          "Poireau": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMAU_BuZRs3SV1y_FYcBhUXo1vVUZCUIVzb6qnR0IK0e9te4dZNBfoN-j3Fw\u0026s",
+              "diet": []
+          },
+          "Échalote": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb6VF1tqA8Dp9OaLMoDJ-PKtcgYBEfSEVVyi6BX5piCOXJTNOBxOa1gYpqCaI\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Riz pour risotto": {
+              "qty_per_person": 75,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2KG2cZjFY04hQcErLgwLVFRzdfv-O1mPRg-B5BUmit6_7VS1n_q5g5xpS0A\u0026s",
+              "diet": []
+          },
+          "Mascarpone": {
+              "qty_per_person": 0.5,
+              "unit": "pot(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJesdQZtX3JfiUvCcgi_9FEIOiv8Z3fZOAsmv5QZ0QGwsFFEeE-fF2zfmG9OU\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Fromage râpé à l'italienne": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQd79f0Oix0owSUe-hXy3LpI0xrG96KXp1BqJVnKBnh0Xr_QXPBgTUt46L7A\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Filet de saumon avec peau": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1KM-AODAWJFJsuLp5wKueVuULM3IWWfiI5CzzyFE6NX8U1iXE90G2P-aDQ\u0026s",
+              "diet": [
+                  "Poisson"
+              ]
+          },
+          "Salade": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtriNHRfXWF1G4gqLQpVllHkEl7rZJP9LufCh6TDmh5yyXc1WM25tw0oK0A\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Cube de bouillon de légumes": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJo6dB5OQphT6n5KivhNd4DzJG73CQTBOvs8gzUk_Ql6ueypH32_BLU0ml9SI\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique blanc ou de riz": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdIBz-i9rhACPhXWmDCcOgv7E4ITtgMOaipe9KtZ2aXylxU2uJwvJz466zA\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Mjadra libanaise : oignons grillés lentilles",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d'eau à ébullition.Coupez les oignons en fines demi-lunes et ciselez l'ail.Baissez le feu de la casserole à moyen et ajoutez-y les lentilles. Faites-les cuire 20-22 min.Ajoutez le cube de bouillon, l'ail et ¼ sachet de riz par personne (voir CONSEIL) et prolongez la cuisson de 12-14 min, ou jusqu'à ce qu'il soit tendre.Égouttez-les et réservez-les à couvert si besoin.Pendant ce temps, faites chauffer une poêle à feu moyen-vif.Ajoutez-y un généreux filet d'huile d'olive, les oignons et 1 cc d'épices du Moyen-Orient par personne (ça pique ! Dosez-les selon votre goût), puis faites-les dorer 5-8 min.Baissez le feu à moyen et faites-les cuire 3-4 min de plus, ou jusqu'à ce qu'ils soient bien caramélisés. Salez et poivrez.En attendant, coupez le citron en quartiers.Coupez la grenade en 2, puis en 4 et retirez-en les graines (faites-le au-dessus de l'évier pour ne pas vous tâcher). Prélevez une vingtaine de graines par personne (vous pourrez en rajouter par la suite).Effeuillez et ciselez les herbes. Émiettez le fromage à la grecque.Dans la casserole du riz et des lentilles, ajoutez 1 cc d'épices du Moyen-Orient par personne, un petit filet d'huile d'olive et quelques gouttes de jus de citron (selon votre goût).Rectifiez l'assaisonnement en sel et en poivre si besoin.Servez le riz et les lentilles dans des assiettes creuses.Ajoutez les oignons grillés par-dessus, le labneh, le fromage à la grecque, la grenade et les herbes.Accompagnez du reste des quartiers de citron.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF221114_R216_W01_FR_RFR29804422-1_KB_Main_low-91c45608.jpg",
+          "prep_time": "50 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/mjadra-libanaise-oignons-grilles-and-lentilles-65d86d7b700746d2fe51fe6e"
+      },
+      "ingredients": {
+          "Oignon": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffm-xPoDpE4shvYeFt_gHF6k1kChXViTJyz0HrV4khE6MLTki8QnvT4KHLDY\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 1,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Lentilles vertes": {
+              "qty_per_person": 40,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaiK_vz3JoJZ6XTpjudnsXnTJJAoFtL7-iB8YZI4DHjpkKNX3pjlkyQrQZwo\u0026s",
+              "diet": []
+          },
+          "Riz": {
+              "qty_per_person": 35,
+              "unit": "g",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThnG0lmn0mFFR-_EgqzHG-uDu2KxRN-N5ILfkKQBU54HpFgd1UTmeIY53hFA\u0026s",
+              "diet": []
+          },
+          "Mélange d'épices du Moyen-Orient": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1RtQiMQMIDEsGeuWlR-vzrRxQmJfwcZc0OJ-fkv1PDZLK1Mc5O4j0HhIzr8c\u0026s",
+              "diet": []
+          },
+          "Citron": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r1HceiGuBPPn4h3aF86r45MX87u_cj5mEdr_G-wfI60XS-p3Z9WVLjrs1Mo\u0026s",
+              "diet": []
+          },
+          "Grenade": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRetiwczJtHHyqADXov7CaEM28v40F-8VBZerri7K9ZKzplCmLujTkIPRutjQ\u0026s",
+              "diet": []
+          },
+          "Persil plat et menthe": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5nSAwctxa3kfm_0QW_-vlW9F8f6ONSNcDYBRm3riRcy1uCBjNu8cD6SESeg\u0026s",
+              "diet": []
+          },
+          "Fromage à la grecque": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7HmQvIuiXeP9dVSupzHoxufz14Looq_EfX-JjNUnaLE4v-3Ws54PsmWDRA\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Labneh": {
+              "qty_per_person": 0.5,
+              "unit": "pot(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-6rfpXcGslzSC-Nkg0f-u0ROpn5-XZYDAl_iczsvugztwwW9aK10vFuH3g\u0026s",
+              "diet": [
+                  "Œuf",
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Cube de bouillon de légumes": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJo6dB5OQphT6n5KivhNd4DzJG73CQTBOvs8gzUk_Ql6ueypH32_BLU0ml9SI\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Tostadas tex-mex au bœuf cheddar",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Préchauffez le four à 220°C (200°C chaleur tournante).Faites chauffer un filet d’huile d’olive dans une poêle à feu moyen-vif. Faites-y revenir ½ sachet d’épices mexicaines par personne (ça pique ! Dosez-les selon votre goût) 1 min.Ajoutez le bœuf et faites-le cuire 3 min en l’émiettant avec le dos d'une spatule.Ajoutez la chair de tomates, la moitié du maïs préalablement égoutté et du cheddar râpé. Laissez mijoter 4-5 min.Pendant ce temps, faites une vinaigrette en mélangeant la moutarde et le vinaigre de vin avec un filet d'huile d'olive dans un saladier.Salez et poivrez.Placez les tortillas sur une plaque recouverte de papier sulfurisé. Arrosez-les d'un filet d'huile d'olive, puis disposez le bœuf en sauce par-dessus et saupoudrez du reste de cheddar râpé.Enfournez-les 4-6 min, ou jusqu'à ce qu'elles soient dorées et le fromage fondu.Juste avant de servir, ajoutez la salade, le reste du maïs, du sel et du poivre au saladier. Mélangez délicatement.Servez les tostadas dans les assiettes accompagnées de la salade.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF211119_R216_W01_FR_QNL2084-7_KB_Main_no_lemon_high-0209d8f9.jpg",
+          "prep_time": "20 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/tostadas-tex-mex-au-boeuf-and-cheddar-65d86d73af98375703346c34"
+      },
+      "ingredients": {
+          "Épices mexicaines": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ED9NaIdogWCmDTb9WxR4yFm9nhJhco8VGYEAZ0avHAoqZbSAKViBswYZiRY\u0026s",
+              "diet": []
+          },
+          "Viande hachée au bœuf": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeEUm5gTptlUtp3dXcx7sP4iP2qkJvgaK7a2CcmPAlYqXQGAJDvVSFBAPsQ\u0026s",
+              "diet": []
+          },
+          "Chair de tomates": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQYsZrEYHIJYakq-wfI3TFneArx2h3gounJ4OWA4VikKAr47qqniYTvODtLw\u0026s",
+              "diet": []
+          },
+          "Maïs en conserve": {
+              "qty_per_person": 0.5,
+              "unit": "boîte(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI7Zs_ziHKhQSCr13KpZk4iWQV9ce75psL3YRjPBwAotz2wxqv5uzbnpnFiRY\u0026s",
+              "diet": []
+          },
+          "Cheddar râpé": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38K5Hh9oTTFzFf9L4hq97EdpQr4e1VogCCd2zK7BfgVxqK53deuZV94OYWsg\u0026s",
+              "diet": [
+                  "Lait (contient du lactose)"
+              ]
+          },
+          "Mini tortillas": {
+              "qty_per_person": 3,
+              "unit": "pièce(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsUu_vuUwMjvnob82lIg1O8rYy5l7cTfq1TPrUNWDb8HjytDy8nWcXPNo3A\u0026s",
+              "diet": [
+                  "Gluten",
+                  "Blé"
+              ]
+          },
+          "Salade": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdtriNHRfXWF1G4gqLQpVllHkEl7rZJP9LufCh6TDmh5yyXc1WM25tw0oK0A\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Moutarde": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpMcxGqf0S7knuI5tqfDMZLSeGUq6rBrgWSN8LI2kk8uYxMkKI9PePX-mM-rA\u0026s",
+              "diet": []
+          },
+          "Vinaigre de vin rouge ou de cidre": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxDuX83hCHKimfPAT8D8gLBFRIz3UI-VD0NfdMVv6TKHmTw7xQwXBQ_3Pvpw\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  },
+  {
+      "recipe": {
+          "title": "Salade rayonnante d'orzo crevettes au curry",
+          "description": "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette !Portez une casserole d'eau à ébullition et émiettez le cube de bouillon par-dessus. Faites-y cuire l'orzo 10-12 min.Rincez-le à l'eau froide dans une passoire, puis égouttez-le et égrainez-le.Ciselez finement l’échalote, l'ail et la menthe (voir CONSEIL).Coupez le radis en fines rondelles (ou en 4 si vous êtes plus de 2 à table).Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez la moitié en quartiers et pressez le jus de l'autre.Concassez les cacahuètes.Faites une vinaigrette en mélangeant un généreux filet d'huile d'olive et de vinaigre balsamique avec ½ cc de curry par personne (ça pique ! Dosez-le selon votre goût) et quelques gouttes de jus de citron dans un saladier.Épongez les crevettes avec un essuie-tout.Faites fondre le beurre dans une poêle à feu moyen-vif. Lorsqu’il mousse, faites-y revenir les crevettes, l’ail et l'échalote 3-5 min. Ajoutez ½ cc de curry par personne. Salez et poivrez. Faites revenir 1-2 min de plus.Réservez quelques radis et une pincée de menthe pour le dressage.Ajoutez l'orzo, les zestes de citron (selon votre goût), la menthe, les radis et le mélange chou-carotte au saladier avec la vinaigrette. Salez, poivrez et mélangez. Servez la salade dans des assiettes creuses. Placez les crevettes et les radis réservés par-dessus.Saupoudrez de cacahuètes et du reste de menthe. Présentez le reste des quartiers de citron à côté.",
+          "photo_url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/HF211202_R201_W03_FR_QFR16681734-5_MB_Main_high-925b23dc.jpg",
+          "prep_time": "25 minutes",
+          "meal_url": "https://www.hellofresh.fr/recipes/salade-rayonnante-dorzo-and-crevettes-au-curry-65d86d7613ff8a4fe7076b8d"
+      },
+      "ingredients": {
+          "Orzo": {
+              "qty_per_person": 75,
+              "unit": "gContient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBiKUWQ2MyuSpf2TTqi5qH2WRLs4bSCEP9_XlAfLNSUGYvRlaGf9qNFGIAQ\u0026s",
+              "diet": [
+                  "Blé",
+                  "Gluten"
+              ]
+          },
+          "Échalote": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb6VF1tqA8Dp9OaLMoDJ-PKtcgYBEfSEVVyi6BX5piCOXJTNOBxOa1gYpqCaI\u0026s",
+              "diet": []
+          },
+          "Gousse d'ail": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyG1lmOUFJPtVU8YAWSKBOBHZOJuNOq4SrDJqINz3w4As7z4AoW1ID9dapFw\u0026s",
+              "diet": []
+          },
+          "Menthe": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfOHZoo3X-zxK707zOaPDucvgOyNhz9CpFTuWrmfewPxy7JRqUu8GqALcBKz4\u0026s",
+              "diet": []
+          },
+          "Radis": {
+              "qty_per_person": 0.5,
+              "unit": "botte(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0VKxZM6UBSrGTZj2mKuDG9A3yRcGarKhZzzazxawVylbubJUODtRIaIFY9SI\u0026s",
+              "diet": []
+          },
+          "Citron": {
+              "qty_per_person": 0.5,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7r1HceiGuBPPn4h3aF86r45MX87u_cj5mEdr_G-wfI60XS-p3Z9WVLjrs1Mo\u0026s",
+              "diet": []
+          },
+          "Cacahuètes non salées": {
+              "qty_per_person": 0.5,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSozRLm4vI0i2EqmkXJ0u32eSKTzXnR14X1K8Eo-sHW3IXMbf3VmiA2nqbIQV0\u0026s",
+              "diet": [
+                  "Arachides"
+              ]
+          },
+          "Curry en poudre": {
+              "qty_per_person": 0.25,
+              "unit": "sachet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnUIU0YmOFt1VQs7TdXLConvBpV6uRe8_uMI-01AL8esvKEEbCFkxrkniJA\u0026s",
+              "diet": [
+                  "Moutarde",
+                  "Céleri"
+              ]
+          },
+          "Crevettes": {
+              "qty_per_person": 0.5,
+              "unit": "paquet(s)Contient",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5cjPP5vITd06Sd62qB2_BZ70wo0aMgrAcfFV59olPpsY4gPj1_RyPK9ftzI\u0026s",
+              "diet": [
+                  "Crustacés"
+              ]
+          },
+          "Mélange de carotte, chou rouge et blanc": {
+              "qty_per_person": 0.33,
+              "unit": "sachet(s)Peut",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIRMRh0wHhEDbN_TyUrDJTGuHgUiaLnlWXhn0wG67NrrHTL1Z5yZPLNmKrs0\u0026s",
+              "diet": [
+                  "Céleri"
+              ]
+          },
+          "Cube de bouillon de légumes": {
+              "qty_per_person": 0.25,
+              "unit": "pièce(s)",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJo6dB5OQphT6n5KivhNd4DzJG73CQTBOvs8gzUk_Ql6ueypH32_BLU0ml9SI\u0026s",
+              "diet": []
+          },
+          "Huile d'olive": {
+              "qty_per_person": 1,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRCd0T8lrgimIT0aJvZcQwEujtsQEA_SNpkn0_Jf33GEo6BWqzVRRLeI76Q\u0026s",
+              "diet": []
+          },
+          "Beurre": {
+              "qty_per_person": 0.5,
+              "unit": "cs",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
+              "diet": []
+          },
+          "Vinaigre balsamique noir": {
+              "qty_per_person": 0.5,
+              "unit": "cc",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDzedwhQ2etFCeUneQWJPS-D9kPZtWlQsAs4pcSErn8cy5dhJtsqglGLb1kg\u0026s",
+              "diet": []
+          },
+          "Poivre et sel": {
+              "qty_per_person": -1,
+              "unit": "selon le gout",
+              "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0ZSPadDE9oISMhtsJowS-vWwzuiqM1yB5MCx53AfI3UF1kXx8Wwql4bVSA\u0026s",
+              "diet": []
+          }
+      }
+  }
+]

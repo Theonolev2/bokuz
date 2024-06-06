@@ -1,0 +1,84 @@
+.mealplan_new{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8em;
+}
+
+.mealplan_new_title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: $my-main-green;
+}
+
+.mealplan_form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 15%;
+}
+
+.mealplan_form_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $my-ivory;
+  border-radius: $my-border-radius;
+  margin-bottom: 20px;
+  padding: 16px;
+  box-shadow: $my-box-shadow;
+
+  .hidden-number-field {
+    display: none;
+  }
+}
+
+.mealplan_form_label{
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: $my-main-green;
+  font-family: $headers-font;
+  text-align: center;
+}
+
+.mealplan_form_nb{
+  display: flex;
+  background-color: $my-yellow;
+  color: $my-main-green;
+  border-radius: $my-border-radius-pill;
+  font-family: $headers-font;
+  text-align: center;
+  align-items: center;
+}
+
+.mealplan_form_nb_icons{
+  font-size: 24px;
+  padding: 1em;
+}
+
+.mealplan_form_nb_qty{
+  font-size: 40px;
+  font-weight: bold;
+  background-color: $my-ivory;
+  color: $my-main-green;
+  font-family: $headers-font;
+  text-align: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.mealplan_form_diets{
+}
+
+.mealplan_form_button{
+  text-align: center;
+}

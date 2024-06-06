@@ -3,10 +3,9 @@
   @extend .btn-primary;
   border-radius: $my-border-radius-pill;
   color: $my-sand;
-  font-weight: bold;
   font-family: $headers-font;
-  font-size: 1.8rem;
-  width: 12rem;
-  height: 3rem;
+  font-size: 48px;
+  width: 70%;
+  height: 1.5em;
   line-height: center;
 }
