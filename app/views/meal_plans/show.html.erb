@@ -2,7 +2,7 @@
   <div class="cards">
     <% @meals.sort.each do |meal| %>
     <div class="card-meal">
-      <%= image_tag "meal_bidon.png", alt: meal.recipe.title %>
+      <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
 
       <div class="card-meal-body">
 
