@@ -1,4 +1,4 @@
-<div class="container p-4">
+<div class="container d-flex flex-column justify-content-between p-4">
   <div class="cards">
     <% @meals.sort.each do |meal| %>
     <div class="card-meal">
@@ -42,7 +42,7 @@
     </div>
     <% end %>
   </div>
-  <div>
-    <%= button_to "Créer ma liste de courses", {controller: "grocery_lists", action: "create", meal_plan_id: @meal_plan.id}, method: :post %>
+  <div class="grocery-btn-container d-flex justify-content-center align-items-center py-3">
+    <%= button_to "Créer ma liste de courses", {controller: "grocery_lists", action: "create", meal_plan_id: @meal_plan.id},  class: "button-grocery-form", method: :post %>
   </div>
 </div>

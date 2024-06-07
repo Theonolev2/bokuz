@@ -29,3 +29,26 @@
   font-size: 36px;
   padding: 8px 16px;
 }
+
+.button-grocery-form {
+  @extend .btn;
+  @extend .btn-primary;
+  border-radius: $my-border-radius-pill;
+  color: $my-sand;
+  font-family: $headers-font;
+  font-size: 24px;
+  width: 100%;
+  height: 2em;
+  line-height: center;
+  margin: 0 auto;
+}
+
+.grocery-btn-container {
+  position: sticky !important;
+  bottom: 24px;
+}
+
+.button_to{
+  display: flex;
+  justify-content: center;
+}
