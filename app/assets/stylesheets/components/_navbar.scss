@@ -1,6 +1,9 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: $my-sand;
+  border-bottom: 0.5px solid $my-main-green;
+  margin-bottom: 20px;
+  position: sticky-top;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -8,5 +11,21 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 200px;
+}
+
+.navbar-toggler-icon {
+  color: $my-main-green;
+}
+
+.custom-dropdown-menu {
+  background: $my-dark-green;
+  border-radius: $my-border-radius;
+  border: 0px solid $my-main-green;
+  box-shadow: $my-box-shadow;
+  margin: 8px;
+
+  .custom-dropdown-item {
+    color: $my-sand;
+  }
 }
