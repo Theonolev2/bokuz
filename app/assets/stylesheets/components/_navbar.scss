@@ -11,9 +11,21 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 200px;
 }
 
-.logo {
-  width: 250px;
+.navbar-toggler-icon {
+  color: $my-main-green;
+}
+
+.custom-dropdown-menu {
+  background: $my-dark-green;
+  border-radius: $my-border-radius;
+  border: 0px solid $my-main-green;
+  box-shadow: $my-box-shadow;
+  margin: 8px;
+
+  .custom-dropdown-item {
+    color: $my-sand;
+  }
 }
