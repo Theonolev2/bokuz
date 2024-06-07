@@ -3,16 +3,13 @@ class GroceryItemsController < ApplicationController
   end
 
   def mark_as_bought
-    # raise
-    p '=================================================='
     @grocery_item = GroceryItem.find(params[:id])
     @grocery_item.update(bought: !@grocery_item.bought)
 
     respond_to do |format|
-      format.html
-      format.json { render json: { recipes: @recipes } }
+      format.html { redirect_to meal_plan_grocery_lists_path(@grocery_item.meal_plan) }
+      format.json { render json: { partial: render_to_string(partial: "grocery_lists/item", locals: { item: @grocery_item }, formats: :html) } }
     end
-    redirect_to meal_plan_grocery_lists_path(@grocery_item.meal_plan)
   end
 
   private

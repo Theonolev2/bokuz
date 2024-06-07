@@ -1,6 +1,6 @@
 import { Application } from "@hotwired/stimulus"
 
-import GroceryItemsController from './grocery_items_controller.js'
+// import GroceryItemsController from './grocery_items_controller.js'
 
 const application = Application.start()
 
@@ -8,6 +8,6 @@ const application = Application.start()
 application.debug = false
 window.Stimulus   = application
 
-Stimulus.register('grocery-items', GroceryItemsController)
+// Stimulus.register('grocery-items', GroceryItemsController)
 
 export { application }

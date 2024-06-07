@@ -1,6 +1,6 @@
 class MealPlansController < ApplicationController
   def show
-    # @meals = MealPlan.find(params[:id]).meals
+    @meal_plan = MealPlan.find(params[:id])
     @meals = Meal.includes(:meal_plan).where(meal_plan: { id: params[:id] })
   end
 

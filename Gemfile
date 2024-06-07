@@ -57,8 +57,6 @@ gem 'awesome_print', '~> 1.8'
 
 gem "rspec-rails"
 gem "webdrivers"
-gem "capybara"
-gem "selenium-webdriver"
 
 group :development, :test do
   gem "dotenv-rails"
