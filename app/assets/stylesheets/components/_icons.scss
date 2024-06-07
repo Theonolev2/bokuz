@@ -70,3 +70,9 @@
   @extend .fa-circle-check;
   color: $my-yellow;
 }
+
+.my-icon-burger-menu {
+  @extend .fa-solid;
+  @extend .fa-bars;
+  color: $my-main-green;
+}
