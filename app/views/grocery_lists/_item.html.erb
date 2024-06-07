@@ -1,15 +1,13 @@
-<ul class="list-group list-group-horizontal"
+<ul class="list-group-ingredient-content"
   data-controller="grocery-items"
   data-grocery-items-id-value="<%= item.id%>"
   >
-  <li class="list-group-item"><%= item.ingredient.name%></li>
-  <li class="list-group-item"><%= item.qty_to_buy%></li>
-  <li class="list-group-item" data-action="click->grocery-items#markAsBought">
-    <%# <i class="my-icon-not-bought" %>
-    <%# data-grocery-items-target="bought" %>
-    <%# data-action="click->grocery-items#markAsBought" %>
-    <%# > %>
-    <%# </i> %>
+  <li class="list-group-ingredient-content-item">
+    <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
+  </li>
+  <li class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name%></p></li>
+  <li class="list-group-ingredient-content-item"><%= item.qty_to_buy%></li>
+  <li class="list-group-ingredient-content-item" data-action="click->grocery-items#markAsBought">
     <% if item.bought %>
       <i class="my-icon-bought" ></i>
     <% else %>
