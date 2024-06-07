@@ -22,6 +22,7 @@ puts "DB cleaning done"
 puts "creating user..."
 User.create!(email: "test@test.com", password: "111111")
 User.create!(email: "example@example.com", password: "111111")
+User.create!(email: "philippe@example.com", password: "111111")
 puts "user creation done\n\n"
 
 puts "creating diets..."
