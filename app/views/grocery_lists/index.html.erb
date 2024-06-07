@@ -1,11 +1,14 @@
-<div class="container">
-  <div class="cards">
-    <ul class="list-group list-group-flush">
-      <% @grocery_lists.each do |grocery_item| %>
-        <li class="list-group-item">
-          <%= render partial: "item", locals: {item: grocery_item}%>
-        </li>
-      <%end%>
-    </ul>
-  </div>
+<div class="container p-4">
+    <figure>
+      <figcaption>
+        <h2>Ingrédients</h2>
+        </figcaption>
+      <ul class="list-group-ingredient ">
+        <% @grocery_lists.each do |grocery_item| %>
+          <li class="list-group-ingredient-item">
+            <%= render partial: "item", locals: {item: grocery_item}%>
+          </li>
+        <%end%>
+      </ul>
+    </figure>
 </div>

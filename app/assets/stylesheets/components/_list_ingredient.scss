@@ -1,0 +1,59 @@
+.list-group-ingredient {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.list-group-ingredient-item {
+
+  text-decoration: none;
+  color: $my-dark-gray;
+  font-size: 1rem;
+  display: block;
+}
+
+.list-group-ingredient-content {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 0.5rem;
+  // grid-auto-flow: column;
+  // grid-auto-rows: minmax(100px, auto);
+  justify-content: space-between;
+  border: none;
+  padding: 0;
+}
+
+.list-group-ingredient-content-item {
+
+  text-decoration: none;
+  color: $my-dark-gray;
+  font-size: 1rem;
+  display: block;
+  align-content: flex-start;
+  // justify-self: left;
+  p {
+    width: 100px;
+  }
+
+}
+
+.list-group-ingredient-content-item-name {
+
+  text-decoration: none;
+  color: $my-dark-gray;
+  font-size: 1rem;
+  display: block;
+  align-content: flex-start;
+  // width: 60%;
+  // justify-self: left;
+
+}
+
+.list-group-ingredient-content-item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
