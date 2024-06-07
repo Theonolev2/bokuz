@@ -1,0 +1,8 @@
+<div class="container d-flex flex-column justify-content-between p-4">
+  <div class="card-meal-image" style="width: 100%">
+    <%= image_tag @meal.recipe.photo_url, alt: @meal.recipe.title %>
+  </div>
+  <div class="card-meal-infos">
+    <%= @meal.recipe.description %>
+  </div>
+</div>
