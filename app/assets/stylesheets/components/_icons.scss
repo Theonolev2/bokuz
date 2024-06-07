@@ -70,3 +70,33 @@
   @extend .fa-circle-check;
   color: $my-yellow;
 }
+
+.my-icon-burger-menu {
+  @extend .fa-solid;
+  @extend .fa-bars;
+  color: $my-main-green;
+}
+
+.my-icon-home {
+  @extend .fa-solid;
+  @extend .fa-home;
+  color: $my-main-green;
+}
+
+.my-icon-menu {
+  @extend .fa-solid;
+  @extend .fa-burger;
+  color: $my-main-green;
+}
+
+.my-icon-grocery-list {
+  @extend .fa-solid;
+  @extend .fa-basket-shopping;
+  color: $my-main-green;
+}
+
+.my-icon-map {
+  @extend .fa-solid;
+  @extend .fa-location-dot;
+  color: $my-main-green;
+}
