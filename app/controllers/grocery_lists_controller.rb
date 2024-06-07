@@ -25,6 +25,6 @@ class GroceryListsController < ApplicationController
   end
 
   def mapping
-    @variable = "toto"
+    @variable = "MAP A VENIR"
   end
 end

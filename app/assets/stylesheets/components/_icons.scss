@@ -100,3 +100,9 @@
   @extend .fa-location-dot;
   color: $my-main-green;
 }
+
+.my-icon-user {
+  @extend .fa-solid;
+  @extend .fa-user;
+  color: $my-main-green;
+}
