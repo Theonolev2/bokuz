@@ -5,8 +5,8 @@
   <li class="list-group-ingredient-content-item">
     <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
   </li>
-  <li class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name%></p></li>
-  <li class="list-group-ingredient-content-item"><%= item.qty_to_buy%></li>
+  <li class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name.truncate(30)%></p></li>
+  <li class="list-group-ingredient-content-item"><%= item.qty_to_buy.truncate(4)%></li>
   <li class="list-group-ingredient-content-item" data-action="click->grocery-items#markAsBought">
     <% if item.bought %>
       <i class="my-icon-bought" ></i>
