@@ -1,12 +1,13 @@
 <div class="mealplan_new">
 
-  <div class="mealplan_new_title">
+  <div class="mealplan_new_title d-flex flex-column align-items-center p-4 text-center">
     <h1>Bonjour
       <% if user_signed_in?  %>
         <%= current_user.email.split("@").first.capitalize %>
       <% end %>
       !
     </h1>
+    <h2>Planifie tes repas de la semaine en 3 clicks...</h2>
   </div>
 
   <div class="mealplan_form">
