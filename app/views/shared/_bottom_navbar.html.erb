@@ -2,13 +2,23 @@
   <%= link_to new_meal_plan_path do %>
     <i class="my-icon-home"></i>
   <% end %>
-  <%= link_to meal_plan_path(current_user.meal_plans.last) do %>
-    <i class="my-icon-menu"></i>
+
+  <% if user_signed_in?  %>
+    <%= link_to meal_plan_path(current_user.meal_plans.last) do %>
+      <i class="my-icon-menu"></i>
+    <% end %>
+    <%= link_to meal_plan_grocery_lists_path(current_user.meal_plans.last) do %>
+      <i class="my-icon-grocery-list"></i>
+    <% end %>
+  <% else %>
+    <%= link_to meal_plan_path(MealPlan.all.last) do %>
+      <i class="my-icon-menu"></i>
+    <% end %>
+    <%= link_to meal_plan_grocery_lists_path(MealPlan.all.last) do %>
+      <i class="my-icon-grocery-list"></i>
+    <% end %>
   <% end %>
 
-  <%= link_to meal_plan_grocery_lists_path(current_user.meal_plans.last) do %>
-    <i class="my-icon-grocery-list"></i>
-  <% end %>
   <%= link_to map_path do %>
     <i class="my-icon-map"></i>
   <% end %>
