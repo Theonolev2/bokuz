@@ -34,7 +34,7 @@ class MealsController < ApplicationController
 
   def destroy
     @meal.destroy
-    redirect_to meal_plan_path(@meal_plan), status: :see_other
+    render json: { status: "Meal deleted", valid: true }
   end
 
   private
