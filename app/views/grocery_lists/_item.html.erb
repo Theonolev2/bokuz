@@ -11,6 +11,6 @@
       <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
     </div>
     <div class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name.truncate(60)%></p></div>
-    <div class="list-group-ingredient-content-item"><%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le gout" %> <%= item.ingredient.unit %></div>
+    <div class="list-group-ingredient-content-item"><%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le goût" %> <%= item.ingredient.unit %></div>
 </div>
 </li>
