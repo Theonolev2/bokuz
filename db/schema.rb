@@ -75,6 +75,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_06_10_103254) do
     t.bigint "ingredient_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "unit"
     t.index ["ingredient_id"], name: "index_recipe_ingredients_on_ingredient_id"
     t.index ["recipe_id"], name: "index_recipe_ingredients_on_recipe_id"
   end
