@@ -797,9 +797,7 @@
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPUwbgG-Emnvzt8_nmJ_nTIYUDbt9L-YY_6pkbTXvwCzXPA8OsFYZeRgETEw\u0026s",
               "diet": [
                   "not_vegetarian",
-                  "not_vegan",
-                  "gluten",
-                  "lactose"
+                  "not_vegan"
               ]
           },
           "Sauce soja": {
@@ -820,7 +818,9 @@
               "qty_per_person": 1,
               "unit": "cc",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzC2mXMUmYNYWp3N_pK_JFVjzvYIjyqoOy5ccYwcScAgLeM3vroUQGShjPwA\u0026s",
-              "diet": []
+              "diet": [
+                "glucose"
+              ]
           },
           "Vinaigre balsamique blanc ou de riz": {
               "qty_per_person": 1,
@@ -887,7 +887,10 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeEUm5gTptlUtp3dXcx7sP4iP2qkJvgaK7a2CcmPAlYqXQGAJDvVSFBAPsQ\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Mélange d'épices du Moyen-Orient": {
               "qty_per_person": 0.33,
@@ -999,7 +1002,8 @@
               "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7eoVkU2nRXq7zLbuKzpgfC2fXpuwm6EyAIOtSEMAWNWiyrFznvrUApEO9KK0\u0026s",
               "diet": [
-                  "lactose"
+                  "not_vegetarian",
+                  "not_vegan"
               ]
           },
           "Épices mexicaines": {
@@ -1102,7 +1106,8 @@
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL28izVDGO1JJdYmBOisAgfrSh3RjylFsZ6-ZGWSHMki3gKUuYeTBkVq6wW1g\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Huile d'olive": {
@@ -1187,7 +1192,8 @@
               "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJesdQZtX3JfiUvCcgi_9FEIOiv8Z3fZOAsmv5QZ0QGwsFFEeE-fF2zfmG9OU\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Fromage râpé à l'italienne": {
@@ -1195,7 +1201,8 @@
               "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQd79f0Oix0owSUe-hXy3LpI0xrG96KXp1BqJVnKBnh0Xr_QXPBgTUt46L7A\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Filet de saumon avec peau": {
@@ -1302,7 +1309,8 @@
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7HmQvIuiXeP9dVSupzHoxufz14Looq_EfX-JjNUnaLE4v-3Ws54PsmWDRA\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Labneh": {
@@ -1310,7 +1318,6 @@
               "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-6rfpXcGslzSC-Nkg0f-u0ROpn5-XZYDAl_iczsvugztwwW9aK10vFuH3g\u0026s",
               "diet": [
-                  "not_vegetarian",
                   "not_vegan",
                   "lactose"
               ]
@@ -1354,7 +1361,10 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeEUm5gTptlUtp3dXcx7sP4iP2qkJvgaK7a2CcmPAlYqXQGAJDvVSFBAPsQ\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Chair de tomates": {
               "qty_per_person": 0.5,
@@ -1373,7 +1383,8 @@
               "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38K5Hh9oTTFzFf9L4hq97EdpQr4e1VogCCd2zK7BfgVxqK53deuZV94OYWsg\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Mini tortillas": {
