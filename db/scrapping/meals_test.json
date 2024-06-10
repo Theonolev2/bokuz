@@ -87,7 +87,7 @@
               "qty_per_person": 0.5,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0t2sjX0C-Dqmc68tN6neUZWB2tRt9k0g17f1tYqNwiE8Kkr4FsW3r8pZvA\u0026s",
-              "diet": []
+              "diet": ["gluten"]
           },
           "Poivre et sel": {
               "qty_per_person": -1,
@@ -208,9 +208,7 @@
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxuMfr9BoobpxmlGiQ5fgMS3evDw8CqccoVoPq2f0I7Xd3jpBtI8MQC_F6wA\u0026s",
               "diet": [
                   "not_vegetarian",
-                  "not_vegan",
-                  "lactose",
-                  "gluten"
+                  "not_vegan"
               ]
           },
           "Mangue": {
@@ -396,15 +394,18 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHTx7fwqBVvSPVvW1c0nPQf0LxCH3X0VcuaPYxd_JHmh2eQ-DSFQid8XNTLpk\u0026s",
-              "diet": []
+              "diet": [
+                "not_vegetarian",
+                "not_vegan"
+              ]
           },
           "Sauté de veau": {
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_h168nSLov95M13C7xvUgj4kTOZgtw-Zlrklo8Vzygqx8OXHCZbMz04I36s\u0026s",
               "diet": [
-                  "gluten",
-                  "lactose"
+                "not_vegetarian",
+                "not_vegan"
               ]
           },
           "Feuille de laurier": {
@@ -473,7 +474,7 @@
               "qty_per_person": 1,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0t2sjX0C-Dqmc68tN6neUZWB2tRt9k0g17f1tYqNwiE8Kkr4FsW3r8pZvA\u0026s",
-              "diet": []
+              "diet": ["gluten"]
           },
           "Poivre et sel": {
               "qty_per_person": -1,
@@ -563,7 +564,6 @@
               "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64MTaEV843URbeSAP36qjHKT3_ZScL_6iz0OS8lUBOQlnx5i4LTpHPuRv2w\u0026s",
               "diet": [
-                  "not_vegetarian",
                   "not_vegan"
               ]
           },
@@ -600,7 +600,10 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR689IqDrSb_8CAfyqEjDEgeYOJIEVg5PYsd6J1BnZ6BERxEUUrZFmXpyf35Nc\u0026s",
-              "diet": []
+              "diet": [
+                "not_vegetarian",
+                "not_vegan"
+              ]
           },
           "Poireau": {
               "qty_per_person": 0.5,
