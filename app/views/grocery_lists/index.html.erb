@@ -1,16 +1,29 @@
-<div class="container p-4">
-    <figure>
-      <figcaption>
-        <h2>Ingrédients</h2>
-        </figcaption>
-      <ul class="list-group-ingredient ">
-        <% @grocery_lists.each do |grocery_item| %>
-          <li class="list-group-ingredient-item">
-            <%= render partial: "item", locals: {item: grocery_item}%>
-          </li>
-        <%end%>
-      </ul>
-    </figure>
+<div class="container">
+    <%# <figure> %>
+      <%# <figcaption> %>
+      <div class="row">
+        <div class="col-10">
+          <h3>Ingrédients</h2>
+        </div>
+        <div class="col-2">
+          <div class="qty">
+            <h3>Qty</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="list-group-ingredient ">
+            <% @grocery_lists.each do |grocery_item| %>
+              <li class="list-group-ingredient-item">
+                <%= render partial: "item", locals: {item: grocery_item}%>
+              </li>
+            <%end%>
+          </ul>
+        </div>
+      </div>
+        <%# </figcaption> %>
+    <%# </figure> %>
 </div>
 <div class="d-flex justify-content-center">
   <%= render "shared/bottom_navbar" %>
