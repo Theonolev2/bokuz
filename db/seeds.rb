@@ -53,9 +53,13 @@ puts "diets creation done\n\n"
 puts "populating ingredients..."
 json.each do |elem|
   elem["ingredients"].each do |ingredient|
-    # ap ingredient.first
     if Ingredient.find_by(name: ingredient.first).nil?
       Ingredient.create!(name: ingredient.first, photo_url: ingredient[1]["photo_url"], unit: ingredient[1]["unit"])
+      ingredient[1]["diet"].each do |diet|
+        diet_obj = Diet.find_by(name: diet)
+        ingredient_obj = Ingredient.find_by(name: ingredient.first)
+        ingredient_obj.diets << diet_obj
+      end
     end
   end
 end
