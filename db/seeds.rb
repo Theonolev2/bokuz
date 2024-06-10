@@ -21,7 +21,6 @@ puts "DB cleaning done"
 
 puts "creating user..."
 User.create!(email: "test@test.com", password: "111111")
-User.create!(email: "example@example.com", password: "111111")
 User.create!(email: "tocard@example.com", password: "111111")
 puts "user creation done\n\n"
 
@@ -37,7 +36,7 @@ json.each do |elem|
   elem["ingredients"].each do |ingredient|
     # ap ingredient.first
     if Ingredient.find_by(name: ingredient.first).nil?
-      Ingredient.create!(name: ingredient.first, photo_url: ingredient[1]["photo_url"])
+      Ingredient.create!(name: ingredient.first, photo_url: ingredient[1]["photo_url"], unit: ingredient[1]["unit"])
     end
   end
 end
@@ -57,7 +56,7 @@ json.each do |elem|
   json_ingredients = elem["ingredients"]
   json_ingredients.each do |ingredient|
     ingredient_obj = Ingredient.find_by(name: ingredient[0])
-    recipe_ingredient_join = RecipeIngredient.create!(ingredient: ingredient_obj, recipe: recipe_obj, qty_per_person: ingredient[1]["qty_per_person"], unit: ingredient[1]["unit"])
+    recipe_ingredient_join = RecipeIngredient.create!(ingredient: ingredient_obj, recipe: recipe_obj, qty_per_person: ingredient[1]["qty_per_person"])
   end
 end
 puts "recipes populating done\n\n"

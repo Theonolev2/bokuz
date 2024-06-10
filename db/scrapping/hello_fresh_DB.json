@@ -40,7 +40,7 @@
           },
           "Curry en poudre": {
               "qty_per_person": 0.33,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnUIU0YmOFt1VQs7TdXLConvBpV6uRe8_uMI-01AL8esvKEEbCFkxrkniJA\u0026s",
               "diet": [
                   "Moutarde",
@@ -49,7 +49,7 @@
           },
           "Crème liquide": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Contient",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL28izVDGO1JJdYmBOisAgfrSh3RjylFsZ6-ZGWSHMki3gKUuYeTBkVq6wW1g\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -57,7 +57,7 @@
           },
           "Filet de cabillaud sans peau": {
               "qty_per_person": 1,
-              "unit": "pièce(s)Contient",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSakpLROUzbtuJPsiDAG8KSGXVv_vMYj9gDZwDXjUSDy9ZyZMZqJ2zQ6mbDcII\u0026s",
               "diet": [
                   "Poisson"
@@ -124,7 +124,7 @@
           },
           "Filet de merlu avec peau": {
               "qty_per_person": 125,
-              "unit": "gContient",
+              "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvVbWHaq-L2ysiLNEewOjhVLg5Tkev-JRyHT-BVOosFC2kX0JmJo8xOVpBU8\u0026s",
               "diet": [
                   "Poisson"
@@ -147,7 +147,7 @@
           },
           "Pesto vert alla genovese": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMgzdUnkpLcgmzC67jiP1HOUsofgi4TnMidw4AcZGfYE6uodBSzJnAplDhLQ\u0026s",
               "diet": [
                   "Noix de cajou",
@@ -225,7 +225,7 @@
           },
           "Curry en poudre": {
               "qty_per_person": 0.33,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnUIU0YmOFt1VQs7TdXLConvBpV6uRe8_uMI-01AL8esvKEEbCFkxrkniJA\u0026s",
               "diet": [
                   "Moutarde",
@@ -287,7 +287,7 @@
           },
           "Crevettes": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Contient",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5cjPP5vITd06Sd62qB2_BZ70wo0aMgrAcfFV59olPpsY4gPj1_RyPK9ftzI\u0026s",
               "diet": [
                   "Crustacés"
@@ -301,7 +301,7 @@
           },
           "Orzo": {
               "qty_per_person": 75,
-              "unit": "gContient",
+              "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBiKUWQ2MyuSpf2TTqi5qH2WRLs4bSCEP9_XlAfLNSUGYvRlaGf9qNFGIAQ\u0026s",
               "diet": [
                   "Blé",
@@ -316,7 +316,7 @@
           },
           "Copeaux de grana padano": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTr8X3cSwVfQdomVpJ2S4KDaskfPIuIr_bBADUm5FFCXlpzzkpg13o2UzYyg\u0026s",
               "diet": [
                   "Lait (contient du lactose)",
@@ -429,7 +429,7 @@
           },
           "Petit pain": {
               "qty_per_person": 1,
-              "unit": "pièce(s)Contient",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViuxBVutCfwpTLTyu3Px11pxBXykZke1PUPK9IJxm-wuZkFNLLNx1j7iVjQ\u0026s",
               "diet": [
                   "Gluten",
@@ -521,7 +521,7 @@
           },
           "Crevettes": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Contient",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5cjPP5vITd06Sd62qB2_BZ70wo0aMgrAcfFV59olPpsY4gPj1_RyPK9ftzI\u0026s",
               "diet": [
                   "Crustacés"
@@ -535,7 +535,7 @@
           },
           "Huile de sésame": {
               "qty_per_person": 1,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAY_PuEYf_61S8AhdlU6YTYydOuERW3_WbAlki0Ec2thP-GZoAQSXoRLltcd8\u0026s",
               "diet": [
                   "Graines de sésame"
@@ -543,7 +543,7 @@
           },
           "Sauce soja": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtLfN6LKnxax_4WuMrJQkn4A6I0bJRB-CvC0KsuH_pOywwutWcZUFbLfrG90\u0026s",
               "diet": [
                   "Soja",
@@ -619,7 +619,7 @@
           },
           "Parmigiano Reggiano AOP": {
               "qty_per_person": 1,
-              "unit": "pièce(s)Contient",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmBZrQzmAfjaSaxscHoEFbBY3z7Ngyfr8yuQdquDaNm0OHS4akoKi-BoP4X2c\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -662,7 +662,7 @@
       "ingredients": {
           "Couscous perlé": {
               "qty_per_person": 75,
-              "unit": "gContient",
+              "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_nFUBf3s_TyIikWCiqo9coadiNmxVZR6DdF_Qf1CEQPX1-8WfiA16hbx4bg\u0026s",
               "diet": [
                   "Gluten",
@@ -677,7 +677,7 @@
           },
           "Fromage de chèvre frais": {
               "qty_per_person": 0.5,
-              "unit": "pièce(s)Contient",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXUh9fnKQeunSP7WMis7bXHnxaAAsaZ8W5Eg_ceJx485e-GsMFAsmfJOiXifA\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -799,7 +799,7 @@
           },
           "Sauce soja": {
               "qty_per_person": 1,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtLfN6LKnxax_4WuMrJQkn4A6I0bJRB-CvC0KsuH_pOywwutWcZUFbLfrG90\u0026s",
               "diet": [
                   "Soja",
@@ -808,7 +808,7 @@
           },
           "Graines de sésame": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH7TwjeH1B7y-krxwumbMnbuhtIlJwn3M7h3z627kKsTZTV-rLSjJ2jj9ljA\u0026s",
               "diet": [
                   "Graines de sésame"
@@ -875,7 +875,7 @@
           },
           "Conchiglie": {
               "qty_per_person": 90,
-              "unit": "gContient",
+              "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD__jA8gwhbLNzyvL0L7gj8KUmdYmjEKCuyUYyqHfUODvy90vSQ8QXIvijaQ\u0026s",
               "diet": [
                   "Blé",
@@ -896,7 +896,7 @@
           },
           "Yaourt à la grecque": {
               "qty_per_person": 0.5,
-              "unit": "pot(s)Contient",
+              "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjb40a_oygkIDZiaPDAcf-RXVUr93MxRZzbAtLLm_v46WUBW46UoNAE_KA0-k\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -972,7 +972,7 @@
           },
           "Orzo": {
               "qty_per_person": 75,
-              "unit": "gContient",
+              "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBiKUWQ2MyuSpf2TTqi5qH2WRLs4bSCEP9_XlAfLNSUGYvRlaGf9qNFGIAQ\u0026s",
               "diet": [
                   "Blé",
@@ -993,7 +993,7 @@
           },
           "Dés de chorizo": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7eoVkU2nRXq7zLbuKzpgfC2fXpuwm6EyAIOtSEMAWNWiyrFznvrUApEO9KK0\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -1093,7 +1093,7 @@
           },
           "Crème liquide": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Contient",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL28izVDGO1JJdYmBOisAgfrSh3RjylFsZ6-ZGWSHMki3gKUuYeTBkVq6wW1g\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -1172,7 +1172,7 @@
           },
           "Mascarpone": {
               "qty_per_person": 0.5,
-              "unit": "pot(s)Contient",
+              "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJesdQZtX3JfiUvCcgi_9FEIOiv8Z3fZOAsmv5QZ0QGwsFFEeE-fF2zfmG9OU\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -1180,7 +1180,7 @@
           },
           "Fromage râpé à l'italienne": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQd79f0Oix0owSUe-hXy3LpI0xrG96KXp1BqJVnKBnh0Xr_QXPBgTUt46L7A\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -1188,7 +1188,7 @@
           },
           "Filet de saumon avec peau": {
               "qty_per_person": 1,
-              "unit": "pièce(s)Contient",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1KM-AODAWJFJsuLp5wKueVuULM3IWWfiI5CzzyFE6NX8U1iXE90G2P-aDQ\u0026s",
               "diet": [
                   "Poisson"
@@ -1285,7 +1285,7 @@
           },
           "Fromage à la grecque": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Contient",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7HmQvIuiXeP9dVSupzHoxufz14Looq_EfX-JjNUnaLE4v-3Ws54PsmWDRA\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -1293,7 +1293,7 @@
           },
           "Labneh": {
               "qty_per_person": 0.5,
-              "unit": "pot(s)Contient",
+              "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-6rfpXcGslzSC-Nkg0f-u0ROpn5-XZYDAl_iczsvugztwwW9aK10vFuH3g\u0026s",
               "diet": [
                   "Œuf",
@@ -1355,7 +1355,7 @@
           },
           "Cheddar râpé": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38K5Hh9oTTFzFf9L4hq97EdpQr4e1VogCCd2zK7BfgVxqK53deuZV94OYWsg\u0026s",
               "diet": [
                   "Lait (contient du lactose)"
@@ -1363,7 +1363,7 @@
           },
           "Mini tortillas": {
               "qty_per_person": 3,
-              "unit": "pièce(s)Contient",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgsUu_vuUwMjvnob82lIg1O8rYy5l7cTfq1TPrUNWDb8HjytDy8nWcXPNo3A\u0026s",
               "diet": [
                   "Gluten",
@@ -1413,7 +1413,7 @@
       "ingredients": {
           "Orzo": {
               "qty_per_person": 75,
-              "unit": "gContient",
+              "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStBiKUWQ2MyuSpf2TTqi5qH2WRLs4bSCEP9_XlAfLNSUGYvRlaGf9qNFGIAQ\u0026s",
               "diet": [
                   "Blé",
@@ -1452,7 +1452,7 @@
           },
           "Cacahuètes non salées": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSozRLm4vI0i2EqmkXJ0u32eSKTzXnR14X1K8Eo-sHW3IXMbf3VmiA2nqbIQV0\u0026s",
               "diet": [
                   "Arachides"
@@ -1460,7 +1460,7 @@
           },
           "Curry en poudre": {
               "qty_per_person": 0.25,
-              "unit": "sachet(s)Contient",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVnUIU0YmOFt1VQs7TdXLConvBpV6uRe8_uMI-01AL8esvKEEbCFkxrkniJA\u0026s",
               "diet": [
                   "Moutarde",
@@ -1469,7 +1469,7 @@
           },
           "Crevettes": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Contient",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5cjPP5vITd06Sd62qB2_BZ70wo0aMgrAcfFV59olPpsY4gPj1_RyPK9ftzI\u0026s",
               "diet": [
                   "Crustacés"
