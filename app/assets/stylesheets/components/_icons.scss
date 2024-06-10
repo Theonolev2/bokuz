@@ -71,6 +71,8 @@
   color: $my-yellow;
 }
 
+// Icons for navigation (used in the navbars & menus of the app)
+
 .my-icon-burger-menu {
   @extend .fa-solid;
   @extend .fa-bars;
@@ -107,46 +109,13 @@
   color: $my-main-green;
 }
 
-.my-icon-gluten-free {
-  svg {
-    width: 50px;
-    height: 50px;
-  }
-  path {
-    fill: $my-main-green;
-  }
-}
 
-.my-icon-sugar-free {
-  svg {
-    width: 50px;
-    height: 50px;
-  }
-  g {
-    // fill: $my-main-green;
-    stroke: $my-red;
-  }
-}
-
-.my-icon-lactose-free {
-  svg {
-    width: 50px;
-    height: 50px;
-  }
-  g {
-    // fill: $my-main-green;
-    stroke: $my-red;
-  }
-}
+// Icons for diets (used in the search form for new meal plans)
 
 .my-icon-vegetarian {
   svg {
     width: 50px;
     height: 50px;
-  }
-  g {
-    // fill: $my-main-green;
-    stroke: $my-red;
   }
 }
 
@@ -155,20 +124,19 @@
     width: 50px;
     height: 50px;
   }
-  g {
-    // fill: $my-main-green;
-    stroke: $my-red;
-  }
 }
 
-.my-icon-nut-free {
+.my-icon-lactose-free {
   svg {
     width: 50px;
     height: 50px;
   }
-  g {
-    // fill: $my-main-green;
-    stroke: $my-red;
+}
+
+.my-icon-gluten-free {
+  svg {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -177,9 +145,19 @@
     width: 50px;
     height: 50px;
   }
-  path {
-    // fill: $my-main-green;
-    stroke: $my-main-green;
+}
+
+.my-icon-sugar-free {
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.my-icon-nut-free {
+  svg {
+    width: 50px;
+    height: 50px;
   }
 }
 
@@ -187,8 +165,5 @@
   svg {
     width: 50px;
     height: 50px;
-  }
-  path {
-    fill: $my-main-green;
   }
 }
