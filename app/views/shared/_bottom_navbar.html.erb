@@ -3,7 +3,7 @@
     <i class="my-icon-home"></i>
   <% end %>
 
-  <% if user_signed_in?  %>
+  <% if user_signed_in? && current_user.meal_plans.any? %>
     <%= link_to meal_plan_path(current_user.meal_plans.last) do %>
       <i class="my-icon-menu"></i>
     <% end %>
@@ -11,10 +11,10 @@
       <i class="my-icon-grocery-list"></i>
     <% end %>
   <% else %>
-    <%= link_to meal_plan_path(MealPlan.all.last) do %>
+    <%= link_to meal_plans_empty_path do %>
       <i class="my-icon-menu"></i>
     <% end %>
-    <%= link_to meal_plan_grocery_lists_path(MealPlan.all.last) do %>
+    <%= link_to meal_plans_empty_path do %>
       <i class="my-icon-grocery-list"></i>
     <% end %>
   <% end %>

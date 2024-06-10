@@ -32,6 +32,9 @@ class MealPlansController < ApplicationController
     end
   end
 
+  def empty
+  end
+
   private
 
   def sampling_and_filling(nb_meals, filtered_recipes)
