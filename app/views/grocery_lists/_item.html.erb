@@ -1,17 +1,16 @@
-<ul class="list-group-ingredient-content"
-  data-controller="grocery-items"
-  data-grocery-items-id-value="<%= item.id%>"
-  >
-  <li class="list-group-ingredient-content-item" data-action="click->grocery-items#markAsBought">
-    <% if item.bought %>
-      <i class="my-icon-bought" ></i>
-    <% else %>
-      <i class="my-icon-not-bought"></i>
-    <%end%>
-  </li>
-  <li class="list-group-ingredient-content-item">
-    <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
-  </li>
-  <li class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name.truncate(60)%></p></li>
-  <li class="list-group-ingredient-content-item"><%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le gout" %> <%= item.ingredient.unit %></li>
-</ul>
+ <li class="list-group-ingredient-item" data-action="click->grocery-items#markAsBought" data-id="<%= item.id%>">
+  <div class="list-group-ingredient-content">
+    <div class="list-group-ingredient-content-item" >
+      <% if item.bought %>
+        <i class="my-icon-bought" ></i>
+      <% else %>
+        <i class="my-icon-not-bought"></i>
+      <%end%>
+    </div>
+    <div class="list-group-ingredient-content-item">
+      <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
+    </div>
+    <div class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name.truncate(60)%></p></div>
+    <div class="list-group-ingredient-content-item"><%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le gout" %> <%= item.ingredient.unit %></div>
+</div>
+</li>

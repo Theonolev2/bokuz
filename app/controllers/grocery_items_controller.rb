@@ -8,7 +8,14 @@ class GroceryItemsController < ApplicationController
 
     respond_to do |format|
       format.html { redirect_to meal_plan_grocery_lists_path(@grocery_item.meal_plan) }
-      format.json { render json: { partial: render_to_string(partial: "grocery_lists/item", locals: { item: @grocery_item }, formats: :html) } }
+      format.json { render json: {
+        partial: render_to_string(
+          partial: "grocery_lists/item",
+          locals: { item: @grocery_item },
+          formats: :html
+          )
+        }
+      }
     end
   end
 
