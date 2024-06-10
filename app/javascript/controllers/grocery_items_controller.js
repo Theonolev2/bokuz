@@ -1,7 +1,6 @@
 import { Controller } from '@hotwired/stimulus'
 
 export default class extends Controller {
-  static targets = ['bought'];
   static values = {
     id: Number,
   };
@@ -9,9 +8,8 @@ export default class extends Controller {
 
   markAsBought(event) {
 
-    console.log(this.idValue);
-    const url = `/grocery_items/${this.idValue}/mark_as_bought`;
-    console.log(url);
+    const target = event.currentTarget;
+    const url = `/grocery_items/${target.dataset.id}/mark_as_bought`;
 
     fetch(url, {
       method: 'PATCH',
@@ -23,7 +21,9 @@ export default class extends Controller {
     })
       .then((response) => response.json())
       .then((data) => {
-        this.element.outerHTML = data.partial;
+        console.log(target);
+        target.outerHTML = data.partial;
+        location.reload();
       }
     )
   }

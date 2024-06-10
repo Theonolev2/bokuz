@@ -2,7 +2,8 @@ class GroceryListsController < ApplicationController
   def index
     @meal_plan = MealPlan.find(params[:meal_plan_id])
     # raise
-    @grocery_lists = GroceryItem.includes(:meal_plan).where(meal_plan: { id: params[:meal_plan_id] })
+    # @grocery_lists = GroceryItem.includes(:meal_plan).where(meal_plan: { id: params[:meal_plan_id] })
+    @grocery_lists = GroceryItem.where(meal_plan: @meal_plan)
   end
 
   def create
