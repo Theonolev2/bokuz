@@ -27,6 +27,25 @@ puts "user creation done\n\n"
 puts "creating diets..."
 Diet::DIET_TYPE.each do |diet_type|
   Diet.create!(name: diet_type.to_s)
+  # case when in Ruby to add a label to each diet_type
+  case diet_type
+  when :not_vegetarian
+    Diet.last.update!(label: "Végétarien")
+  when :not_vegan
+    Diet.last.update!(label: "Vegan")
+  when :lactose
+    Diet.last.update!(label: "Sans lactose")
+  when :gluten
+    Diet.last.update!(label: "Sans gluten")
+  when :pork
+    Diet.last.update!(label: "Sans porc")
+  when :glucose
+    Diet.last.update!(label: "Sans glucose")
+  when :nuts
+    Diet.last.update!(label: "Sans fruits à coque")
+  when :sea_food
+    Diet.last.update!(label: "Sans produits de la mer")
+  end
 end
 User.all.each { |user| user.diets << Diet.all.sample }
 puts "diets creation done\n\n"
