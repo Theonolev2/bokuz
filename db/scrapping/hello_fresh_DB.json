@@ -78,13 +78,18 @@
               "qty_per_person": 0.75,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Farine": {
               "qty_per_person": 0.5,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0t2sjX0C-Dqmc68tN6neUZWB2tRt9k0g17f1tYqNwiE8Kkr4FsW3r8pZvA\u0026s",
-              "diet": []
+              "diet": [
+                  "gluten"
+              ]
           },
           "Poivre et sel": {
               "qty_per_person": -1,
@@ -139,7 +144,7 @@
           },
           "Broccolini": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Peut",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm3ca6kNB3eEM0FAj1s0umfmklSn8Q6yQ_fdqW7i_PURZXmRBNuUSThnUlw\u0026s",
               "diet": []
           },
@@ -201,11 +206,11 @@
           },
           "Filet de poulet": {
               "qty_per_person": 1,
-              "unit": "pièce(s)Peut",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxuMfr9BoobpxmlGiQ5fgMS3evDw8CqccoVoPq2f0I7Xd3jpBtI8MQC_F6wA\u0026s",
               "diet": [
-                  "lactose",
-                  "gluten"
+                  "not_vegetarian",
+                  "not_vegan"
               ]
           },
           "Mangue": {
@@ -236,13 +241,19 @@
               "qty_per_person": 50,
               "unit": "ml",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTI4tZfyn8Ql7wl_JRRXXW6ONe9we2JZ-QNJcV3tnHhCS4gDjGJEzmwFrTPs\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Beurre": {
               "qty_per_person": 0.5,
               "unit": "cc",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Poivre et sel": {
               "qty_per_person": -1,
@@ -329,7 +340,10 @@
               "qty_per_person": 1,
               "unit": "cc",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Vinaigre balsamique blanc ou de riz": {
               "qty_per_person": 0.5,
@@ -382,15 +396,18 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHTx7fwqBVvSPVvW1c0nPQf0LxCH3X0VcuaPYxd_JHmh2eQ-DSFQid8XNTLpk\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Sauté de veau": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Peut",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_h168nSLov95M13C7xvUgj4kTOZgtw-Zlrklo8Vzygqx8OXHCZbMz04I36s\u0026s",
               "diet": [
-                  "gluten",
-                  "lactose"
+                  "not_vegetarian",
+                  "not_vegan"
               ]
           },
           "Feuille de laurier": {
@@ -407,7 +424,7 @@
           },
           "Broccolini": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Peut",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvm3ca6kNB3eEM0FAj1s0umfmklSn8Q6yQ_fdqW7i_PURZXmRBNuUSThnUlw\u0026s",
               "diet": []
           },
@@ -429,7 +446,10 @@
               "qty_per_person": 250,
               "unit": "ml",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTI4tZfyn8Ql7wl_JRRXXW6ONe9we2JZ-QNJcV3tnHhCS4gDjGJEzmwFrTPs\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Huile de tournesol": {
               "qty_per_person": 1,
@@ -447,13 +467,18 @@
               "qty_per_person": 25,
               "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Farine": {
               "qty_per_person": 1,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0t2sjX0C-Dqmc68tN6neUZWB2tRt9k0g17f1tYqNwiE8Kkr4FsW3r8pZvA\u0026s",
-              "diet": []
+              "diet": [
+                  "gluten"
+              ]
           },
           "Poivre et sel": {
               "qty_per_person": -1,
@@ -543,7 +568,6 @@
               "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64MTaEV843URbeSAP36qjHKT3_ZScL_6iz0OS8lUBOQlnx5i4LTpHPuRv2w\u0026s",
               "diet": [
-                  "not_vegetarian",
                   "not_vegan"
               ]
           },
@@ -578,9 +602,12 @@
       "ingredients": {
           "Lardons fumés": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Peut",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR689IqDrSb_8CAfyqEjDEgeYOJIEVg5PYsd6J1BnZ6BERxEUUrZFmXpyf35Nc\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Poireau": {
               "qty_per_person": 0.5,
@@ -624,7 +651,10 @@
               "qty_per_person": 0.5,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Cube de bouillon de légumes": {
               "qty_per_person": 0.25,
@@ -697,7 +727,7 @@
           },
           "Graines de tournesol": {
               "qty_per_person": 0.5,
-              "unit": "sachet(s)Peut",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0B6VxErMPqZLnyLW8EDqfmxUBHaSvZsNj9qY2B_HNThfxANWZHp9BktYZwQ\u0026s",
               "diet": [
                   "nuts"
@@ -764,19 +794,17 @@
           },
           "Pak choï": {
               "qty_per_person": 0.5,
-              "unit": "pièce(s)Peut",
+              "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1r8lxtRUwAf090biZ1QtfSWLZEa1wLp8McLKklnlyQeRBYbOL2s2-v5e4r5c\u0026s",
               "diet": []
           },
           "Émincés de bœuf": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Peut",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPUwbgG-Emnvzt8_nmJ_nTIYUDbt9L-YY_6pkbTXvwCzXPA8OsFYZeRgETEw\u0026s",
               "diet": [
                   "not_vegetarian",
-                  "not_vegan",
-                  "gluten",
-                  "lactose"
+                  "not_vegan"
               ]
           },
           "Sauce soja": {
@@ -797,7 +825,9 @@
               "qty_per_person": 1,
               "unit": "cc",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzC2mXMUmYNYWp3N_pK_JFVjzvYIjyqoOy5ccYwcScAgLeM3vroUQGShjPwA\u0026s",
-              "diet": []
+              "diet": [
+                  "glucose"
+              ]
           },
           "Vinaigre balsamique blanc ou de riz": {
               "qty_per_person": 1,
@@ -864,7 +894,10 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeEUm5gTptlUtp3dXcx7sP4iP2qkJvgaK7a2CcmPAlYqXQGAJDvVSFBAPsQ\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Mélange d'épices du Moyen-Orient": {
               "qty_per_person": 0.33,
@@ -902,7 +935,10 @@
               "qty_per_person": 15,
               "unit": "g",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Poivre et sel": {
               "qty_per_person": -1,
@@ -941,11 +977,11 @@
           },
           "Blanc de poulet": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Peut",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4NioXbKiIjfawK4E11x4LsbNQ3d3w7DQnpSRyOfI3F5TkFnUE5nv2WfP0A\u0026s",
               "diet": [
-                  "lactose",
-                  "gluten"
+                  "not_vegetarian",
+                  "not_vegan"
               ]
           },
           "Orzo": {
@@ -973,7 +1009,8 @@
               "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7eoVkU2nRXq7zLbuKzpgfC2fXpuwm6EyAIOtSEMAWNWiyrFznvrUApEO9KK0\u0026s",
               "diet": [
-                  "lactose"
+                  "not_vegetarian",
+                  "not_vegan"
               ]
           },
           "Épices mexicaines": {
@@ -992,7 +1029,10 @@
               "qty_per_person": 0.25,
               "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec_-2Ndarbp3dhM-faop8qERZ033IqPkGnlazDWvXWY0obmJW9ExiFsMoHnI\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Huile d'olive": {
               "qty_per_person": 0.5,
@@ -1061,11 +1101,11 @@
           },
           "Blanc de poulet": {
               "qty_per_person": 0.5,
-              "unit": "paquet(s)Peut",
+              "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC4NioXbKiIjfawK4E11x4LsbNQ3d3w7DQnpSRyOfI3F5TkFnUE5nv2WfP0A\u0026s",
               "diet": [
-                  "lactose",
-                  "gluten"
+                  "not_vegetarian",
+                  "not_vegan"
               ]
           },
           "Crème liquide": {
@@ -1073,7 +1113,8 @@
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL28izVDGO1JJdYmBOisAgfrSh3RjylFsZ6-ZGWSHMki3gKUuYeTBkVq6wW1g\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Huile d'olive": {
@@ -1086,13 +1127,19 @@
               "qty_per_person": 0.25,
               "unit": "pièce(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec_-2Ndarbp3dhM-faop8qERZ033IqPkGnlazDWvXWY0obmJW9ExiFsMoHnI\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Beurre": {
               "qty_per_person": 0.5,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Moutarde": {
               "qty_per_person": 1,
@@ -1152,7 +1199,8 @@
               "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJesdQZtX3JfiUvCcgi_9FEIOiv8Z3fZOAsmv5QZ0QGwsFFEeE-fF2zfmG9OU\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Fromage râpé à l'italienne": {
@@ -1160,7 +1208,8 @@
               "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQd79f0Oix0owSUe-hXy3LpI0xrG96KXp1BqJVnKBnh0Xr_QXPBgTUt46L7A\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Filet de saumon avec peau": {
@@ -1267,7 +1316,8 @@
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTB7HmQvIuiXeP9dVSupzHoxufz14Looq_EfX-JjNUnaLE4v-3Ws54PsmWDRA\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Labneh": {
@@ -1275,7 +1325,6 @@
               "unit": "pot(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-6rfpXcGslzSC-Nkg0f-u0ROpn5-XZYDAl_iczsvugztwwW9aK10vFuH3g\u0026s",
               "diet": [
-                  "not_vegetarian",
                   "not_vegan",
                   "lactose"
               ]
@@ -1319,7 +1368,10 @@
               "qty_per_person": 0.5,
               "unit": "paquet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeEUm5gTptlUtp3dXcx7sP4iP2qkJvgaK7a2CcmPAlYqXQGAJDvVSFBAPsQ\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegetarian",
+                  "not_vegan"
+              ]
           },
           "Chair de tomates": {
               "qty_per_person": 0.5,
@@ -1338,7 +1390,8 @@
               "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT38K5Hh9oTTFzFf9L4hq97EdpQr4e1VogCCd2zK7BfgVxqK53deuZV94OYWsg\u0026s",
               "diet": [
-                  "lactose"
+                  "lactose",
+                  "not_vegan"
               ]
           },
           "Mini tortillas": {
@@ -1454,7 +1507,7 @@
           },
           "Mélange de carotte, chou rouge et blanc": {
               "qty_per_person": 0.33,
-              "unit": "sachet(s)Peut",
+              "unit": "sachet(s)",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFIRMRh0wHhEDbN_TyUrDJTGuHgUiaLnlWXhn0wG67NrrHTL1Z5yZPLNmKrs0\u0026s",
               "diet": []
           },
@@ -1474,7 +1527,10 @@
               "qty_per_person": 0.5,
               "unit": "cs",
               "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm2brJTEtx2rHHldqbXInJqY27gBar7DVmR075vnmAWxHAi9jXtm1tR_TTZw\u0026s",
-              "diet": []
+              "diet": [
+                  "not_vegan",
+                  "lactose"
+              ]
           },
           "Vinaigre balsamique noir": {
               "qty_per_person": 0.5,
