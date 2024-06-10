@@ -6,7 +6,7 @@ export default class extends Controller {
   static values = { max: Number };
 
   connect() {
-    console.log("Connected to change qty controller");
+    // console.log("Connected to change qty controller");
   }
 
   increase() {
