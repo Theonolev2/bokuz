@@ -15,7 +15,7 @@
 
       <div class="mealplan_form_input" data-controller="change-qty" data-change-qty-max-value="<%= MealPlan::MAX_NB_MEAL %>" >
         <%=  %>
-        <%= f.label :nb_meals, "Combien de repas voulez-vous planifier ?", class: "mealplan_form_label" %>
+        <%= f.label :nb_meals, "Combien de repas veux-tu planifier ?", class: "mealplan_form_label" %>
         <%= f.hidden_field :nb_meals, data: { "change-qty-target": "nbInput" }, value: 5 %>
         <div class="mealplan_form_nb">
           <i
@@ -55,7 +55,7 @@
       </div>
 
       <div class="mealplan_form_input mealplan_form_diets d-flex flex-column">
-        <p class="mealplan_form_label">Avez-vous un régime particulier ?</p>
+        <p class="mealplan_form_label">As-tu un régime particulier ?</p>
         <% Diet.order(:name).each do |diet| %>
           <div>
             <label for="<%= diet.id %>"><%= diet.name.capitalize %></label>
@@ -70,8 +70,8 @@
         </svg>
       </a>
 
-      <div class="mealplan_form_button">
-        <%= f.submit "GO !", class: "button-go-search-form" %>
+      <div class="mealplan_form_button grocery-btn-container">
+        <%= f.submit "Crée tes menus", class: "button-grocery-form" %>
       </div>
 
     <% end %>
