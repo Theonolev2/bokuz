@@ -14,8 +14,7 @@
     <%= form_with model: @meal_plan do |f| %>
 
       <div class="mealplan-form-input" data-controller="change-qty" data-change-qty-max-value="<%= MealPlan::MAX_NB_MEAL %>" >
-        <%=  %>
-        <%= f.label :nb_meals, "Combien de repas veux-tu planifier ?", class: "mealplan_form_label" %>
+        <%= f.label :nb_meals, "Combien de repas veux-tu planifier ?", class: "mealplan-form-label" %>
         <%= f.hidden_field :nb_meals, data: { "change-qty-target": "nbInput" }, value: 5 %>
         <div class="mealplan-form-nb">
           <i
@@ -54,16 +53,16 @@
         </div>
       </div>
 
-      <div class="mealplan_form_input mealplan_form_diets d-flex flex-column">
-        <p class="mealplan_form_label">As-tu un régime particulier ?</p>
+      <div class="mealplan-form-input mealplan-form-diets d-flex flex-column">
+        <p class="mealplan-form-label">As-tu un régime particulier ?</p>
         <div class="mealplan-form-diets">
-          <% Diet.order(:name).each do |diet| %>
+          <% Diet.all.each do |diet| %>
             <%= render partial: "meal_plans/diet_icons", locals: {diet: diet}%>
           <% end %>
         </div>
       </div>
 
-      <div class="mealplan_form_button grocery-btn-container">
+      <div class="mealplan-form-button grocery-btn-container">
         <%= f.submit "Crée tes menus", class: "button-grocery-form" %>
       </div>
 
