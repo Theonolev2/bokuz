@@ -1,4 +1,4 @@
-.mealplan_new{
+.mealplan-new{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,14 +7,14 @@
   line-height: 1.8em;
 }
 
-.mealplan_new_title{
+.mealplan-new-title{
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
   color: $my-main-green;
 }
 
-.mealplan_form{
+.mealplan-form{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@
   padding: 0 15%;
 }
 
-.mealplan_form_input {
+.mealplan-form-input {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +34,7 @@
   box-shadow: $my-box-shadow;
 }
 
-.mealplan_form_label{
+.mealplan-form-label{
   font-size: 24px;
   margin-bottom: 10px;
   color: $my-main-green;
@@ -42,7 +42,7 @@
   text-align: center;
 }
 
-.mealplan_form_nb{
+.mealplan-form-nb{
   display: flex;
   background-color: $my-yellow;
   color: $my-main-green;
@@ -52,12 +52,12 @@
   align-items: center;
 }
 
-.mealplan_form_nb_icons{
+.mealplan-form-nb-icons{
   font-size: 24px;
   padding: 1em;
 }
 
-.mealplan_form_nb_qty{
+.mealplan-form-nb-qty{
   font-size: 40px;
   font-weight: bold;
   background-color: $my-ivory;
@@ -72,6 +72,70 @@
   margin: 0;
 }
 
-.mealplan_form_button{
+.mealplan-form-button{
   text-align: center;
+}
+
+.mealplan-form-diets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mealplan-form-diet-option {
+  width: 80px;
+
+  .mealplan-form-diet-checkbox {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+.mealplan-form-diet-icon {
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.mealplan-form-diet-icon-label {
+  color: $my-main-green;
+  line-height: 1.2em;
+  padding: 4px;
+}
+
+.mealplan-form-diet-checkbox + label {
+  cursor: pointer;
+
+  .icon-fill {
+    fill: $my-yellow;
+  }
+
+  .icon-stroke {
+    stroke: $my-yellow;
+  }
+}
+
+.mealplan-form-diet-checkbox:checked + label {
+
+  .mealplan-form-diet-icon {
+    background-color: $my-yellow;
+  }
+
+  .icon-fill {
+    fill: $my-ivory;
+  }
+
+  .icon-stroke {
+    stroke: $my-ivory;
+  }
+
+  .mealplan-form-diet-icon-label {
+    font-weight: bold;
+  }
 }
