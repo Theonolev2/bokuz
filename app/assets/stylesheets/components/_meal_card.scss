@@ -12,7 +12,9 @@
   height: 150px;
   width: 150px;
   object-fit: cover;
-  border-radius: $my-border-radius;
+  // border-radius: $my-border-radius;
+  border-top-left-radius: $my-border-radius;
+  border-bottom-left-radius: $my-border-radius;
 }
 
 .card-meal .card-meal-body {
