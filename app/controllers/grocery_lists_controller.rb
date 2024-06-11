@@ -32,6 +32,14 @@ class GroceryListsController < ApplicationController
   end
 
   def mapping
-    @variable = "MAP A VENIR"
+    @stores = Store.all
+    # The `geocoded` scope filters only stores with coordinates
+    @markers = @stores.geocoded.map do |store|
+      {
+        lat: store.latitude,
+        lng: store.longitude,
+        info_window_html: store.name
+      }
+    end
   end
 end

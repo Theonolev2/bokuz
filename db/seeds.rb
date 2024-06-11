@@ -84,7 +84,7 @@ json.each do |elem|
 end
 puts "recipes populating done\n\n"
 
-puts "creating meal plans"
+puts "creating meal plans..."
 # meal_plan_names = %w[portion sour leaf oven appoint free trip tasty cash desert knot parade miscarriage building eyebrow]
 10.times do
   meal_plan = MealPlan.new
@@ -103,3 +103,13 @@ puts "creating meal plans"
   meal_plan.save!
 end
 puts "meal plans creation done\n\n"
+
+puts "Creating stores..."
+Store.create!(name: "Carrefour city", address: "1 Pl. Croix-Paquet, 69001 Lyon")
+Store.create!(name: "Petit Casino", address: "31 Rue des Capucins, 69001 Lyon")
+Store.create!(name: "Auchan Piéton", address: "43 Rue René Leynaud, 69001 Lyon")
+Store.create!(name: "Carrefour Express", address: "10 Rue Paul Chenavard, 69001 Lyon")
+Store.create!(name: "Les Halles de Pouteau", address: "23 Rue Pouteau, 69001 Lyon")
+Store.create!(name: "Casino Shop", address: "6 Pl. Sathonay, 69001 Lyon")
+Store.create!(name: "Vival", address: "1 Rue du Bon-Pasteur, 69001 Lyon")
+puts "Stores creation done\n\n"
