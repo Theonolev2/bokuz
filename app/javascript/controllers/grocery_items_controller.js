@@ -44,12 +44,6 @@ export default class extends Controller {
     const parentTarget = target.parentElement;
     const listToBuy = document.querySelector('.to-buy');
     const listBought = document.querySelector('.bought');
-    console.log("buytitle", buyTitle);
-    console.log("boughtTitle", boughtTitle);
-    console.log("listToBuy", listToBuy);
-    console.log("listBought", listBought);
-    console.log("target", target);
-    console.log("parentTarget", parentTarget);
 
     // target.classList.add('fadeOut');
     if (parentTarget.classList.contains('to-buy')) {

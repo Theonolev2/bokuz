@@ -1,5 +1,5 @@
 <div class="container d-flex flex-column justify-content-between p-4">
-  <div class="cards">
+  <div class="cards" >
     <% @meals.sort.each do |meal| %>
     <div class="card-meal" data-controller="meal" data-meal-id="<%= meal.id %>">
       <%= link_to meal_path(meal) do %>
@@ -8,7 +8,7 @@
         </div>
       <% end %>
       <div class="card-meal-body">
-          <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
+        <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
         <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
           <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
             <div class="card-meal-people" >
