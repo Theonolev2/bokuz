@@ -41,7 +41,18 @@
                   <p><%= item.ingredient.name %></p>
                 </div>
                 <div class="meal-show-ingredient-content-item">
-                  <%= (@meal.nb_people * item.qty_per_person).truncate(4) if item.ingredient.unit != "selon le goût" %> <%= item.ingredient.unit %>
+                  <% qty = @meal.nb_people * item.qty_per_person %>
+                  <% if qty % 1 != 0 %>
+                    <%= qty.truncate(4) if item.ingredient.unit != "selon le goût" %>
+                  <%else%>
+                    <%= qty.truncate(0) if item.ingredient.unit != "selon le goût" %>
+                  <%end%>
+
+                  <% if qty > 1 %>
+                    <%= item.ingredient.unit.gsub(/\(.*?\)/, 's') %>
+                  <%else%>
+                    <%= item.ingredient.unit.gsub(/\(.*?\)/, '')  %>
+                  <%end%>
                 </div>
               </div>
             </li>
