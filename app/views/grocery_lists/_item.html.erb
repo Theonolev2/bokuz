@@ -1,13 +1,13 @@
-<li class="list-group-ingredient-item"
+<li class="list-group-ingredient-item clickable"
   data-action="click->grocery-items#markAsBought"
   data-grocery-items-target="item"
   data-id="<%= item.id%>">
   <div class="list-group-ingredient-content">
     <div class="list-group-ingredient-content-item" >
       <% if item.bought %>
-        <i class="my-icon-bought" ></i>
+        <i class="my-icon-bought clickable-plus" ></i>
       <% else %>
-        <i class="my-icon-not-bought"></i>
+        <i class="my-icon-not-bought clickable-plus"></i>
       <%end%>
     </div>
     <div class="list-group-ingredient-content-item">
