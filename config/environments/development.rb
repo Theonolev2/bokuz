@@ -77,4 +77,6 @@ Rails.application.configure do
 
   # Allow accessing to ngrok
   config.hosts << /.*\.ngrok-free\.app$/
+
+  config.hosts.clear
 end
