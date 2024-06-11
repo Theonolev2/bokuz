@@ -1,4 +1,4 @@
-<div class="container" data-controller="grocery-items">
+<div class="container mt-4" data-controller="grocery-items">
   <%# if @grocery_lists.where(bought: false).count != 0%>
     <div id="buy-title" class="row">
       <div class="col-10">
@@ -13,7 +13,7 @@
     <div class="row">
       <div class="col-12">
         <ul id="list-buy" class="list-group-ingredient to-buy" data-grocery-items-target="list">
-          <% @grocery_list.where(bought: false).sort_by { |item| item.ingredient.name }.each do |grocery_item| %>
+          <% @grocery_list.select { |item| item.bought == false }.each do |grocery_item| %>
             <%= render partial: "item", locals: {item: grocery_item}%>
           <%end%>
         </ul>
@@ -28,7 +28,7 @@
     <div class="row">
     <div class="col-12">
       <ul id="list-bought" class="list-group-ingredient bought" data-grocery_items-target="list">
-        <% @grocery_list.where(bought: true).sort_by { |item| item.ingredient.name }.each do |grocery_item| %>
+        <% @grocery_list.select { |item| item.bought == true }.each do |grocery_item| %>
           <%= render partial: "item", locals: {item: grocery_item}%>
         <%end%>
       </ul>
