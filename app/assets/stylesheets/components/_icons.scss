@@ -107,8 +107,22 @@
   @extend .fa-solid;
   @extend .fa-user;
   color: $my-main-green;
+  font-size: xx-large;
 }
 
+.my-icon-back {
+  @extend .fa-solid;
+  @extend .fa-chevron-left;
+  color: $my-main-green;
+  font-size: x-large;
+}
+
+.my-icon-xmark {
+  @extend .fa-solid;
+  @extend .fa-xmark;
+  color: $my-main-green;
+  font-size: xx-large;
+}
 
 // Icons for diets (used in the search form for new meal plans)
 

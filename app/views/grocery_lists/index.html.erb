@@ -1,3 +1,5 @@
+<%= render "shared/navbar_specific", title: "Ta liste de courses", backlink: meal_plan_path(@meal_plan) %>
+
 <div class="container mt-4" data-controller="grocery-items">
   <%# if @grocery_lists.where(bought: false).count != 0%>
     <div id="buy-title" class="row">
