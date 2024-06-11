@@ -1,0 +1,114 @@
+.meal-show-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+
+.meal-show-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $my-main-green;
+  margin: 0;
+  text-align: justify;
+  }
+
+.meal-show-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  border-top: solid 0.025rem $my-main-green;
+  border-bottom: solid 0.025rem $my-main-green;
+}
+
+.meal-show-infos-card {
+  display: flex;
+}
+
+.meal-show-button {
+  background-color: $my-sand;
+  color: $my-main-green;
+  border: none;
+  border-radius: $my-border-radius-pill;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+
+  &[disabled] {
+      background-color: $my-main-green;
+      color: $my-sand;
+      cursor: not-allowed;
+  }
+}
+
+.meal-show-recipe {
+  background-color: $my-ivory;
+  border-radius: $my-border-radius;
+  padding: 1rem;
+}
+
+.meal-show-list-group-ingredient {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-auto-rows: minmax(2rem, 2rem);
+  border: none;
+  gap: 0.5rem;
+  padding: 0rem;
+  :last-child {
+    border-bottom: none;
+  }
+}
+
+.meal-show-list-group-ingredient-item {
+  text-decoration: none;
+  color: $my-dark-gray;
+  font-size: 1rem;
+  display: block;
+}
+
+.meal-show-ingredient-content {
+  display: grid;
+  grid-template-columns: auto 6fr auto;
+  gap: 1rem;
+  grid-auto-rows: minmax(2rem, 2rem);
+  align-items: center;
+  border: none;
+  padding: 0;
+}
+
+.meal-show-ingredient-content-item {
+  color: $my-dark-gray;
+  display: block;
+  align-content: center;
+  justify-self: right;
+  height: 3rem;
+}
+
+.meal-show-ingredient-content-item-name {
+  color: $my-dark-gray;
+  display: block;
+  align-content: center;
+  justify-self: left;
+  p {
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: normal;
+  }
+}
+
+.meal-show-ingredient-content-item img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.meal-show-instructions {
+  font-size: 1rem;
+  color: $my-dark-gray;
+  text-align: justify;
+  margin: 0;
+}
