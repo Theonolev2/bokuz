@@ -18,7 +18,7 @@
         <%= f.hidden_field :nb_meals, data: { "change-qty-target": "nbInput" }, value: 5 %>
         <div class="mealplan-form-nb">
           <i
-            class="my-icon-minus-wo-circle mealplan-form-nb-icons"
+            class="my-icon-minus-wo-circle mealplan-form-nb-icons clickable-plus"
             data-action="click->change-qty#decrease">
           </i>
           <p
@@ -27,7 +27,7 @@
             5
           </p>
           <i
-            class="my-icon-plus-wo-circle mealplan-form-nb-icons"
+            class="my-icon-plus-wo-circle mealplan-form-nb-icons clickable-plus"
             data-action="click->change-qty#increase">
           </i>
         </div>
@@ -38,7 +38,7 @@
         <%= f.hidden_field :nb_people, data: { "change-qty-target": "nbInput" }, value: 2  %>
         <div class="mealplan-form-nb">
           <i
-            class="my-icon-minus-wo-circle mealplan-form-nb-icons"
+            class="my-icon-minus-wo-circle mealplan-form-nb-icons clickable-plus"
             data-action="click->change-qty#decrease">
           </i>
           <p
@@ -47,7 +47,7 @@
             2
           </p>
           <i
-            class="my-icon-plus-wo-circle mealplan-form-nb-icons"
+            class="my-icon-plus-wo-circle mealplan-form-nb-icons clickable-plus"
             data-action="click->change-qty#increase">
           </i>
         </div>
@@ -62,7 +62,7 @@
         </div>
       </div>
 
-      <div class="mealplan-form-button grocery-btn-container">
+      <div class="mealplan-form-button grocery-btn-container clickable">
         <%= f.submit "Crée tes menus", class: "button-grocery-form" %>
       </div>
 

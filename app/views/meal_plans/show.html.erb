@@ -3,7 +3,7 @@
     <% @meals.sort.each do |meal| %>
     <div class="card-meal" data-controller="meal" data-meal-id="<%= meal.id %>">
       <%= link_to meal_path(meal) do %>
-        <div class="card-meal-image">
+        <div class="card-meal-image clickable">
           <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
         </div>
       <% end %>
@@ -14,14 +14,14 @@
             <div class="card-meal-people" >
               <%= f.hidden_field :nb_people, data: { change_qty_target: "nbInput" }, value: meal.nb_people %>
               <i
-                class="my-icon-minus"
+                class="my-icon-minus clickable-green-plus"
                 data-action="click->change-qty#decrease">
               </i>
               <p>
                 <strong><i class="my-icon-people"></i></strong> <span data-change-qty-target="nbQty"><%= meal.nb_people %></span> pers
               </p>
               <i
-                class="my-icon-plus"
+                class="my-icon-plus clickable-green-plus"
                 data-action="click->change-qty#increase">
               </i>
             </div>
@@ -31,12 +31,12 @@
 
           <div class="card-meal-actions">
             <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
-              <i class="my-icon-replace"></i>
+              <i class="my-icon-replace clickable-green-plus"></i>
             <% end %>
 
             <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
             <a data-action="click->meal#delete">
-              <i class="my-icon-trash"></i>
+              <i class="my-icon-trash clickable-green-plus"></i>
             </a>
           </div>
 
@@ -46,7 +46,7 @@
     </div>
     <% end %>
   </div>
-  <div class="grocery-btn-container d-flex justify-content-center align-items-center py-3">
+  <div class="grocery-btn-container d-flex justify-content-center align-items-center py-3 clickable">
     <%= button_to "Crée ta liste de courses", {controller: "grocery_lists", action: "create", meal_plan_id: @meal_plan.id},  class: "button-grocery-form", method: :post %>
   </div>
 </div>

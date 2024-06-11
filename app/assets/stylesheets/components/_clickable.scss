@@ -1,0 +1,19 @@
+.clickable {
+  &:active {
+    scale: 0.9;
+  }
+}
+
+.clickable-plus {
+  &:active {
+    scale: 0.80;
+    color: $my-light-green;
+  }
+}
+
+.clickable-green-plus {
+  &:active {
+    scale: 0.80;
+    color: $my-light-green;
+  }
+}
