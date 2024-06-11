@@ -1,7 +1,15 @@
+require 'i18n'
+
 class GroceryListsController < ApplicationController
+
   def index
+    I18n.locale = :fr
+
     @meal_plan = MealPlan.find(params[:meal_plan_id])
     @grocery_list = GroceryItem.where(meal_plan: @meal_plan)
+    @grocery_list = @grocery_list.sort_by do |item|
+      I18n.transliterate(item.ingredient.name.downcase)
+    end
   end
 
   def create

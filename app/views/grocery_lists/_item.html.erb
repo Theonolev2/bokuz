@@ -23,7 +23,7 @@
         <%end%>
 
         <%if item.qty_to_buy > 1 %>
-          <%= item.ingredient.unit.gsub(/\(.*?\)/, '') + "s" %>
+          <%= item.ingredient.unit.gsub(/\(.*?\)/, 's') %>
         <%else%>
           <%= item.ingredient.unit.gsub(/\(.*?\)/, '')  %>
         <%end%>
