@@ -63,3 +63,16 @@
   height: 2rem;
   border-radius: 50%;
 }
+
+
+.fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; visibility: hidden; }
+}

@@ -1,9 +1,15 @@
+require 'i18n'
+
 class GroceryListsController < ApplicationController
+
   def index
+    I18n.locale = :fr
+
     @meal_plan = MealPlan.find(params[:meal_plan_id])
-    # raise
-    # @grocery_lists = GroceryItem.includes(:meal_plan).where(meal_plan: { id: params[:meal_plan_id] })
-    @grocery_lists = GroceryItem.where(meal_plan: @meal_plan)
+    @grocery_list = GroceryItem.where(meal_plan: @meal_plan)
+    @grocery_list = @grocery_list.sort_by do |item|
+      I18n.transliterate(item.ingredient.name.downcase)
+    end
   end
 
   def create
@@ -26,6 +32,14 @@ class GroceryListsController < ApplicationController
   end
 
   def mapping
-    @variable = "MAP A VENIR"
+    @stores = Store.all
+    # The `geocoded` scope filters only stores with coordinates
+    @markers = @stores.geocoded.map do |store|
+      {
+        lat: store.latitude,
+        lng: store.longitude,
+        info_window_html: store.name
+      }
+    end
   end
 end
