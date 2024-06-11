@@ -1,6 +1,6 @@
 class MealsController < ApplicationController
   before_action :set_meal, only: [:destroy, :update, :replace, :show]
-  before_action :set_meal_plan, only: [:destroy, :update, :replace]
+  before_action :set_meal_plan, only: [:destroy, :update, :replace, :show]
 
   def show
   end
