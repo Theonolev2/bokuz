@@ -1,4 +1,4 @@
-<div class="container d-flex flex-column justify-content-between p-4">
+<div class="container d-flex flex-column justify-content-between px-4 py-2" style="height: 100vh;">
   <div class="cards">
     <% @meals.sort.each do |meal| %>
     <div class="card-meal" data-controller="meal" data-meal-id="<%= meal.id %>">
