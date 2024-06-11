@@ -1,4 +1,7 @@
- <li class="list-group-ingredient-item" data-action="click->grocery-items#markAsBought" data-id="<%= item.id%>">
+ <li class="list-group-ingredient-item"
+  data-action="click->grocery-items#markAsBought"
+  data-grocery-items-target="item"
+  data-id="<%= item.id%>">
   <div class="list-group-ingredient-content">
     <div class="list-group-ingredient-content-item" >
       <% if item.bought %>
@@ -11,6 +14,20 @@
       <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
     </div>
     <div class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name.truncate(60)%></p></div>
-    <div class="list-group-ingredient-content-item"><%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le goût" %> <%= item.ingredient.unit %></div>
+    <% if item.bought == false %>
+      <div class="list-group-ingredient-content-item">
+        <% if item.qty_to_buy % 1 != 0 %>
+          <%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le goût" %>
+        <%else%>
+          <%= item.qty_to_buy.truncate(0) if item.ingredient.unit != "selon le goût" %>
+        <%end%>
+
+        <%if item.qty_to_buy > 1 %>
+          <%= item.ingredient.unit.gsub(/\(.*?\)/, '') + "s" %>
+        <%else%>
+          <%= item.ingredient.unit.gsub(/\(.*?\)/, '')  %>
+        <%end%>
+      </div>
+    <%end%>
 </div>
 </li>
