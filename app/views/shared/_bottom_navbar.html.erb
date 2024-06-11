@@ -1,8 +1,4 @@
 <div class="button-bottom-navbar">
-  <%= link_to new_meal_plan_path do %>
-    <i class="my-icon-home"></i>
-  <% end %>
-
   <% if user_signed_in? && current_user.meal_plans.any? %>
     <%= link_to meal_plan_path(current_user.meal_plans.last) do %>
       <i class="my-icon-menu"></i>
