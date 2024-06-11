@@ -16,6 +16,7 @@
   @extend .fa-solid;
   @extend .fa-hourglass-half;
   color: $my-main-green;
+
 }
 
 .my-icon-minus {
@@ -23,6 +24,7 @@
   @extend .fa-circle-minus;
   color: $my-yellow;
   cursor: pointer;
+  // font-size: 20px;
 }
 
 .my-icon-plus {
@@ -30,6 +32,7 @@
   @extend .fa-circle-plus;
   color: $my-yellow;
   cursor: pointer;
+  // font-size: 1.5rem;
 }
 
 .my-icon-minus-wo-circle {
@@ -51,12 +54,14 @@
   @extend .fa-solid;
   @extend .fa-trash;
   color: $my-yellow;
+  // font-size: 1.5rem;
 }
 
 .my-icon-replace {
   @extend .fa-solid;
   @extend .fa-rotate;
   color: $my-yellow;
+  // font-size: 1.5rem;
 }
 
 .my-icon-not-bought {
@@ -107,8 +112,22 @@
   @extend .fa-solid;
   @extend .fa-user;
   color: $my-main-green;
+  font-size: xx-large;
 }
 
+.my-icon-back {
+  @extend .fa-solid;
+  @extend .fa-chevron-left;
+  color: $my-main-green;
+  font-size: x-large;
+}
+
+.my-icon-xmark {
+  @extend .fa-solid;
+  @extend .fa-xmark;
+  color: $my-main-green;
+  font-size: xx-large;
+}
 
 // Icons for diets (used in the search form for new meal plans)
 
