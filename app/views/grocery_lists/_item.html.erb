@@ -14,7 +14,7 @@
       <%= image_tag item.ingredient.photo_url, alt: item.ingredient.name%>
     </div>
     <div class="list-group-ingredient-content-item-name"><p><%= item.ingredient.name.truncate(60)%></p></div>
-    <% if item.bought == false %>
+    <%# if item.bought == false %>
       <div class="list-group-ingredient-content-item">
         <% if item.qty_to_buy % 1 != 0 %>
           <%= item.qty_to_buy.truncate(4) if item.ingredient.unit != "selon le goût" %>
@@ -28,6 +28,6 @@
           <%= item.ingredient.unit.gsub(/\(.*?\)/, '')  %>
         <%end%>
       </div>
-    <%end%>
+    <%#end%>
 </div>
 </li>

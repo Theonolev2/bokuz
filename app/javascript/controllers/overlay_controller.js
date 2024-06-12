@@ -8,22 +8,34 @@ export default class extends Controller {
     console.log("Overlay controller connected");
   }
 
-  show(event) {
-    event.preventDefault();
-    this.overlayTarget.style.display = "flex";
-    const mealId = event.currentTarget.dataset.mealId;
-    console.log(mealId);
+  prevent(event) {
+    event.stopPropagation();
+  }
 
-    fetch(`/meals/${mealId}`)
-      .then(response => response.text())
-      .then(html => {
+  show(event) {
+    console.log("show");
+    event.preventDefault();
+    const mealId = event.currentTarget.dataset.mealId;
+
+    fetch(`/meals/${mealId}`, {
+      headers: {
+        Accept: "text/plain",
+        "X-CSRF-Token": document.head.querySelector("meta[name=csrf-token]")
+          .content,
+      },
+    })
+      .then((response) => response.text())
+      .then((html) => {
         this.mealContentTarget.innerHTML = html;
-        this.overlayTarget.style.display = "flex";
+        this.overlayTarget.classList.add("active");
       });
   }
 
   hide() {
-    console.log("hide");
-    this.overlayTarget.style.display = "none";
+    this.overlayTarget.classList.add("hide");
+    setTimeout(() => {
+      this.overlayTarget.classList.remove("active");
+      this.overlayTarget.classList.remove("hide");
+    }, 300);
   }
 }

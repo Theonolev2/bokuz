@@ -35,7 +35,9 @@
   </head>
 
   <body>
-    <%= render "shared/flashes" %>
+    <div id="flash" class="flash">
+      <%= render "shared/flash" %>
+    </div>
     <%= yield %>
   </body>
 </html>

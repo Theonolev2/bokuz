@@ -3,30 +3,28 @@ import { Controller } from '@hotwired/stimulus'
 export default class extends Controller {
   static targets = ["item", "list"];
 
-
   connect() {
-    console.log("connected");
     this.showTitles();
     }
 
   showTitles() {
-    console.log("showTitles");
     const buyTitle = document.getElementById('buy-title');
     const boughtTitle = document.getElementById('bought-title');
     const listToBuy = document.querySelector('.to-buy');
     const listBought = document.querySelector('.bought');
+    const noItems = document.getElementById('no-items');
 
     if (listToBuy.children.length === 0) {
       console.log("all items are bought");
-      buyTitle.style.display = "none";
+      noItems.style.display = "flex";
       listToBuy.style.display = "none";
-    } else {
+      } else {
+      noItems.style.display = "none";
       buyTitle.style.display = "flex";
       listToBuy.style.display = "flex";
     }
 
     if (listBought.children.length === 0) {
-      console.log("no items bought");
       boughtTitle.style.display = "none";
       listBought.style.display = "none";
     } else {

@@ -3,7 +3,10 @@ class MealsController < ApplicationController
   before_action :set_meal_plan, only: [:destroy, :update, :replace, :show]
 
   def show
-    render partial: 'recipe', locals: { meal: @meal }
+    respond_to do |format|
+      format.html { redirect_to meal_plan_path(@meal_plan) }
+      format.text { render partial: "recipe", locals: { meal: @meal }, formats: :html }
+    end
   end
 
   def replace
@@ -16,11 +19,11 @@ class MealsController < ApplicationController
     end
 
     if @recipe.nil?
-      flash[:alert] = "You have already seen all meals"
+      flash[:alert] = "Vous avez déjà fait le tour de toutes les recettes disponibles pour votre régime alimentaire."
       @recipe = filtered_recipes.where.not(id: @meal.recipe_id).sample
     else
       @meal.update(recipe: @recipe)
-      flash[:notice] = "Meal replaced"
+      flash[:notice] = "Recette remplacée avec succès"
     end
     redirect_to meal_plan_path(@meal_plan), status: :see_other
   end
@@ -35,7 +38,7 @@ class MealsController < ApplicationController
 
   def destroy
     @meal.destroy
-    render json: { status: "Meal deleted", valid: true }
+    render json: { status: "Recette suprimée", valid: true }
   end
 
   private

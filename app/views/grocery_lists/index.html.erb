@@ -1,33 +1,30 @@
-<%= render "shared/navbar_specific", title: "Ta liste de courses", backlink: meal_plan_path(@meal_plan) %>
+<%= render "shared/navbar_specific", title: "Mes courses", backlink: meal_plan_path(@meal_plan) %>
 
-<div class="container mt-4" data-controller="grocery-items">
-  <%# if @grocery_lists.where(bought: false).count != 0%>
-    <div id="buy-title" class="row">
-      <div class="col-10">
-        <h3>Ma liste de courses</h3>
-      </div>
-      <div class="col-2">
-        <div class="qty">
-          <h3>Qté</h3>
-        </div>
+<div class="container d-flex flex-column justify-content-between" style="height: 100vh;" data-controller="grocery-items">
+  <div id="buy-title" class="row buy-title">
+    <div class="col-10">
+      <h3>Ma liste de courses</h3>
+    </div>
+    <div class="col-2">
+      <div class="qty">
+        <h3>Qté</h3>
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        <ul id="list-buy" class="list-group-ingredient to-buy" data-grocery-items-target="list">
-          <% @grocery_list.select { |item| item.bought == false }.each do |grocery_item| %>
-            <%= render partial: "item", locals: {item: grocery_item}%>
-          <%end%>
-        </ul>
-      </div>
+  </div>
+  <p id="no-items">Vous avez tout ce qu'il faut !</p>
+  <div class="row">
+    <div class="col-12">
+      <ul id="list-buy" class="list-group-ingredient to-buy" data-grocery-items-target="list">
+        <% @grocery_list.select { |item| item.bought == false }.each do |grocery_item| %>
+          <%= render partial: "item", locals: {item: grocery_item}%>
+        <%end%>
+      </ul>
     </div>
-  <%#end%>
-  <%# if @grocery_lists.where(bought: true).count != 0%>
-    <div id="bought-title" class="row">
-      <h3>Déjà au frigo</h3>
-    </div>
-  <%#end%>
-    <div class="row">
+  </div>
+  <div id="bought-title" class="row">
+    <h3>Déjà au frigo</h3>
+  </div>
+  <div class="row">
     <div class="col-12">
       <ul id="list-bought" class="list-group-ingredient bought" data-grocery_items-target="list">
         <% @grocery_list.select { |item| item.bought == true }.each do |grocery_item| %>
