@@ -4,7 +4,7 @@ class MealsController < ApplicationController
 
   def show
     respond_to do |format|
-      format.html { redirect_to meal_plan_path(@meal_plan) }
+      format.html { redirect_to meal_path(@meal) }
       format.text { render partial: "recipe", locals: { meal: @meal }, formats: :html }
     end
   end

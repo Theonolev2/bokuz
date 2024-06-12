@@ -4,6 +4,7 @@
   </div>
   <div class="meal-show-infos-container p-4" data-controller="collapse">
     <h1 class="meal-show-title mb-2 text-center"><%= meal.recipe.title %></h1>
+    
     <div class="meal-show-infos mb-3 p-2">
       <div class="meal-show-infos-card">
         <div><i class="my-icon-time"></i><strong> Temps de préparation :&nbsp;</strong></div>
@@ -14,6 +15,7 @@
         <div> <%= meal.nb_people %> personne<%= meal.nb_people > 1 ? "s" : "" %></div>
       </div>
     </div>
+
     <div class="mb-3 d-flex justify-content-evenly">
       <button class="rounded-pill meal-show-button clickable-green-plus" disabled type="button" data-collapse-target="button" data-action="click->collapse#open">
         Ingrédients
@@ -22,7 +24,9 @@
         Instructions
       </button>
     </div>
+
     <div class="meal-show-recipe">
+
       <div class="meal-show-ingredients collapse show" data-collapse-target="block">
         <ul class="meal-show-list-group-ingredient">
           <% meal.recipe.recipe_ingredients.each do |item| %>
@@ -52,9 +56,11 @@
           <% end %>
         </ul>
       </div>
+
       <div class="meal-show-instructions collapse" data-collapse-target="block">
         <%= meal.recipe.description.split(/[\.]+ */).join(". <br>").split(/[!]+ */).join("! <br>").html_safe %>
       </div>
     </div>
+
   </div>
 </div>
