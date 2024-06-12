@@ -19,11 +19,11 @@ class MealsController < ApplicationController
     end
 
     if @recipe.nil?
-      flash[:alert] = "You have already seen all meals"
+      flash[:alert] = "Vous avez déjà fait le tour de toutes les recettes disponibles pour votre régime alimentaire."
       @recipe = filtered_recipes.where.not(id: @meal.recipe_id).sample
     else
       @meal.update(recipe: @recipe)
-      flash[:notice] = "Meal replaced"
+      flash[:notice] = "Recette remplacée avec succès"
     end
     redirect_to meal_plan_path(@meal_plan), status: :see_other
   end

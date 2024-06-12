@@ -7,15 +7,20 @@ export default class extends Controller {
 
   // Connects to data-action="click->meal#delete"
   delete(event) {
+    console.log("delete");
     event.preventDefault();
-    // fetch the destroy method of the meal controller
-    fetch(`/meals/${this.data.get("id")}`, {
-      method: "DELETE",
-      headers: {
-        "X-Requested-With": "XMLHttpRequest",
-        "X-CSRF-Token": document.head.querySelector("meta[name=csrf-token]")?.content
-      }
-    }).then(this.element.remove()).catch((error) => console.error("Error:", error));
+
+    let confirmed = confirm("Vous êtes sûr de suprimer cette recette ?");
+    if (confirmed) {
+      // fetch the destroy method of the meal controller
+      fetch(`/meals/${this.data.get("id")}`, {
+        method: "DELETE",
+        headers: {
+          "X-Requested-With": "XMLHttpRequest",
+          "X-CSRF-Token": document.head.querySelector("meta[name=csrf-token]")?.content
+        }
+      }).then(this.element.remove()).catch((error) => console.error("Error:", error));
+    }
   }
 
   // action not yet implemented in the meal controller of the meal_plans_show view (using turbo instead)
