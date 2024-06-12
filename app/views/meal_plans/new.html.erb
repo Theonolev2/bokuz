@@ -1,7 +1,7 @@
 <%= render "shared/navbar_main" %>
 <div class="mealplan-new">
 
-  <div class="mealplan-new-title d-flex flex-column align-items-center pt-4 px-4 text-center w-75">
+  <div class="mealplan-new-title d-flex flex-column align-items-center pt-2 px-4 text-center w-75">
     <h1>Bonjour
       <% if user_signed_in?  %>
         <%= current_user.email.split("@").first.capitalize %>
@@ -19,7 +19,7 @@
         <%= f.hidden_field :nb_meals, data: { "change-qty-target": "nbInput" }, value: 5 %>
         <div class="mealplan-form-nb">
           <i
-            class="my-icon-minus-wo-circle mealplan-form-nb-icons clickable-plus"
+            class="my-icon-minus-wo-circle mealplan-form-nb-icons clickable-green-plus"
             data-action="click->change-qty#decrease">
           </i>
           <p
@@ -28,7 +28,7 @@
             5
           </p>
           <i
-            class="my-icon-plus-wo-circle mealplan-form-nb-icons clickable-plus"
+            class="my-icon-plus-wo-circle mealplan-form-nb-icons clickable-green-plus"
             data-action="click->change-qty#increase">
           </i>
         </div>
@@ -39,7 +39,7 @@
         <%= f.hidden_field :nb_people, data: { "change-qty-target": "nbInput" }, value: 2  %>
         <div class="mealplan-form-nb">
           <i
-            class="my-icon-minus-wo-circle mealplan-form-nb-icons clickable-plus"
+            class="my-icon-minus-wo-circle mealplan-form-nb-icons clickable-green-plus"
             data-action="click->change-qty#decrease">
           </i>
           <p
@@ -48,7 +48,7 @@
             2
           </p>
           <i
-            class="my-icon-plus-wo-circle mealplan-form-nb-icons clickable-plus"
+            class="my-icon-plus-wo-circle mealplan-form-nb-icons clickable-green-plus"
             data-action="click->change-qty#increase">
           </i>
         </div>
