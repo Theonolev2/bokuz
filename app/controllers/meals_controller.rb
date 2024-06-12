@@ -3,6 +3,7 @@ class MealsController < ApplicationController
   before_action :set_meal_plan, only: [:destroy, :update, :replace, :show]
 
   def show
+    render partial: 'recipe', locals: { meal: @meal }
   end
 
   def replace

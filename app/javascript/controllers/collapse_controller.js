@@ -9,6 +9,7 @@ export default class extends Controller {
   }
 
   open(event) {
+    event.preventDefault()
     this.blockTargets.forEach((block) => {
       block.classList.toggle("show")
     })
