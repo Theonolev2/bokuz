@@ -4,12 +4,10 @@ export default class extends Controller {
   static targets = ["item", "list"];
 
   connect() {
-    console.log("connected");
     this.showTitles();
     }
 
   showTitles() {
-    console.log("showTitles");
     const buyTitle = document.getElementById('buy-title');
     const boughtTitle = document.getElementById('bought-title');
     const listToBuy = document.querySelector('.to-buy');
@@ -27,7 +25,6 @@ export default class extends Controller {
     }
 
     if (listBought.children.length === 0) {
-      console.log("no items bought");
       boughtTitle.style.display = "none";
       listBought.style.display = "none";
     } else {
