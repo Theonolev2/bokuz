@@ -120,34 +120,39 @@
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0);
-  justify-content: center;
-  align-items: center;
-  z-index: -1; /* High z-index to make sure it's on top of other elements */
+  z-index: -1;
   transition: background-color 0.3s;
+
   .overlay-content {
     background: $my-sand;
-    width: 100%;
-    height: 0;
     position: absolute;
     bottom: 0;
+    width: 100%;
+    height: 0;
     overflow: scroll;
     transition: all 0.3s;
+    border-top-left-radius: $my-border-radius;
+    border-top-right-radius: $my-border-radius;
   }
+
   &.active {
     z-index: 1021;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0.5);
+
     .overlay-content {
       height: 85%;
     }
+
+    .overlay-content button {
+      margin-bottom: 10px;
+    }
   }
+
   &.hide {
-    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black */
+    background-color: rgba(0, 0, 0, 0);
+
     .overlay-content {
       height: 0;
     }
   }
-}
-
-.overlay.active .overlay-content button {
-  margin-bottom: 10px;
 }
