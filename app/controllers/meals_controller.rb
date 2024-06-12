@@ -3,7 +3,10 @@ class MealsController < ApplicationController
   before_action :set_meal_plan, only: [:destroy, :update, :replace, :show]
 
   def show
-    render partial: 'recipe', locals: { meal: @meal }
+    respond_to do |format|
+      format.html { redirect_to meal_plan_path(@meal_plan) }
+      format.text { render partial: "recipe", locals: { meal: @meal }, formats: :html }
+    end
   end
 
   def replace

@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  }
+}
 
 .meal-show-title {
   font-size: 1.5rem;
@@ -10,7 +10,7 @@
   color: $my-main-green;
   margin: 0;
   text-align: justify;
-  }
+}
 
 .meal-show-infos {
   display: flex;
@@ -37,9 +37,9 @@
   cursor: pointer;
 
   &[disabled] {
-      background-color: $my-main-green;
-      color: $my-sand;
-      cursor: not-allowed;
+    background-color: $my-main-green;
+    color: $my-sand;
+    cursor: not-allowed;
   }
 }
 
@@ -113,26 +113,41 @@
   margin: 0;
 }
 
-
 .overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-  display: flex;
+  background-color: rgba(0, 0, 0, 0);
   justify-content: center;
   align-items: center;
-  z-index: 1021; /* High z-index to make sure it's on top of other elements */
+  z-index: -1; /* High z-index to make sure it's on top of other elements */
+  transition: background-color 0.3s;
+  .overlay-content {
+    background: $my-sand;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    overflow: scroll;
+    transition: all 0.3s;
+  }
+  &.active {
+    z-index: 1021;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    .overlay-content {
+      height: 85%;
+    }
+  }
+  &.hide {
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent black */
+    .overlay-content {
+      height: 0;
+    }
+  }
 }
 
-.overlay-content {
-  background: $my-sand;
-  width: 100%;
-  height: 85%;
-}
-
-.overlay-content button {
+.overlay.active .overlay-content button {
   margin-bottom: 10px;
 }
