@@ -9,6 +9,8 @@ export default class extends Controller {
   delete(event) {
     event.preventDefault();
     // fetch the destroy method of the meal controller
+    const result = confirm("Souhaitez-vous supprimer ce repas ?");
+    if (!result) return;
     fetch(`/meals/${this.data.get("id")}`, {
       method: "DELETE",
       headers: {
