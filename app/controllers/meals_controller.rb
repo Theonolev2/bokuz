@@ -34,7 +34,7 @@ class MealsController < ApplicationController
 
   def destroy
     @meal.destroy
-    render json: { status: "Meal deleted", valid: true }
+    render json: { status: "Recette suprimée", valid: true }
   end
 
   private
