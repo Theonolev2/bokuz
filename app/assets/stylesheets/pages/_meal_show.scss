@@ -131,6 +131,8 @@
   background: $my-sand;
   width: 100%;
   height: 85%;
+  bottom: 0;
+  overflow: scroll;
 }
 
 .overlay-content button {
