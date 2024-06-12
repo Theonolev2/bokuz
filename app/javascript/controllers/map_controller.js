@@ -23,9 +23,12 @@ export default class extends Controller {
   }
 
   #addUsersToMap() {
+    const el = document.createElement('div');
+    el.className = 'marker';
+
     navigator.geolocation.getCurrentPosition((position) => {
-      const popup = new mapboxgl.Popup().setHTML("<h1>You<h1>");
-      this.markers.push(new mapboxgl.Marker()
+      const popup = new mapboxgl.Popup().setHTML("<h1>Toi<h1>");
+      this.markers.push(new mapboxgl.Marker(el)
         .setLngLat([position.coords.longitude, position.coords.latitude])
         .setPopup(popup)
         .addTo(this.map));
