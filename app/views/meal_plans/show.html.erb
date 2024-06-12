@@ -1,66 +1,56 @@
 <%= render "shared/navbar_specific", title: "Ton menu", backlink: new_meal_plan_path  %>
-
-<div class="container d-flex flex-column justify-content-between px-4 py-2 mt-4" style="height: 100vh;">
+<div  data-controller="overlay" class="container d-flex flex-column justify-content-between px-4 py-2 mt-4" style="height: 100vh;">
+  <div class="overlay" data-action="click->overlay#hide" data-overlay-target="overlay">
+    <div class="overlay-content" data-action="click->overlay#prevent" data-overlay-target="content">
+      <button data-action="click->overlay#hide">Close</button>
+      <div data-overlay-target="mealContent">
+        <!-- Meal details will be dynamically inserted here -->
+      </div>
+    </div>
+  </div>
   <div class="cards">
     <% @meals.sort.each do |meal| %>
-    <div class="card-meal" data-meal-id="<%= meal.id %>"
-      data-controller="meal overlay"
-      data-action="click->overlay#show"
-      >
-      <%# <%= link_to meal_path(meal) do %> %>
-        <div class="card-meal-image clickable">
-          <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
-        </div>
-      <%# <% end %> %>
-      <div class="card-meal-body">
-        <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
-        <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
-          <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
-            <div class="card-meal-people" >
-              <%= f.hidden_field :nb_people, data: { change_qty_target: "nbInput" }, value: meal.nb_people %>
-              <i
-                class="my-icon-minus clickable-green-plus"
-                data-action="click->change-qty#decrease">
-              </i>
-              <p>
-                <strong><i class="my-icon-people"></i></strong> <span data-change-qty-target="nbQty"><%= meal.nb_people %></span> pers
-              </p>
-              <i
-                class="my-icon-plus clickable-green-plus"
-                data-action="click->change-qty#increase">
-              </i>
+      <div class="card-meal" data-controller="meal" data-meal-id="<%= meal.id %>" data-action="click->overlay#show">
+        <%#= link_to meal_path(meal) do %>
+          <div class="card-meal-image clickable">
+            <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
+          </div>
+          <%# end %>
+          <div class="card-meal-body">
+            <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
+            <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
+              <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
+                <div class="card-meal-people" >
+                  <%= f.hidden_field :nb_people, data: { change_qty_target: "nbInput" }, value: meal.nb_people %>
+                  <i
+                    class="my-icon-minus clickable-green-plus"
+                    data-action="click->change-qty#decrease">
+                  </i>
+                  <p>
+                    <strong><i class="my-icon-people"></i></strong> <span data-change-qty-target="nbQty"><%= meal.nb_people %></span> pers
+                  </p>
+                  <i
+                    class="my-icon-plus clickable-green-plus"
+                    data-action="click->change-qty#increase">
+                  </i>
+                </div>
+              <% end %>
+              <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> min </p>
+              <div class="card-meal-actions">
+                <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
+                  <i class="my-icon-replace clickable-green-plus"></i>
+                <% end %>
+                <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
+                  <a data-action="click->meal#delete">
+                    <i class="my-icon-trash clickable-green-plus"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-          <% end %>
-
-          <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> min </p>
-
-          <div class="card-meal-actions">
-            <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
-              <i class="my-icon-replace clickable-green-plus"></i>
-            <% end %>
-
-            <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
-            <a data-action="click->meal#delete">
-              <i class="my-icon-trash clickable-green-plus"></i>
-            </a>
           </div>
-
-        </div>
+        <% end %>
       </div>
-
-      <div class="overlay" data-overlay-target="overlay" style="display: none;">
-        <div class="overlay-content" data-overlay-target="content">
-          <button data-action="click->overlay#hide">Close</button>
-          <div data-overlay-target="mealContent">
-            <!-- Meal details will be dynamically inserted here -->
-          </div>
-        </div>
+      <div class="grocery-btn-container d-flex justify-content-center align-items-center py-3 clickable">
+        <%= button_to "Crée ta liste de courses", {controller: "grocery_lists", action: "create", meal_plan_id: @meal_plan.id},  class: "button-grocery-form", method: :post %>
       </div>
-
     </div>
-    <% end %>
-  </div>
-  <div class="grocery-btn-container d-flex justify-content-center align-items-center py-3 clickable">
-    <%= button_to "Crée ta liste de courses", {controller: "grocery_lists", action: "create", meal_plan_id: @meal_plan.id},  class: "button-grocery-form", method: :post %>
-  </div>
-</div>
