@@ -3,12 +3,15 @@
 <div class="container d-flex flex-column justify-content-between px-4 py-2 mt-4" style="height: 100vh;">
   <div class="cards">
     <% @meals.sort.each do |meal| %>
-    <div class="card-meal" data-controller="meal" data-meal-id="<%= meal.id %>">
-      <%= link_to meal_path(meal) do %>
+    <div class="card-meal" data-meal-id="<%= meal.id %>"
+      data-controller="meal overlay"
+      data-action="click->overlay#show"
+      >
+      <%# <%= link_to meal_path(meal) do %> %>
         <div class="card-meal-image clickable">
           <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
         </div>
-      <% end %>
+      <%# <% end %> %>
       <div class="card-meal-body">
         <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
         <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
@@ -42,6 +45,15 @@
             </a>
           </div>
 
+        </div>
+      </div>
+
+      <div class="overlay" data-overlay-target="overlay" style="display: none;">
+        <div class="overlay-content" data-overlay-target="content">
+          <button data-action="click->overlay#hide">Close</button>
+          <div data-overlay-target="mealContent">
+            <!-- Meal details will be dynamically inserted here -->
+          </div>
         </div>
       </div>
 

@@ -18,6 +18,7 @@ export default class extends Controller {
     }).then(this.element.remove()).catch((error) => console.error("Error:", error));
   }
 
+  // action not yet implemented in the meal controller of the meal_plans_show view (using turbo instead)
   replace(event) {
     event.preventDefault();
     // fetch the destroy method of the meal controller
