@@ -1,6 +1,6 @@
 <%= render "shared/navbar_specific", title: "Ton menu", backlink: new_meal_plan_path  %>
 
-<div  data-controller="overlay" class="container d-flex flex-column justify-content-between px-4 py-2 mt-4" style="height: 100vh;">
+<div  data-controller="overlay" class="container d-flex flex-column justify-content-between px-4 py-2 mt-3" style="height: 100vh;">
   <div class="overlay" data-action="click->overlay#hide" data-overlay-target="overlay">
     <div class="overlay-content" data-action="click->overlay#prevent" data-overlay-target="content">
       <%# <button data-action="click->overlay#hide">Close</button> %>
@@ -20,7 +20,7 @@
         <%# end %>
 
         <div class="card-meal-body">
-          <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
+          <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(38) %></h2>
           <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
             <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
               <div class="card-meal-people" >

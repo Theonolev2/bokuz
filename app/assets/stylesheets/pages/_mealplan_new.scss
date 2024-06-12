@@ -43,7 +43,7 @@
 .mealplan-form-label{
   font-size: 24px;
   margin-bottom: 10px;
-  color: $my-main-green;
+  color: $my-dark-gray;
   font-family: $headers-font;
   text-align: center;
 }
@@ -51,7 +51,7 @@
 .mealplan-form-nb{
   display: flex;
   background-color: $my-yellow;
-  color: $my-main-green;
+  color: $my-dark-gray;
   border-radius: $my-border-radius-pill;
   font-family: $headers-font;
   text-align: center;
@@ -61,13 +61,14 @@
 .mealplan-form-nb-icons{
   font-size: 32px;
   padding: 0.5em;
+  color: $my-dark-green;
 }
 
 .mealplan-form-nb-qty{
   font-size: 40px;
   font-weight: bold;
   background-color: $my-ivory;
-  color: $my-main-green;
+  color: $my-dark-green;
   font-family: $headers-font;
   text-align: center;
   align-items: center;
