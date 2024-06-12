@@ -32,3 +32,9 @@
     color: $my-sand;
   }
 }
+
+
+.navbar-lewagon-home {
+  @extend .navbar-lewagon;
+  border-bottom: none;
+}
