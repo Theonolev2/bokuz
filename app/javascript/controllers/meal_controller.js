@@ -7,7 +7,7 @@ export default class extends Controller {
 
   showDeleteModal(event) {
     event.preventDefault();
-
+    console.log("zobinou");
     // Show the modal
     let modal = document.getElementById("deleteModal");
     let deleteBtn = document.getElementById("deleteBtn");
