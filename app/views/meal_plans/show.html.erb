@@ -12,17 +12,6 @@
 
   <div class="cards" data-controller="meal">
     <% @meals.sort.each do |meal| %>
-<<<<<<< HEAD
-    <div class="card-meal-container">
-      <div class="card-meal gestured-zone" data-controller="meal" data-meal-id="<%= meal.id %>">
-        <%= link_to meal_path(meal) do %>
-          <div class="card-meal-image clickable">
-            <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
-          </div>
-        <% end %>
-        <div class="card-meal-body">
-          <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(30) %></h2>
-=======
       <div class="card-meal" data-meal-id="<%= meal.id %>">
         <%#= link_to meal_path(meal) do %>
           <div class="card-meal-image clickable" data-action="click->overlay#show" data-meal-id="<%= meal.id %>">
@@ -32,7 +21,6 @@
 
         <div class="card-meal-body">
           <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(38) %></h2>
->>>>>>> e636df9649e0e31e9e89055df38dab3782bc109e
           <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
             <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
               <div class="card-meal-people" >
@@ -57,29 +45,6 @@
               <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
                 <i class="my-icon-replace clickable-green-plus"></i>
               <% end %>
-<<<<<<< HEAD
-
-              <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
-              <a data-action="click->meal#delete">
-                <i class="my-icon-trash clickable-green-plus"></i>
-              </a>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-      <div class="card-icons">
-        <div class="card-swap-icon">
-          <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
-            <i class="my-icon-replace clickable-green-plus"></i>
-          <% end %>
-        </div>
-        <div class="card-trash-icon">
-          <a data-action="click->meal#delete">
-            <i class="my-icon-trash clickable-green-plus"></i>
-          </a>
-=======
               <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
                 <a data-action="click->meal#showDeleteModal" data-meal-id="<%= meal.id %>">
                   <i class="my-icon-trash clickable-green-plus"></i>
@@ -110,7 +75,6 @@
             <button type="button" id="deleteBtn" class="btn btn-primary" data-action="click->meal#delete" >Supprimer</button>
             <button type="button" class="btn btn-secondary" data-action="click->meal#dismiss">Annuler</button>
           </div>
->>>>>>> e636df9649e0e31e9e89055df38dab3782bc109e
         </div>
       </div>
     </div>
