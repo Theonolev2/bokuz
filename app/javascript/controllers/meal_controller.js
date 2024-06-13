@@ -7,7 +7,6 @@ export default class extends Controller {
 
   showDeleteModal(event) {
     event.preventDefault();
-
     // Show the modal
     let modal = document.getElementById("deleteModal");
     let deleteBtn = document.getElementById("deleteBtn");

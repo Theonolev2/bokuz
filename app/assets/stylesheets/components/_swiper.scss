@@ -1,0 +1,25 @@
+.test-card {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.test-card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.test-trash-icon {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: red;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
