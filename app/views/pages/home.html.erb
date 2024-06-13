@@ -1,6 +1,15 @@
-<div class="mx-autotext-center d-flex flex-column align-items-center justify-content-center">
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
-  <%= link_to "Login", new_user_session_path, class: "nav-link btn btn-info rounded-pill p-2 m-2 clickable" %>
-  <%= link_to "New Meal Plan page", new_meal_plan_path, class: "nav-link btn btn-info rounded-pill p-2 m-2 clickable"  %>
+<div class="home mx-autotext-center d-flex flex-column align-items-center justify-content-center">
+  <%#= link_to "Login", new_user_session_path, class: "nav-link btn btn-info rounded-pill p-2 m-2 clickable" %>
+  <%#= image_tag "logo.png", alt: "logo" %>
+
+  <div class="logo2">
+    <%= image_tag "logo3.png", alt: "logo2" %>
+  </div>
+  <div class="slogan">
+    <h2>manger équilibré c'est simple</h2>
+  </div>
+  <div class="link grocery-btn-container d-flex justify-content-center align-items-center py-3 clickable">
+    <%= link_to "C'est parti", new_meal_plan_path, class: "btn btn-primary rounded-pill p-2 m-2 clickable"  %>
+  </div>
+
 </div>
