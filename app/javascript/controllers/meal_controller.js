@@ -16,6 +16,13 @@ export default class extends Controller {
     deleteBtn.dataset.mealIdInfo = event.currentTarget.dataset.mealId;
   }
 
+  dismiss(event) {
+    console.log("dismiss");
+    let modal = document.getElementById("deleteModal");
+    modal.style.display = "none";
+    modal.classList.remove("show");
+  }
+
   // Connects to data-action="click->meal#delete"
   delete(event) {
     event.preventDefault();
@@ -36,9 +43,7 @@ export default class extends Controller {
       .then(meal.remove())
       .catch(error => console.error("Error:", error));
 
-    let modal = document.getElementById("deleteModal");
-    modal.style.display = "none";
-    modal.classList.remove("show");
+    this.dismiss();
   }
 
   // action not yet implemented in the meal controller of the meal_plans_show view (using turbo instead)
