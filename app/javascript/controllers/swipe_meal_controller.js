@@ -65,7 +65,7 @@ gesturedZones.forEach(function(gesturedZone) {
       while(tempo != 150) {
         if (tempo > 150 ) {
           tempo--;
-          iconZone.style.width = `${tempo}px`;
+          iconZone.style.width = `${tempo+10}px`;
           gesturedZone.style.transform = `translateX(-${tempo}px)`;
         } else {
           tempo++;
