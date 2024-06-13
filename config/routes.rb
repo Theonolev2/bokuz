@@ -25,4 +25,6 @@ Rails.application.routes.draw do
   end
   get "map", to: "grocery_lists#mapping", as: :map
   get "meal_plans_empty", to: "meal_plans#empty", as: :meal_plans_empty
+  get "grocery_lists_empty", to: "grocery_lists#empty", as: :grocery_lists_empty
+  get "mapping_empty", to: "grocery_lists#empty", as: :mapping_empty
 end

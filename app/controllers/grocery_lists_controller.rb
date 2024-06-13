@@ -32,15 +32,19 @@ class GroceryListsController < ApplicationController
   end
 
   def mapping
-    @meal_plan = MealPlan.find(current_user.meal_plans.last.id)
-    @stores = Store.all
-    # The `geocoded` scope filters only stores with coordinates
-    @markers = @stores.geocoded.map do |store|
-      {
-        lat: store.latitude,
-        lng: store.longitude,
-        info_window_html: store.name
-      }
+    if current_user.meal_plans.last.nil?
+      redirect_to mapping_empty_path
+    else
+      @meal_plan = MealPlan.find(current_user.meal_plans.last.id)
+      @stores = Store.all
+      # The `geocoded` scope filters only stores with coordinates
+      @markers = @stores.geocoded.map do |store|
+        {
+          lat: store.latitude,
+          lng: store.longitude,
+          info_window_html: store.name
+        }
+    end
     end
   end
 end
