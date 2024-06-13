@@ -22,23 +22,18 @@ gesturedZones.forEach(function(gesturedZone) {
   const iconZone = gesturedZone.nextElementSibling;
   gesturedZone.addEventListener('touchstart', function(event) {
     // isDragging = true;
+    console.log(iconZone);
+    iconZone.setAttribute("style", "visibility: visible;");
     touchstartX = event.changedTouches[0].screenX;
     baseWidth = gesturedZone.offsetWidth;
   }, { passive: true });
 
   gesturedZone.addEventListener('touchmove', function(event) {
-    // if (!isDragging) return;
     touchcurrentX = event.changedTouches[0].screenX;
     const translateX = touchcurrentX - touchstartX;
-    // let cardWidth = 0;
-    // if (translateX < 0) {
-    //   cardWidth = Math.max(minWidth, (maxWidth + translateX));
-    // } else {
-    //   cardWidth = Math.min(maxWidth, (minWidth + translateX));
-    // }
+    console.log(translateX);
     gesturedZone.style.transform = `translateX(${translateX}px)`;
-    iconZone.setAttribute("style",`width: ${Math.floor(Math.abs(translateX-10))}px`);
-    // gesturedZone.setAttribute("style",`transform: translateX(-${translateX}px)`);
+    iconZone.setAttribute("style",`width: ${Math.floor(Math.abs(translateX-10))}px; visibility: visible;`);
   }, { passive: true });
 
   gesturedZone.addEventListener('touchend', function(event) {
@@ -46,7 +41,7 @@ gesturedZones.forEach(function(gesturedZone) {
     // isDragging = false;
     touchendX = event.changedTouches[0].screenX;
     if (Math.abs(touchendX - touchstartX) > 150){
-      gesturedZone.animate([
+      let myAnim2 = gesturedZone.animate([
         { transform: `translateX(-${150}px)` }
       ], {
         duration: 500,
@@ -62,6 +57,7 @@ gesturedZones.forEach(function(gesturedZone) {
         fill: "forwards",
         easing: "ease-in-out"
       });
+      myAnim2.finished.then(() => {gesturedZone.style.transform = `translateX(${150}px)`;});
     } else {
       gesturedZone.animate([
         { transform: `translateX(${0}px)` }
@@ -71,14 +67,15 @@ gesturedZones.forEach(function(gesturedZone) {
         fill: "forwards",
         easing: "ease-in-out"
       });
-      iconZone.animate([
+      let myAnim = iconZone.animate([
         { width: `${0}px` }
       ], {
         duration: 500,
         iterations: 1,
         fill: "forwards",
         easing: "ease-in-out"
-      });
+      })
+      myAnim.finished.then(() => {iconZone.setAttribute("style", "visibility: hidden;")});
     }
   }, false);
 });
