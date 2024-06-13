@@ -3,6 +3,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeate(auto-fill, minmax(0, 1fr));
   grid-gap: 16px;
+
+  &.active {
+    z-index: 1021;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
 }
 
 // Smallest device

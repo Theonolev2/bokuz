@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  }
+}
 
 .meal-show-title {
   font-size: 1.5rem;
@@ -10,7 +10,7 @@
   color: $my-main-green;
   margin: 0;
   text-align: justify;
-  }
+}
 
 .meal-show-infos {
   display: flex;
@@ -37,9 +37,9 @@
   cursor: pointer;
 
   &[disabled] {
-      background-color: $my-main-green;
-      color: $my-sand;
-      cursor: not-allowed;
+    background-color: $my-main-green;
+    color: $my-sand;
+    cursor: not-allowed;
   }
 }
 
@@ -111,4 +111,48 @@
   color: $my-dark-gray;
   text-align: justify;
   margin: 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: -1;
+  transition: background-color 0.3s;
+
+  .overlay-content {
+    background: $my-sand;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    overflow: scroll;
+    transition: all 0.3s;
+    border-top-left-radius: $my-border-radius;
+    border-top-right-radius: $my-border-radius;
+  }
+
+  &.active {
+    z-index: 1021;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .overlay-content {
+      height: 85%;
+    }
+
+    .overlay-content button {
+      margin-bottom: 10px;
+    }
+  }
+
+  &.hide {
+    background-color: rgba(0, 0, 0, 0);
+
+    .overlay-content {
+      height: 0;
+    }
+  }
 }

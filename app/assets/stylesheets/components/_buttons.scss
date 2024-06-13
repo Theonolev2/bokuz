@@ -1,16 +1,3 @@
-.button-go-search-form {
-  @extend .btn;
-  @extend .btn-primary;
-  border-radius: $my-border-radius-pill;
-  color: $my-sand;
-  font-family: $headers-font;
-  font-size: 48px;
-  width: 70%;
-  height: 1.5em;
-  line-height: center;
-  margin-bottom: 16px;
-}
-
 .button-bottom-navbar {
   border-radius: $my-border-radius-pill;
   background-color: $my-ivory;
@@ -51,6 +38,7 @@
 .button_to{
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .button-main-flow {
@@ -60,8 +48,8 @@
   color: $my-sand;
   font-family: $headers-font;
   font-size: 24px;
-  width: 70%;
+  width: 100%;
   height: 2em;
   line-height: center;
-  margin-bottom: 16px;
+  margin: 0 auto;
 }
