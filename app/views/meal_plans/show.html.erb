@@ -10,9 +10,9 @@
     </div>
   </div>
 
-  <div class="cards">
+  <div class="cards" data-controller="meal" >
     <% @meals.sort.each do |meal| %>
-      <div class="card-meal" data-controller="meal" data-meal-id="<%= meal.id %>">
+      <div class="card-meal" data-meal-id="<%= meal.id %>">
         <%#= link_to meal_path(meal) do %>
           <div class="card-meal-image clickable" data-action="click->overlay#show" data-meal-id="<%= meal.id %>">
             <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
@@ -46,15 +46,40 @@
                 <i class="my-icon-replace clickable-green-plus"></i>
               <% end %>
               <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
-                <a data-action="click->meal#delete">
+                <a data-action="click->meal#showDeleteModal" data-meal-id="<%= meal.id %>">
                   <i class="my-icon-trash clickable-green-plus"></i>
                 </a>
               <%# end %>
+
+
             </div>
           </div>
         </div>
+
+
       </div>
     <% end %>
+
+    <%# modal for the delete confirmation pop up %>
+        <div class="modal fade show" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirmer la suppression</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Vous êtes sûr de vouloir suprimer cette recette ?
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="deleteBtn" class="btn btn-primary" data-action="click->meal#delete" >Supprimer</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
   </div>
 
   <div class="grocery-btn-container d-flex justify-content-center align-items-center py-3 clickable">
