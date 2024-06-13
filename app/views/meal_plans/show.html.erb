@@ -1,6 +1,6 @@
 <%= render "shared/navbar_specific", title: "Ton menu", backlink: new_meal_plan_path  %>
 
-<div  data-controller="overlay" class="container d-flex flex-column justify-content-between px-4 py-2 mt-3" style="height: 100vh;">
+<div data-controller="overlay" class="container d-flex flex-column justify-content-between px-4 py-2 mt-3" style="height: 100vh;">
   <div class="overlay" data-action="click->overlay#hide" data-overlay-target="overlay">
     <div class="overlay-content" data-action="click->overlay#prevent" data-overlay-target="content">
       <%# <button data-action="click->overlay#hide">Close</button> %>
@@ -10,74 +10,70 @@
     </div>
   </div>
 
-  <div class="cards" data-controller="meal" >
+  <div class="cards" data-controller="meal swipe-meal">
     <% @meals.sort.each do |meal| %>
-      <div class="card-meal" data-meal-id="<%= meal.id %>">
-        <%#= link_to meal_path(meal) do %>
-          <div class="card-meal-image clickable" data-action="click->overlay#show" data-meal-id="<%= meal.id %>">
-            <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
-          </div>
-        <%# end %>
+      <div class="card-meal-container" data-meal-id="<%= meal.id %>">
+        <div class="card-meal">
+          <%#= link_to meal_path(meal) do %>
+            <div class="card-meal-image clickable" data-action="click->overlay#show" data-meal-id="<%= meal.id %>">
+              <%= image_tag meal.recipe.photo_url, alt: meal.recipe.title %>
+            </div>
+          <%# end %>
 
-        <div class="card-meal-body">
-          <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(38) %></h2>
-          <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
-            <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
-              <div class="card-meal-people" >
-                <%= f.hidden_field :nb_people, data: { change_qty_target: "nbInput" }, value: meal.nb_people %>
-                <i
-                  class="my-icon-minus clickable-green-plus"
-                  data-action="click->change-qty#decrease">
-                </i>
-                <p>
-                  <strong><i class="my-icon-people"></i></strong> <span data-change-qty-target="nbQty"><%= meal.nb_people %></span> pers
-                </p>
-                <i
-                  class="my-icon-plus clickable-green-plus"
-                  data-action="click->change-qty#increase">
-                </i>
-              </div>
-            <% end %>
-
-            <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> min </p>
-
-            <div class="card-meal-actions">
-              <%= link_to replace_meal_path(meal), data: {turbo_method: :patch} do %>
-                <i class="my-icon-replace clickable-green-plus"></i>
+          <div class="card-meal-body">
+            <h2 class="overflow-ellipsis"><%= meal.recipe.title.truncate(38) %></h2>
+            <div class="card-meal-infos" data-controller="change-qty" data-change-qty-max-value="<%= Meal::MAX_NB_PEOPLE %>">
+              <p><strong><i class="my-icon-time"></i></strong> <%= meal.recipe.prep_time %> min </p>
+              <%= form_with model: meal, data: {change_qty_target: "form"} do |f| %>
+                <div class="card-meal-people" >
+                  <%= f.hidden_field :nb_people, data: { change_qty_target: "nbInput" }, value: meal.nb_people %>
+                  <i
+                    class="my-icon-minus clickable-green-plus"
+                    data-action="click->change-qty#decrease">
+                  </i>
+                  <p class="pb-1">
+                    <strong><i class="my-icon-people"></i></strong> <span data-change-qty-target="nbQty"><%= meal.nb_people %></span> pers
+                  </p>
+                  <i
+                    class="my-icon-plus clickable-green-plus"
+                    data-action="click->change-qty#increase">
+                  </i>
+                </div>
               <% end %>
-              <%# <%= link_to meal_path(meal), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} do %>
-                <a data-action="click->meal#showDeleteModal" data-meal-id="<%= meal.id %>">
-                  <i class="my-icon-trash clickable-green-plus"></i>
-                </a>
-              <%# end %>
-
-
             </div>
           </div>
         </div>
-
-
+        <div class="card-icons">
+            <%= link_to replace_meal_path(meal), data: {turbo_method: :patch}, class: "card-swap-icon" do %>
+              <i class="my-icon-replace clickable-green-plus"></i>
+            <% end %>
+          <div class="card-trash-icon">
+            <a data-action="click->meal#showDeleteModal" data-meal-id="<%= meal.id %>">
+              <i class="my-icon-trash clickable-green-plus"></i>
+            </a>
+          </div>
+        </div>
       </div>
     <% end %>
 
     <%# modal for the delete confirmation pop up %>
-        <div class="modal fade show" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel">Confirmer la suppression</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                Vous êtes sûr de vouloir suprimer cette recette ?
-              </div>
-              <div class="modal-footer">
-                <button type="button" id="deleteBtn" class="btn btn-primary" data-action="click->meal#delete" >Supprimer</button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
-              </div>
-            </div>
+    <div class="modal fade show" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="deleteModalLabel">Confirmer la suppression</h5>
+            <button type="button" class="btn-close" aria-label="Close" data-action="click->meal#dismiss"></button>
+          </div>
+          <div class="modal-body">
+            Vous êtes sûr de vouloir suprimer cette recette ?
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="deleteBtn" class="btn btn-primary" data-action="click->meal#delete" >Supprimer</button>
+            <button type="button" class="btn btn-secondary" data-action="click->meal#dismiss">Annuler</button>
           </div>
         </div>
+      </div>
+    </div>
 
 
   </div>

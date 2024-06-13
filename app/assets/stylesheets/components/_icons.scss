@@ -24,7 +24,7 @@
   @extend .fa-circle-minus;
   color: $my-yellow;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .my-icon-plus {
@@ -32,7 +32,7 @@
   @extend .fa-circle-plus;
   color: $my-yellow;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .my-icon-minus-wo-circle {
@@ -52,14 +52,14 @@
 .my-icon-trash {
   @extend .fa-solid;
   @extend .fa-trash;
-  color: $my-yellow;
+  color: $my-ivory;
   // font-size: 1.5rem;
 }
 
 .my-icon-replace {
   @extend .fa-solid;
   @extend .fa-rotate;
-  color: $my-yellow;
+  color: $my-ivory;
   // font-size: 1.5rem;
 }
 
