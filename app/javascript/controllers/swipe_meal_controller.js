@@ -12,7 +12,7 @@ let touchcurrentX = 0;
 let touchendX = 0;
 let isDragging = false;
 
-let gesturedZones = document.querySelectorAll('.gestured-zone');
+let gesturedZones = document.querySelectorAll('.card-meal');
 
 gesturedZones.forEach(function(gesturedZone) {
   gesturedZone.addEventListener('touchstart', function(event) {
@@ -24,9 +24,9 @@ gesturedZones.forEach(function(gesturedZone) {
     if (!isDragging) return;
     touchcurrentX = event.changedTouches[0].screenX;
     const translateX = Math.min(0, touchcurrentX - touchstartX);
-    console.log(gesturedZone.style);
-    const cardWidth = gesturedZone.style.width + translateX;
-    gesturedZone.style.width = `${cardWidth}px`;
+    console.log(gesturedZone.offsetWidth);
+    const cardWidth = gesturedZone.offsetWidth + translateX;
+    gesturedZone.setAttribute("style",`width:${cardWidth}px`);
   }, { passive: true });
 
   gesturedZone.addEventListener('touchend', function(event) {
