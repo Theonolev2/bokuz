@@ -49,7 +49,6 @@
   cursor: pointer;
 }
 
-
 .my-icon-trash {
   @extend .fa-solid;
   @extend .fa-trash;
@@ -76,37 +75,42 @@
   color: $my-yellow;
 }
 
-// Icons for navigation (used in the navbars & menus of the app)
-
-.my-icon-burger-menu {
-  @extend .fa-solid;
-  @extend .fa-bars;
-  color: $my-main-green;
-}
+// Icons for navigation (used in the bottom navbar)
 
 .my-icon-home {
-  @extend .fa-solid;
-  @extend .fa-home;
-  color: $my-main-green;
+  stroke: $my-main-green;
 }
 
 .my-icon-menu {
-  @extend .fa-solid;
-  @extend .fa-burger;
-  color: $my-main-green;
+  stroke: $my-main-green;
+
+  width: 2rem;
+  height: 2rem;
 }
 
 .my-icon-grocery-list {
-  @extend .fa-solid;
-  @extend .fa-basket-shopping;
-  color: $my-main-green;
+  stroke: $my-main-green;
 }
 
 .my-icon-map {
-  @extend .fa-solid;
-  @extend .fa-location-dot;
-  color: $my-main-green;
+  stroke: $my-main-green;
 }
+
+.nav-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+// burger menu not used
+.my-icon-burger-menu {
+  stroke: $my-main-green;
+
+  &.active {
+    stroke: $my-red;
+    }
+}
+
+// Icons for top navbar
 
 .my-icon-user {
   @extend .fa-solid;

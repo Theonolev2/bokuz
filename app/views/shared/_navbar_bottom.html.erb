@@ -1,0 +1,64 @@
+<div class="navbar-bottom-hidden-background"></div>
+<div class="navbar-bottom">
+  <%= link_to new_meal_plan_path do %>
+    <% if current_page?(new_meal_plan_path) %>
+      <%= image_tag "home-icon-solid", class: "nav-icon my-icon-home" %>
+    <% else %>
+      <%= image_tag "home-icon-outline", class: "nav-icon my-icon-home" %>
+    <% end %>
+  <% end %>
+
+  <% if user_signed_in? && current_user.meal_plans.any? %>
+    <%= link_to meal_plan_path(current_user.meal_plans.last) do %>
+      <% if current_page?(meal_plan_path(current_user.meal_plans.last)) %>
+        <%= image_tag "menu-icon-solid", class: "my-icon-menu" %>
+      <% else %>
+        <%= image_tag "menu-icon-outline", class: "my-icon-menu" %>
+      <% end %>
+    <% end %>
+
+    <%= link_to meal_plan_grocery_lists_path(current_user.meal_plans.last) do %>
+      <% if current_page?(meal_plan_grocery_lists_path(current_user.meal_plans.last)) %>
+        <%= image_tag "grocery-list-icon-solid", class: "nav-icon my-icon-grocery-list" %>
+      <% else %>
+        <%= image_tag "grocery-list-icon-outline", class: "nav-icon my-icon-grocery-list" %>
+      <% end %>
+    <% end %>
+
+    <%= link_to map_path do %>
+      <% if current_page?(map_path) %>
+        <%= image_tag "map-icon-solid", class: "nav-icon my-icon-map" %>
+      <% else %>
+        <%= image_tag "map-icon-outline", class: "nav-icon my-icon-map" %>
+      <% end %>
+    <% end %>
+
+  <% else %>
+    <%= link_to meal_plans_empty_path do %>
+      <% if current_page?(meal_plans_empty_path) %>
+        <%= image_tag "menu-icon-solid", class: "my-icon-menu" %>
+      <% else %>
+        <%= image_tag "menu-icon-outline", class: "my-icon-menu" %>
+      <% end %>
+    <% end %>
+
+    <%= link_to grocery_lists_empty_path do %>
+      <% if current_page?(grocery_lists_empty_path) %>
+        <%= image_tag "grocery-list-icon-solid", class: "nav-icon my-icon-grocery-list" %>
+      <% else %>
+        <%= image_tag "grocery-list-icon-outline", class: "nav-icon my-icon-grocery-list" %>
+      <% end %>
+    <% end %>
+
+    <%= link_to mapping_empty_path do %>
+      <% if current_page?(mapping_empty_path) %>
+        <%= image_tag "map-icon-solid", class: "nav-icon my-icon-map" %>
+      <% else %>
+        <%= image_tag "map-icon-outline", class: "nav-icon my-icon-map" %>
+      <% end %>
+    <% end %>
+
+  <% end %>
+
+
+</div>

@@ -1,0 +1,29 @@
+.navbar-bottom {
+  border-top-right-radius: $my-border-radius;
+  border-top-left-radius: $my-border-radius;
+  background-color: $my-ivory;
+  color: $my-main-green;
+  //padding top right bottom left :
+  padding: 8px 24px 32px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75vw;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.navbar-bottom i {
+  cursor: pointer;
+  font-size: 36px;
+  padding: 8px 16px;
+}
+
+.navbar-bottom-hidden-background {
+  background-color: $my-sand;
+  height: 40px;
+  width: 100%;
+  position: sticky;
+  bottom: 68px;
+}
