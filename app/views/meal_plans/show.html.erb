@@ -28,8 +28,8 @@
                 <div class="card-meal-people" >
                   <%= f.hidden_field :nb_people, data: { change_qty_target: "nbInput" }, value: meal.nb_people %>
                   <i
-                    class="my-icon-minus clickable-green-plus"
-                    data-action="click->change-qty#decrease">
+                  class="my-icon-minus clickable-green-plus"
+                  data-action="click->change-qty#decrease">
                   </i>
                   <p class="pb-1">
                     <strong><i class="my-icon-people"></i></strong> <span data-change-qty-target="nbQty"><%= meal.nb_people %></span> pers
