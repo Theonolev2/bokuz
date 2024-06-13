@@ -1,3 +1,39 @@
+.card-meal-container{
+  position: relative;
+}
+
+.card-icons {
+  // add flexbox to align icons
+  display: flex;
+  justify-content: end;
+  position: absolute;
+  height: 98%;
+  width: 10%;
+  bottom: 1px;
+  right: 1px;
+  z-index: -1;
+}
+
+.card-icons .card-trash-icon {
+  height: 100%;
+  width: 50%;
+  background-color: red;
+  border-bottom-right-radius: $my-border-radius;
+  border-top-right-radius: $my-border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-icons .card-swap-icon {
+  height: 100%;
+  width: 50%;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-meal {
   overflow: hidden;
   height: 150px;
