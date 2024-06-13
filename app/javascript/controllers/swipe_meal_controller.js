@@ -32,8 +32,10 @@ gesturedZones.forEach(function(gesturedZone) {
     touchcurrentX = event.changedTouches[0].screenX;
     const translateX = touchcurrentX - touchstartX;
     console.log(translateX);
-    gesturedZone.style.transform = `translateX(${translateX}px)`;
-    iconZone.setAttribute("style",`width: ${Math.floor(Math.abs(translateX-10))}px; visibility: visible;`);
+    if (Math.abs(translateX) > 25) {
+      gesturedZone.style.transform = `translateX(${translateX}px)`;
+      iconZone.setAttribute("style",`width: ${Math.floor(Math.abs(translateX-10))}px; visibility: visible;`);
+    }
   }, { passive: true });
 
   gesturedZone.addEventListener('touchend', function(event) {
